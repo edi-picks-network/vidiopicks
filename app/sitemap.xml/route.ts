@@ -31,6 +31,7 @@ const BLOG_SLUGS = [
   "mixpanel-vs-amplitude-vs-hotjar-2026",
 
   "outreach-vs-salesloft-vs-gong-b2b-sales-engagement-2026",
+  "aws-vs-azure-vs-gcp-2026-enterprise-cloud-comparison",
 ];
 
 const TOOL_SLUGS = [
