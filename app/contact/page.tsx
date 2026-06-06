@@ -148,15 +148,15 @@ export default function ContactPage() {
                 <p className="text-sm text-[#839BBE]">
                   <strong className="text-[#F0F2FE]">General:</strong>
                   <br />
-                  <a href="mailto:info@vidiopicks.net" className="text-[#EC4899] hover:underline">
-                    info@vidiopicks.net
+                  <a href="mailto:info@vidiopicks.com" className="text-[#EC4899] hover:underline">
+                    info@vidiopicks.com
                   </a>
                 </p>
                 <p className="text-sm text-[#839BBE]">
                   <strong className="text-[#F0F2FE]">Press:</strong>
                   <br />
-                  <a href="mailto:info@vidiopicks.net" className="text-[#EC4899] hover:underline">
-                    info@vidiopicks.net
+                  <a href="mailto:info@vidiopicks.com" className="text-[#EC4899] hover:underline">
+                    info@vidiopicks.com
                   </a>
                 </p>
               </div>
