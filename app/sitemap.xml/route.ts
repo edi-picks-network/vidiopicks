@@ -32,6 +32,11 @@ const BLOG_SLUGS = [
 
   "outreach-vs-salesloft-vs-gong-b2b-sales-engagement-2026",
   "aws-vs-azure-vs-gcp-2026-enterprise-cloud-comparison",
+
+  "b2b-saas-pricing-models-comparison",
+  "b2b-saas-gtm-strategy-2026",
+  "ipaas-integration-platforms-comparison-2026",
+  "best-video-editing-tools-2026-comparison",
 ];
 
 const TOOL_SLUGS = [
