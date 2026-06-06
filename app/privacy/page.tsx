@@ -214,7 +214,7 @@ export default function PrivacyPage() {
             <div className="mt-4 p-5 bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl">
               <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> privacy@vidiopicks.net</p>
               <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> support@vidiopicks.net</p>
-              <p><strong className="text-[#F0F2FE]">Address:</strong> 548 Market Street, Suite 19530, San Francisco, CA 94104</p>
+              <p><strong className="text-[#F0F2FE]">Address:</strong> 99 Post Street, San Francisco, CA 94108</p>
             </div>
           </section>
         </div>
