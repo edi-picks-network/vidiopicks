@@ -37,6 +37,7 @@ const BLOG_SLUGS = [
   "b2b-saas-gtm-strategy-2026",
   "ipaas-integration-platforms-comparison-2026",
   "best-video-editing-tools-2026-comparison",
+  "best-live-streaming-software-2026-comparison",
 ];
 
 const TOOL_SLUGS = [
