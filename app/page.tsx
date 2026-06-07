@@ -10,9 +10,6 @@ import {
 import Link from "next/link";
 
 // ============================================================
-// 模板D：画廊场景式首页 — VidioPicks 适配版
-// 适用于：vidiopicks.net, 视频工具导航站
-// 布局：视觉画廊 + 场景分类 + 产品展示卡（带评分/标签/图片）
 // ============================================================
 
 import { ALL_TOOLS } from "@/data/tools";
@@ -30,7 +27,6 @@ export default function HomePage({
   const [viewMode, setViewMode] = useState<"grid" | "list">("grid");
   const [selectedCategory, setSelectedCategory] = useState<string | null>(null);
 
-  // 分类
   const categories = useMemo(() => {
     const m = new Map<string, { count: number; avgRating: number }>();
     for (const t of ALL_TOOLS) {
@@ -48,7 +44,6 @@ export default function HomePage({
       .sort((a, b) => b.count - a.count);
   }, [ALL_TOOLS]);
 
-  // 当前展示的工具
   const displayTools = useMemo(() => {
     let filtered = [...ALL_TOOLS];
     if (selectedCategory) {
@@ -57,13 +52,11 @@ export default function HomePage({
     return filtered.sort((a: any, b: any) => b.rating - a.rating);
   }, [ALL_TOOLS, selectedCategory]);
 
-  // 编辑精选
   const editorPicks = useMemo(
     () => [...ALL_TOOLS].sort((a: any, b: any) => b.rating - a.rating).slice(0, 6),
     [ALL_TOOLS]
   );
 
-  // 热点话题（博客）
   const latestPosts = useMemo(
     () => [...BLOG_POSTS]
       .sort((a: any, b: any) => new Date(b.date).getTime() - new Date(a.date).getTime())
@@ -71,7 +64,6 @@ export default function HomePage({
     [BLOG_POSTS]
   );
 
-  // 场景卡片配色
   const catColors = [
     { bg: "#1A1F30", accent: "#3B82F6" },
     { bg: "#1F1A30", accent: "#8B5CF6" },
@@ -83,13 +75,11 @@ export default function HomePage({
 
   return (
     <div className="min-h-screen bg-[#0A0A10]">
-      {/* ======== HERO — 画廊风格 ======== */}
       <section className="relative pt-24 pb-8 px-6 overflow-hidden">
         <div className="absolute inset-0 bg-gradient-to-br from-[#0A0A10] via-[#0F0F1A] to-[#0A0A10]" />
         <div className="absolute top-0 right-0 w-72 h-72 rounded-full opacity-[0.06] blur-[120px]"
           style={{ background: `radial-gradient(circle, ${accentColor}, ${secondaryColor})` }} />
         <div className="relative max-w-6xl mx-auto">
-          {/* 场景标签 */}
           <div className="flex flex-wrap gap-2 mb-6">
             {categories.slice(0, 6).map((cat, i) => (
               <button
@@ -107,7 +97,6 @@ export default function HomePage({
               </button>
             ))}
           </div>
-          {/* 标题 */}
           <div className="mb-6">
             <h1 className="text-4xl md:text-5xl font-bold text-white leading-tight">
               Curated{" "}
@@ -121,7 +110,6 @@ Hand-picked video creation and editing tools, reviewed and rated by our team.
 Find the perfect software for your content workflow.
             </p>
           </div>
-          {/* 场景卡片预览 */}
           <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 mb-6">
             {categories.slice(0, 6).map((cat, i) => {
               const color = catColors[i % 6];
@@ -177,7 +165,6 @@ Find the perfect software for your content workflow.
         </div>
       </section>
 
-      {/* ======== 工具展示区（画廊网格） ======== */}
       <section className="px-6 py-4 pb-12">
         <div className="max-w-6xl mx-auto">
           <div className={viewMode === "grid"
@@ -185,13 +172,11 @@ Find the perfect software for your content workflow.
             : "space-y-3"}>
             {editorPicks.map((tool, i) => (
               viewMode === "grid" ? (
-                // 卡片网格模式
                 <Link
                   key={tool.id}
                   href={`/tools/${tool.id}`}
                   className="group bg-[#0F0F1A] border border-[#1E1E2E] rounded-xl overflow-hidden hover:border-[#2E2E4E] transition-all"
                 >
-                  {/* 图片占位 */}
                   <div className="aspect-[4/3] bg-gradient-to-br flex items-center justify-center"
                     style={{
                       background: `linear-gradient(135deg, ${catColors[i % 6].accent}20, ${catColors[(i + 3) % 6].accent}10)`
@@ -222,7 +207,6 @@ Find the perfect software for your content workflow.
                   </div>
                 </Link>
               ) : (
-                // 列表模式
                 <Link
                   key={tool.id}
                   href={`/tools/${tool.id}`}
@@ -250,7 +234,6 @@ Find the perfect software for your content workflow.
         </div>
       </section>
 
-      {/* ======== 热点文章（博客） ======== */}
       {latestPosts.length > 0 && (
         <section className="px-6 py-10">
           <div className="max-w-6xl mx-auto">
@@ -270,7 +253,6 @@ Find the perfect software for your content workflow.
                   href={`/blog/${post.slug}`}
                   className="flex gap-4 bg-[#0F0F1A] border border-[#1E1E2E] rounded-xl p-5 hover:border-[#2E2E4E] transition-all group"
                 >
-                  {/* 装饰色块 */}
                   <div className="w-1 flex-shrink-0 rounded-full"
                     style={{ backgroundColor: catColors[i % 6].accent }} />
                   <div className="flex-1 min-w-0">
