@@ -14,9 +14,9 @@ export interface BlogPost {
 export const BLOG_POSTS: BlogPost[] = [
   {
     slug: "best-video-editing-software-2026-comparison",
-    title: "Best Video Editing Software in 2026: DaVinci Resolve vs Premiere Pro vs Final Cut Pro vs CapCut — Compared with Real Benchmarks",
+    title: "Best Video Editing Software in 2026: DaVinci Resolve vs Premiere Pro vs Final Cut Pro",
     excerpt:
-      "We benchmarked DaVinci Resolve 19, Premiere Pro 2026, Final Cut Pro 11, CapCut Desktop, and Clipchamp across 15 criteria — including export speed, pro features, AI tools, pricing, and ease of use. Here's the definitive comparison for creators in 2026.",
+      "We compared DaVinci Resolve 19, Premiere Pro 2026, and Final Cut Pro 11 across 15 criteria — including export speed, pro features, AI tools, pricing, and ease of use. Here's the definitive comparison for creators in 2026.",
     content: `The video editing software market has never been more competitive — or more confusing.
 
 Between DaVinci Resolve 19's Hollywood-grade color science, Premiere Pro 2026's AI-first workflow overhaul, Final Cut Pro 11's Magnetic Timeline 3.0, CapCut Desktop's explosive growth (500M+ downloads), and Clipchamp's Microsoft ecosystem play — picking the right editor in 2026 requires real data, not marketing spin.
@@ -184,9 +184,9 @@ AI features are no longer "nice to have" — they're table stakes for efficient 
   },
   {
     slug: "best-live-streaming-software-2026-comparison",
-    title: "Best Live Streaming Software in 2026: OBS Studio vs Streamlabs vs vMix vs Wirecast vs Restream — Compared for Streamers, Esports, Webinars & Enterprise",
+    title: "Live Streaming Platforms 2026: OBS Studio vs Streamlabs vs Restream — Complete Guide",
     excerpt:
-      "We tested OBS Studio 30.2, Streamlabs Desktop 5.0, vMix 28, Wirecast 2026.1, and Restream Orion across 15 criteria — including AV1 encoding, latency, multistreaming, AI features, hardware I/O, and enterprise readiness. Here's the definitive comparison for live streaming in 2026.",
+      "We tested OBS Studio 30.2, Streamlabs Desktop 5.0, and Restream Orion across 15 criteria — including AV1 encoding, latency, multistreaming, AI features, and ease of use. Here's the definitive comparison for live streaming in 2026.",
     content: `In 2026, live streaming isn't just about going live—it's about *orchestrating experiences*. With AI-powered scene switching, real-time multilingual captioning, sub-50ms end-to-end latency, and native integration with spatial audio and VR-ready platforms (like Meta Horizon Events and Apple Vision Pro Broadcast Mode), the bar has risen dramatically. Whether you're a solo creator pushing gameplay on Twitch, an esports org running a multi-venue LAN final, a university hosting hybrid webinars with 12K+ concurrent attendees, or an enterprise broadcasting quarterly earnings to global stakeholders—the right software is no longer optional. It's your production backbone.
 
 After six months of hands-on testing—including stress-testing each platform across 4K60 HDR workflows, simultaneous RTMP/CDN/SRT outputs, hardware-accelerated AV1 encoding (with NVIDIA Blackwell and AMD RDNA 4 support), and real-world use cases across Twitch, YouTube, LinkedIn Live, TikTok LIVE, and private CDNs—we've distilled the top five live streaming platforms into one actionable, no-fluff comparison.
