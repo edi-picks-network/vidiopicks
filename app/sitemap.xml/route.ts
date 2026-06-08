@@ -3,6 +3,7 @@ import { MetadataRoute } from "next";
 const BLOG_SLUGS = [
   "best-video-editing-software-2026-comparison",
     "best-live-streaming-software-2026-comparison",
+    "ai-video-editing-tools-2026",
 ] as const;
 
 const TOOL_SLUGS = [
