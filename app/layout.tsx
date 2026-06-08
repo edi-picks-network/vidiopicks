@@ -1,15 +1,8 @@
 import type { Metadata } from "next";
-import { Nunito } from "next/font/google";
 import "./globals.css";
 import Header from "./sections/Header";
 import Footer from "./sections/Footer";
 import CookieBanner from "./components/CookieBanner";
-
-const nunito = Nunito({
-  subsets: ["latin"],
-  weight: ["400", "500", "600", "700"],
-  variable: "--font-nunito",
-});
 
 export const metadata: Metadata = {
   title: "VidioPicks — Best Video Creation & Editing Tools",
@@ -44,17 +37,13 @@ export default function RootLayout({
   children: React.ReactNode;
 }) {
   return (
-    <html lang="en" className={nunito.variable}>
-      <body className={`${nunito.className} min-h-screen antialiased`}>
-        <div className="aurora-bg" />
-        <div className="grid-pattern" />
-
-        <Header />
-
-        <main className="relative z-10">{children}</main>
-
-        <Footer />
-
+    <html lang="en">
+      <body className="min-h-screen antialiased bg-white text-[#0F172A]">
+        <div className="flex flex-col min-h-screen">
+          <Header />
+          <main className="flex-1">{children}</main>
+          <Footer />
+        </div>
         <CookieBanner />
       </body>
     </html>
