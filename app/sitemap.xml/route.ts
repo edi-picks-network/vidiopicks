@@ -4,6 +4,7 @@ const BLOG_SLUGS = [
   "best-video-editing-software-2026-comparison",
     "best-live-streaming-software-2026-comparison",
     "ai-video-editing-tools-2026",
+    "youtube-studio-vs-premiere-pro-vs-davinci-resolve-best-video-editor-for-creators",
 ] as const;
 
 const TOOL_SLUGS = [
