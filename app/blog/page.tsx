@@ -24,12 +24,11 @@ export default function BlogPage() {
             Blog
           </span>
           <h1 className="text-3xl md:text-5xl font-extrabold text-[#F0F2FE] tracking-tight mb-3">
-            Insights &{" "}
-            <span className="text-gradient">Expert Analysis</span>
+            Video Creation Guides &{" "}
+            <span className="text-gradient">Tutorials</span>
           </h1>
           <p className="text-lg text-[#839BBE] max-w-2xl mx-auto">
-            In-depth comparisons, buying guides, and strategies to help you make
-            smarter hosting and server decisions.
+            In-depth comparisons and tutorials for video editing, motion graphics, and AI video tools. Expert guides to help you create better video content.
           </p>
         </div>
 
