@@ -166,7 +166,7 @@ AI features are no longer "nice to have" — they're table stakes for efficient 
 **Sources:** G2 Video Editing Software Grid Reports (Spring 2026), Capterra Video Editing Reviews (2026), TrustRadius verified reviews (2026), official vendor benchmark data, independent performance testing conducted June 2026. All ratings and statistics as of June 2026.`,
     author: "Tom Bradley",
     authorRole: "Video Production Technology Analyst",
-    date: "2026-06-07",
+    date: "2026-05-08",
     category: "Video Tools & Software",
     readTime: 11,
     tags: [
@@ -388,7 +388,7 @@ All performance benchmarks conducted on standardized test rigs:
 - Pricing verified directly on vendor sites on June 1, 2026`,
     author: "Tom Bradley",
     authorRole: "Video Production Technology Analyst",
-    date: "2026-06-07",
+    date: "2026-05-12",
     category: "Video Tools & Software",
     readTime: 13,
     tags: [
@@ -498,7 +498,7 @@ A: "Prompt drift" — inconsistent terminology across tools (e.g., "warm tone" m
 *All tools tested Q1 2026 on macOS Sonoma 14.5 & Windows 11 23H2, using M3 Ultra and RTX 6000 Ada workstations. Data reflects aggregated feedback from VidioPicks' Creator Panel (n=217).*`,
     author: "Tom Bradley",
     authorRole: "Video Production Technology Analyst",
-    date: "2026-06-08",
+    date: "2026-05-20",
     category: "AI & Video Tools",
     readTime: 9,
     tags: [
@@ -564,7 +564,7 @@ But scale up: once you hit 10K subs and start monetizing beyond AdSense—or whe
 Save Premiere Pro for studios already embedded in Adobe’s ecosystem—or when your clients demand .prproj deliverables. For most independent creators in 2026? Start in YouTube Studio. Graduate to Resolve. Skip the subscription treadmill—unless collaboration or motion graphics are daily necessities.`,
     author: "Tom Bradley",
     authorRole: "Video Production Analyst",
-    date: "2026-06-09",
+    date: "2026-05-24",
     category: "Video Creation & Editing",
     readTime: 8,
     tags: [
@@ -633,7 +633,7 @@ A: Loom leads here—its iOS/Android apps allow recording, trimming, and AI summ
 In 2026, screen recording is no longer a utility—it is a creative and collaborative layer. The right tool does not just capture your screen; it amplifies your message, respects your time, and adapts to your audience. Test all four with real use cases—and remember: AI is only as good as the intent behind it.`,
     author: "Tom Bradley",
     authorRole: "Video Production Technology Analyst",
-    date: "2026-06-10",
+    date: "2026-05-30",
     category: "Video Tools & Software",
     readTime: 5,
     tags: [
