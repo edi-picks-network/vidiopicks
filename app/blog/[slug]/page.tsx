@@ -166,13 +166,13 @@ export default async function BlogPostPage({
     post.title,
     post.author,
     post.date,
-    'VidioPicks',
+    'VidioPics',
     post.excerpt
   );
   const orgJsonLd = organizationSchema(
-    'VidioPicks',
-    'https://vidiopicks.net',
-    'Honest hosting reviews and comparisons for modern businesses.'
+    'VidioPics',
+    'https://vidiopics.com',
+    'Curated video tools directory by NewtGroup.'
   );
 
   return (
@@ -256,7 +256,7 @@ export default async function BlogPostPage({
                     <p className="font-bold text-[#F0F2FE]">{post.author}</p>
                     <p className="text-sm text-[#839BBE]">{post.authorRole}</p>
                     <p className="text-xs text-[#4A6080] mt-2">
-                      Vidiopicks independently researches and verifies all product data. Ratings sourced from G2, Capterra, and other trusted review platforms.
+                      VidioPics by NewtGroup independently researches and verifies all product data. Ratings sourced from G2, Capterra, and other trusted review platforms.
                     </p>
                   </div>
                 </div>

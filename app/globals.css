@@ -4,15 +4,15 @@
 
 @layer base {
   :root {
-    --primary: #7C3AED;
-    --primary-light: #A78BFA;
-    --primary-dark: #5B21B6;
-    --secondary: #6366F1;
-    --accent-pink: #EC4899;
-    --accent-cyan: #06B6D4;
+    --primary: #d946ef;
+    --primary-light: #f0abfc;
+    --primary-dark: #a21caf;
+    --secondary: #e879f9;
+    --accent-pink: #d946ef;
+    --accent-cyan: #c084fc;
     --bg-white: #FFFFFF;
-    --bg-light: #F8FAFC;
-    --bg-gray: #F1F5F9;
+    --bg-light: #FAFAFF;
+    --bg-gray: #F5F3FF;
     --text-primary: #0F172A;
     --text-secondary: #475569;
     --text-muted: #94A3B8;
@@ -36,7 +36,7 @@
 
 @layer components {
   .hero-gradient {
-    background: linear-gradient(135deg, #EEF2FF 0%, #EDE9FE 30%, #FDF2F8 60%, #ECFEFF 100%);
+    background: linear-gradient(135deg, #FAF5FF 0%, #FDF4FF 30%, #F5F3FF 60%, #FDF2F8 100%);
   }
 
   .hero-glow {
@@ -48,7 +48,7 @@
   }
 
   .gradient-text {
-    background: linear-gradient(135deg, var(--primary), var(--accent-pink));
+    background: linear-gradient(135deg, var(--primary), var(--accent-cyan));
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
     background-clip: text;
@@ -66,7 +66,7 @@
   }
 
   .card:hover {
-    @apply border-[#A78BFA]/40 shadow-lg shadow-[#7C3AED]/5 -translate-y-0.5;
+    @apply border-[#d946ef]/40 shadow-lg shadow-[#d946ef]/5 -translate-y-0.5;
   }
 
   .badge {
@@ -74,7 +74,7 @@
   }
 
   .badge-primary {
-    background-color: #EEF2FF;
+    background-color: #FAF5FF;
     color: var(--primary);
   }
 
@@ -84,18 +84,18 @@
   }
 
   .badge-cyan {
-    background-color: #ECFEFF;
+    background-color: #F5F3FF;
     color: var(--accent-cyan);
   }
 
   .btn-primary {
     @apply inline-flex items-center gap-2 px-6 py-2.5 rounded-xl text-sm font-semibold text-white transition-all duration-200;
-    background: linear-gradient(135deg, var(--primary), var(--secondary));
+    background: linear-gradient(135deg, var(--primary), var(--primary-dark));
   }
 
   .btn-primary:hover {
     @apply shadow-lg;
-    box-shadow: 0 4px 20px rgba(124, 58, 237, 0.35);
+    box-shadow: 0 4px 20px rgba(217, 70, 239, 0.35);
     transform: translateY(-1px);
   }
 
@@ -109,7 +109,7 @@
   .btn-outline:hover {
     border-color: var(--primary);
     color: var(--primary);
-    background-color: #F5F3FF;
+    background-color: #FAF5FF;
   }
 
   .section-title {

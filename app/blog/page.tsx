@@ -4,7 +4,7 @@ import { BLOG_POSTS } from "@/data/blog-posts";
 import { Calendar, Clock, User, ArrowRight } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "Blog — VidioPicks",
+  title: "Blog — VidioPics",
   description:
     "Expert insights, comparisons, and strategies for choosing and using video creation and editing tools. Stay informed with the latest in video production and content creation.",
 };

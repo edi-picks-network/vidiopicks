@@ -164,8 +164,8 @@ Final Cut Pro 11 consistently beats the competition on Apple Silicon Macs, expor
 AI features are no longer "nice to have" — they're table stakes for efficient editing. Auto-captions (saving 15-30 min per video), filler word removal (essential for podcasters), and text-to-video (for rapid content creation) have transformed the editing workflow. CapCut leads in AI feature density, followed by Premiere Pro 2026. DaVinci Resolve is catching up but still lags in AI integration.
 
 **Sources:** G2 Video Editing Software Grid Reports (Spring 2026), Capterra Video Editing Reviews (2026), TrustRadius verified reviews (2026), official vendor benchmark data, independent performance testing conducted June 2026. All ratings and statistics as of June 2026.`,
-    author: "Tom Bradley",
-    authorRole: "Video Production Technology Analyst",
+    author: "Alexis Park",
+    authorRole: "Video Production Lead, NewtGroup",
     date: "2026-06-06",
     category: "Video Tools & Software",
     readTime: 11,
@@ -356,8 +356,8 @@ All performance benchmarks conducted on standardized test rigs:
 - Latency measured using Blackmagic Video Assist 12G + timestamped waveform analysis
 - User feedback aggregated from G2 (May 2026 dataset, n=1,247 verified reviewers), Capterra (n=892), and VidioPicks' private creator panel (n=211 active streamers, 60+ esport orgs, 47 enterprise AV teams)
 - Pricing verified directly on vendor sites on June 1, 2026`,
-    author: "Tom Bradley",
-    authorRole: "Video Production Technology Analyst",
+    author: "Marcus Chen",
+    authorRole: "AR/VR Specialist, NewtGroup",
     date: "2026-06-07",
     category: "Video Tools & Software",
     readTime: 13,
@@ -466,8 +466,8 @@ A: "Prompt drift" — inconsistent terminology across tools (e.g., "warm tone" m
 
 ---  
 *All tools tested Q1 2026 on macOS Sonoma 14.5 & Windows 11 23H2, using M3 Ultra and RTX 6000 Ada workstations. Data reflects aggregated feedback from VidioPicks' Creator Panel (n=217).*`,
-    author: "Tom Bradley",
-    authorRole: "Video Production Technology Analyst",
+    author: "Jordan Reyes",
+    authorRole: "Voice Interaction Designer, NewtGroup",
     date: "2026-06-08",
     category: "AI & Video Tools",
     readTime: 9,
@@ -532,8 +532,8 @@ For 2026 creators, there’s no universal “best” video editor—only the *ri
 But scale up: once you hit 10K subs and start monetizing beyond AdSense—or when color consistency, audio polish, or visual effects become non-negotiable—**DaVinci Resolve is the unequivocal upgrade path.** Its free tier outperforms paid competitors in core professional domains, and its one-time Studio license delivers long-term ROI.
 
 Save Premiere Pro for studios already embedded in Adobe’s ecosystem—or when your clients demand .prproj deliverables. For most independent creators in 2026? Start in YouTube Studio. Graduate to Resolve. Skip the subscription treadmill—unless collaboration or motion graphics are daily necessities.`,
-    author: "Tom Bradley",
-    authorRole: "Video Production Analyst",
+    author: "Priya Sharma",
+    authorRole: "XR Production Lead, NewtGroup",
     date: "2026-06-09",
     category: "Video Creation & Editing",
     readTime: 8,
@@ -601,8 +601,8 @@ Q: Which tool has the best mobile companion app?
 A: Loom leads here—its iOS/Android apps allow recording, trimming, and AI summarization on-device. Others offer only playback or upload.
 
 In 2026, screen recording is no longer a utility—it is a creative and collaborative layer. The right tool does not just capture your screen; it amplifies your message, respects your time, and adapts to your audience. Test all four with real use cases—and remember: AI is only as good as the intent behind it.`,
-    author: "Tom Bradley",
-    authorRole: "Video Production Technology Analyst",
+    author: "Danny O'Keefe",
+    authorRole: "Creative Technologist, NewtGroup",
     date: "2026-06-10",
     category: "Video Tools & Software",
     readTime: 5,

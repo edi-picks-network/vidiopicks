@@ -5,9 +5,9 @@ import Footer from "./sections/Footer";
 import CookieBanner from "./components/CookieBanner";
 
 export const metadata: Metadata = {
-  title: "VidioPicks — Best Video Creation & Editing Tools",
+  title: "VidioPics — Best Video Creation & Editing Tools",
   description:
-    "Compare top video creation, editing, and production tools with verified reviews, pricing breakdowns, and expert comparisons. Find the perfect video software for your content needs. Trusted by creators worldwide.",
+    "Compare top video creation, editing, and production tools with verified reviews, pricing breakdowns, and expert comparisons. Find the perfect video software for your content needs. Curated by NewtGroup.",
   keywords: [
     "video tools",
     "video editing",
@@ -17,6 +17,8 @@ export const metadata: Metadata = {
     "content creation tools",
     "video production",
     "editing platforms",
+    "NewtGroup",
+    "Providence studio",
   ],
   verification: {
     google: "T5bb4mZivi0CfaYYRiKZLSNIWmhvAX6_RVgDEyonTGo",
@@ -24,10 +26,10 @@ export const metadata: Metadata = {
   openGraph: {
     type: "website",
     locale: "en_US",
-    siteName: "VidioPicks",
-    title: "VidioPicks — Best Video Creation & Editing Tools",
+    siteName: "VidioPics",
+    title: "VidioPics — Best Video Creation & Editing Tools",
     description:
-      "Compare top video creation and editing tools with verified reviews, pricing breakdowns, and expert comparisons.",
+      "Compare top video creation and editing tools with verified reviews, pricing breakdowns, and expert comparisons. Curated by NewtGroup.",
   },
 };
 

@@ -64,9 +64,9 @@ export default function ToolDetailPage() {
     scripts.push(s1);
 
     const org = organizationSchema(
-      'VidioPicks',
-      'https://vidiopicks.net',
-      'Honest hosting reviews and comparisons for modern businesses.'
+      'VidioPics',
+      'https://vidiopics.com',
+      'Curated video tools directory by NewtGroup.'
     );
     const s2 = document.createElement('script');
     s2.type = 'application/ld+json';

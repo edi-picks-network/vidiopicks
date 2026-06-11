@@ -28,7 +28,7 @@ const FAQ_SCHEMA = {
       name: "How do I choose the right hosting provider?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Key factors include: (1) Performance — look for SSD/NVMe storage, fast CPU cores, and uptime guarantees of 99.9%+. (2) Scalability — can you easily upgrade resources? (3) Support — 24/7 live chat and knowledgeable staff. (4) Pricing — watch for introductory vs renewal rates. (5) Location — choose data centers close to your audience. (6) Features — free SSL, CDN, backups, staging environments. Compare providers on VidioPicks to find your best match.",
+        text: "Key factors include: (1) Performance — look for SSD/NVMe storage, fast CPU cores, and uptime guarantees of 99.9%+. (2) Scalability — can you easily upgrade resources? (3) Support — 24/7 live chat and knowledgeable staff. (4) Pricing — watch for introductory vs renewal rates. (5) Location — choose data centers close to your audience. (6) Features — free SSL, CDN, backups, staging environments. Compare providers on VidioPics to find your best match.",
       },
     },
     {
@@ -76,7 +76,7 @@ const FAQ_SCHEMA = {
       name: "How do hosting reviews and ratings work?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Hosting reviews are collected from verified customers on platforms like G2, Trustpilot, and specialized review sites. Users rate providers on criteria like uptime, speed, support quality, value for money, and ease of use. Always read recent reviews and look for patterns rather than outliers. VidioPicks synthesizes reviews across multiple platforms to give you a balanced view of each provider's strengths and weaknesses.",
+        text: "Hosting reviews are collected from verified customers on platforms like G2, Trustpilot, and specialized review sites. Users rate providers on criteria like uptime, speed, support quality, value for money, and ease of use. Always read recent reviews and look for patterns rather than outliers. VidioPics synthesizes reviews across multiple platforms to give you a balanced view of each provider's strengths and weaknesses.",
       },
     },
     {

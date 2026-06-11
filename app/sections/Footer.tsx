@@ -41,22 +41,22 @@ export default function Footer() {
         <div className="flex flex-col md:flex-row justify-between gap-12 mb-12">
           <div className="max-w-xs">
             <Link href="/" className="flex items-center gap-2 mb-4">
-              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#7C3AED] to-[#6366F1] flex items-center justify-center shadow-sm">
+              <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#d946ef] to-[#a21caf] flex items-center justify-center shadow-sm">
                 <Video className="w-4 h-4 text-white" />
               </div>
-              <span className="text-lg font-bold text-[#0F172A]">VidioPicks</span>
+              <span className="text-lg font-bold text-[#0F172A]">VidioPics</span>
             </Link>
             <p className="text-sm text-[#64748B] leading-relaxed mb-6">
-              The most comprehensive directory of video creation and editing tools. Discover, compare, and find the best video software for your content.
+              Curated video tools directory by NewtGroup — a Providence-based studio specializing in Voice, AR/VR, and immersive content creation.
             </p>
             <div className="flex items-center gap-3">
-              <a href="#" className="w-9 h-9 rounded-lg bg-[#F8FAFC] border border-[#E2E8F0] flex items-center justify-center text-[#94A3B8] hover:text-[#7C3AED] hover:border-[#7C3AED]/30 hover:bg-[#F5F3FF] transition-all">
+              <a href="#" className="w-9 h-9 rounded-lg bg-[#F8FAFC] border border-[#E2E8F0] flex items-center justify-center text-[#94A3B8] hover:text-[#d946ef] hover:border-[#d946ef]/30 hover:bg-[#FAF5FF] transition-all">
                 <Twitter className="w-4 h-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-lg bg-[#F8FAFC] border border-[#E2E8F0] flex items-center justify-center text-[#94A3B8] hover:text-[#7C3AED] hover:border-[#7C3AED]/30 hover:bg-[#F5F3FF] transition-all">
+              <a href="#" className="w-9 h-9 rounded-lg bg-[#F8FAFC] border border-[#E2E8F0] flex items-center justify-center text-[#94A3B8] hover:text-[#d946ef] hover:border-[#d946ef]/30 hover:bg-[#FAF5FF] transition-all">
                 <Github className="w-4 h-4" />
               </a>
-              <a href="#" className="w-9 h-9 rounded-lg bg-[#F8FAFC] border border-[#E2E8F0] flex items-center justify-center text-[#94A3B8] hover:text-[#7C3AED] hover:border-[#7C3AED]/30 hover:bg-[#F5F3FF] transition-all">
+              <a href="#" className="w-9 h-9 rounded-lg bg-[#F8FAFC] border border-[#E2E8F0] flex items-center justify-center text-[#94A3B8] hover:text-[#d946ef] hover:border-[#d946ef]/30 hover:bg-[#FAF5FF] transition-all">
                 <Linkedin className="w-4 h-4" />
               </a>
             </div>
@@ -71,7 +71,7 @@ export default function Footer() {
                     <li key={link.name}>
                       <Link
                         href={link.href}
-                        className="text-sm text-[#64748B] hover:text-[#7C3AED] transition-colors"
+                        className="text-sm text-[#64748B] hover:text-[#d946ef] transition-colors"
                       >
                         {link.name}
                       </Link>
@@ -85,16 +85,16 @@ export default function Footer() {
 
         <div className="pt-8 border-t border-[#E2E8F0] flex flex-col md:flex-row items-center justify-between gap-4">
           <p className="text-sm text-[#94A3B8]">
-            &copy; {new Date().getFullYear()} VidioPicks. All rights reserved.
+            &copy; {new Date().getFullYear()} VidioPics by NewtGroup. All rights reserved.
           </p>
           <div className="flex items-center gap-6">
-            <Link href="/privacy" className="text-sm text-[#94A3B8] hover:text-[#7C3AED] transition-colors">
+            <Link href="/privacy" className="text-sm text-[#94A3B8] hover:text-[#d946ef] transition-colors">
               Privacy
             </Link>
-            <Link href="/terms" className="text-sm text-[#94A3B8] hover:text-[#7C3AED] transition-colors">
+            <Link href="/terms" className="text-sm text-[#94A3B8] hover:text-[#d946ef] transition-colors">
               Terms
             </Link>
-            <a href="#" className="text-sm text-[#94A3B8] hover:text-[#7C3AED] transition-colors">
+            <a href="#" className="text-sm text-[#94A3B8] hover:text-[#d946ef] transition-colors">
               Sitemap
             </a>
           </div>

@@ -1,33 +1,33 @@
 import type { Metadata } from "next";
 import Link from "next/link";
-import { FileText, Target, TrendingUp, Search } from "lucide-react";
+import { Microscope, Headphones, Monitor, MapPin, Users, Rocket, Sparkles, HeartHandshake } from "lucide-react";
 
 export const metadata: Metadata = {
-  title: "About — VidioPicks",
+  title: "About — VidioPics by NewtGroup",
   description:
-    "VidioPicks is an independent directory of video creation and editing tools. We curate and compare video software to help creators make informed decisions.",
+    "NewtGroup is Studio #48 — a 7-person team based in Providence, RI specializing in Voice, AR/VR, and immersive experiences. We built VidioPics to curate the best video tools for creators.",
 };
 
-const VALUES = [
+const TEAM_VALUES = [
   {
-    icon: Search,
-    title: "Independent Curation",
-    desc: "We research and catalog tools based on publicly available information, user reviews from major platforms, and product documentation — not sponsorship dollars.",
+    icon: Microscope,
+    title: "Voice-First Research",
+    desc: "Our team includes voice interaction specialists who test every tool for speech recognition, voiceover workflows, and audio quality — because great video starts with great sound.",
   },
   {
-    icon: TrendingUp,
-    title: "Data-Driven Comparisons",
-    desc: "Every tool page includes feature comparisons, pricing breakdowns, and pros and cons synthesized from verified user feedback across multiple review platforms.",
+    icon: Headphones,
+    title: "AR/VR Expertise",
+    desc: "With deep experience in spatial computing, we evaluate tools through the lens of immersive content creation — from 360° video to mixed reality production pipelines.",
   },
   {
-    icon: Target,
-    title: "Practical Guidance",
-    desc: "Our use case recommendations are based on real-world scenarios. We help match tools to specific content creation needs and team sizes.",
+    icon: Monitor,
+    title: "Video-Centric Curation",
+    desc: "Seven specialists bring diverse perspectives: editing, motion graphics, color grading, streaming, compression, AI-assisted production, and interactive video.",
   },
   {
-    icon: FileText,
-    title: "Transparent Methodology",
-    desc: "We clearly indicate when information comes from public sources, vendor documentation, or aggregated review data. Our goal is transparency, not pretense.",
+    icon: HeartHandshake,
+    title: "Community Over Hype",
+    desc: "We don't accept sponsorships for rankings. Every review is based on hands-on testing, real workflows, and honest feedback from our studio's daily production work.",
   },
 ];
 
@@ -35,119 +35,116 @@ export default function AboutPage() {
   return (
     <div className="relative pt-32 pb-20 px-6">
       <div className="max-w-[800px] mx-auto">
+        {/* Header */}
         <div className="text-center mb-16">
-          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#EC4899] bg-[#162540] px-3 py-1.5 rounded-md mb-4">
-            About
+          <span className="inline-block text-xs font-semibold uppercase tracking-wider text-[#d946ef] bg-[#FAF5FF] px-3 py-1.5 rounded-md mb-4">
+            About — Studio #48
           </span>
-          <h1 className="text-3xl md:text-5xl font-extrabold text-[#F0F2FE] tracking-tight mb-6">
-            Your Guide to Better{' '}
-            <span className="text-gradient">Video Creation Tools</span>
+          <h1 className="text-3xl md:text-5xl font-extrabold text-[#0F172A] tracking-tight mb-6">
+            Built by{' '}
+            <span className="gradient-text">NewtGroup</span>
           </h1>
-          <p className="text-lg text-[#839BBE] leading-relaxed max-w-2xl mx-auto">
-            VidioPicks is an independent directory that helps creators
-            discover, compare, and evaluate video creation and editing tools. We aggregate
-            information from publicly available sources to give you a clear
-            picture of what each tool offers.
+          <p className="text-lg text-[#475569] leading-relaxed max-w-2xl mx-auto">
+            We&apos;re a 7-person team in Providence, Rhode Island with a shared obsession: 
+            making video creation accessible, powerful, and human. VidioPics is our curated 
+            guide to the tools that make it happen.
           </p>
         </div>
 
+        {/* Our Story */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-6">What We Do</h2>
-          <div className="space-y-4 text-[#839BBE] leading-relaxed">
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-6">Our Story</h2>
+          <div className="space-y-4 text-[#475569] leading-relaxed">
             <p>
-              VidioPicks was created to solve a common problem: finding
-              reliable, up-to-date information about video tools is
-              harder than it should be. Review sites are often biased by
-              sponsorship, pricing is hidden behind sales calls, and feature
-              comparisons quickly go out of date.
+              NewtGroup started in a small studio above a coffee shop on Westminster Street in 
+              Providence, RI. We were five friends — voice designers, XR developers, and video 
+              producers — who kept running into the same problem: finding reliable information 
+              about video tools was harder than using the tools themselves.
             </p>
             <p>
-              We catalog and compare video tools across 10+ categories,
-              including Video Editing, Screen Recording, Motion Graphics, Color Grading, and more.
-              Each tool page includes verified pricing tiers, feature lists, pros
-              and cons synthesized from user reviews, and practical use case
-              recommendations.
+              So we built our own solution. VidioPics started as an internal spreadsheet that 
+              grew into a full directory. Today, our team of seven covers everything from 
+              classic video editing suites to cutting-edge AI video generators, AR/VR capture 
+              tools, and voice-driven production software.
             </p>
             <p>
-              Our data is compiled from vendor documentation, official pricing
-              pages, and aggregated user reviews from platforms like G2,
-              Capterra, and TrustRadius. We do not claim to have tested every
-              tool personally — instead, we synthesize the best available public
-              information to help you make an informed choice.
+              What makes us different? We test tools the way creators actually use them — 
+              under deadline, across operating systems, and in real production pipelines. 
+              Our voice and AR/VR specialists ensure coverage of emerging modalities that 
+              most review sites ignore.
             </p>
           </div>
         </div>
 
+        {/* Values */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-8 text-center">
-            How We Evaluate Tools
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-8 text-center">
+            What Drives Us
           </h2>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {VALUES.map((value) => {
+            {TEAM_VALUES.map((value) => {
               const Icon = value.icon;
               return (
                 <div
                   key={value.title}
-                  className="bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-6 card-hover"
+                  className="bg-white border border-[#E2E8F0] rounded-xl p-6 card-hover shadow-sm"
                 >
-                  <div className="w-12 h-12 rounded-lg bg-[#162540] flex items-center justify-center mb-4">
-                    <Icon className="w-6 h-6 text-[#EC4899]" />
+                  <div className="w-12 h-12 rounded-lg bg-[#FAF5FF] flex items-center justify-center mb-4">
+                    <Icon className="w-6 h-6 text-[#d946ef]" />
                   </div>
-                  <h3 className="text-lg font-bold text-[#F0F2FE] mb-2">{value.title}</h3>
-                  <p className="text-sm text-[#839BBE] leading-relaxed">{value.desc}</p>
+                  <h3 className="text-lg font-bold text-[#0F172A] mb-2">{value.title}</h3>
+                  <p className="text-sm text-[#64748B] leading-relaxed">{value.desc}</p>
                 </div>
               );
             })}
           </div>
         </div>
 
+        {/* Team stats */}
         <div className="mb-16">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-6">Data Sources</h2>
-          <div className="space-y-4 text-[#839BBE] leading-relaxed">
-            <p>
-              Information on this site is compiled from the following sources:
-            </p>
-            <ul className="list-disc pl-6 space-y-2">
-              <li>
-                <strong className="text-[#F0F2FE]">Vendor official websites and documentation</strong> — pricing, features, and product descriptions
-              </li>
-              <li>
-                <strong className="text-[#F0F2FE]">Aggregated user reviews</strong> — publicly available ratings and feedback from platforms like G2, Capterra, and TrustRadius
-              </li>
-              <li>
-                <strong className="text-[#F0F2FE]">Industry publications and analyst reports</strong> — market trends and comparative analysis
-              </li>
-            </ul>
-            <p className="text-sm mt-4">
-              We strive to keep all information current, but pricing and features
-              change frequently. Please verify details directly with the vendor
-              before making purchasing decisions. Links to official websites are
-              provided on every tool page.
-            </p>
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-6 text-center">Studio #48</h2>
+          <div className="grid grid-cols-2 md:grid-cols-4 gap-4">
+            {[
+              { icon: Users, label: "Team Size", value: "7 members" },
+              { icon: MapPin, label: "Location", value: "Providence, RI" },
+              { icon: Sparkles, label: "Specialty", value: "Voice / AR / VR" },
+              { icon: Rocket, label: "Founded", value: "2024" },
+            ].map((stat) => {
+              const StatIcon = stat.icon;
+              return (
+                <div key={stat.label} className="bg-[#FAF5FF] border border-[#E2E8F0] rounded-xl p-5 text-center">
+                  <div className="w-10 h-10 rounded-lg bg-white mx-auto mb-3 flex items-center justify-center shadow-sm">
+                    <StatIcon className="w-5 h-5 text-[#d946ef]" />
+                  </div>
+                  <div className="text-xl font-bold text-[#0F172A]">{stat.value}</div>
+                  <div className="text-xs text-[#64748B] mt-1">{stat.label}</div>
+                </div>
+              );
+            })}
           </div>
         </div>
 
         {/* CTA */}
-        <div className="text-center bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl p-10">
-          <h2 className="text-2xl font-bold text-[#F0F2FE] mb-4">
-            Have feedback or a suggestion?
+        <div className="text-center bg-gradient-to-br from-[#FAF5FF] to-[#FDF4FF] border border-[#E2E8F0] rounded-xl p-10 shadow-sm">
+          <h2 className="text-2xl font-bold text-[#0F172A] mb-4">
+            Got a tool we should review?
           </h2>
-          <p className="text-[#839BBE] mb-6 max-w-lg mx-auto">
-            We are always improving. If you notice outdated information or have
-            suggestions for tools we should add, let us know.
+          <p className="text-[#64748B] mb-6 max-w-lg mx-auto">
+            We&apos;re always testing new video, voice, and XR tools. If you&apos;re building 
+            something that helps creators, we want to hear about it.
           </p>
           <div className="flex flex-col sm:flex-row gap-4 justify-center">
             <Link
               href="/contact"
-              className="px-6 py-3 bg-[#EC4899] hover:bg-[#DB2777] text-white font-medium rounded-lg transition-colors"
+              className="px-6 py-3 bg-[#d946ef] hover:bg-[#c026d3] text-white font-medium rounded-lg transition-colors"
             >
               Contact Us
             </Link>
             <a
-              href="mailto:info@vidiopicks.net"
-              className="px-6 py-3 border border-[#1E3A5F] hover:border-[#284880] text-[#839BBE] hover:text-[#F0F2FE] font-medium rounded-lg transition-all"
+              href="mailto:hello@newtgroup.space"
+              className="px-6 py-3 border border-[#E2E8F0] hover:border-[#d946ef]/40 text-[#475569] hover:text-[#d946ef] font-medium rounded-lg transition-all"
             >
-              info@vidiopicks.net
+              hello@newtgroup.space
             </a>
           </div>
         </div>

@@ -35,11 +35,11 @@ export default function Header() {
     >
       <div className="max-w-[1200px] mx-auto px-6 h-16 flex items-center justify-between">
         <Link href="/" className="flex items-center gap-2 group">
-          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#7C3AED] to-[#6366F1] flex items-center justify-center shadow-sm">
+          <div className="w-8 h-8 rounded-lg bg-gradient-to-br from-[#d946ef] to-[#a21caf] flex items-center justify-center shadow-sm">
             <Video className="w-4 h-4 text-white" />
           </div>
-          <span className="text-lg font-bold text-[#0F172A] group-hover:text-[#7C3AED] transition-colors">
-            VidioPicks
+          <span className="text-lg font-bold text-[#0F172A] group-hover:text-[#d946ef] transition-colors">
+            VidioPics
           </span>
         </Link>
 
@@ -48,7 +48,7 @@ export default function Header() {
             <Link
               key={item.label}
               href={item.href}
-              className="px-4 py-2 text-sm font-medium text-[#475569] hover:text-[#7C3AED] rounded-lg hover:bg-[#F5F3FF] transition-all"
+              className="px-4 py-2 text-sm font-medium text-[#475569] hover:text-[#d946ef] rounded-lg hover:bg-[#FAF5FF] transition-all"
             >
               {item.label}
             </Link>
@@ -58,21 +58,21 @@ export default function Header() {
         <div className="hidden md:flex items-center gap-3">
           <Link
             href="/"
-            className="flex items-center gap-1.5 px-4 py-2 text-sm text-[#475569] hover:text-[#7C3AED] rounded-lg hover:bg-[#F5F3FF] transition-all"
+            className="flex items-center gap-1.5 px-4 py-2 text-sm text-[#475569] hover:text-[#d946ef] rounded-lg hover:bg-[#FAF5FF] transition-all"
           >
             <Search className="w-4 h-4" />
             Search
           </Link>
           <Link
             href="/all-tools"
-            className="px-5 py-2 text-sm font-medium text-white bg-gradient-to-r from-[#7C3AED] to-[#6366F1] hover:shadow-lg hover:shadow-[#7C3AED]/30 rounded-xl transition-all hover:-translate-y-0.5"
+            className="px-5 py-2 text-sm font-medium text-white bg-gradient-to-r from-[#d946ef] to-[#a21caf] hover:shadow-lg hover:shadow-[#d946ef]/30 rounded-xl transition-all hover:-translate-y-0.5"
           >
             Explore Tools
           </Link>
         </div>
 
         <button
-          className="md:hidden p-2 text-[#475569] hover:text-[#7C3AED]"
+          className="md:hidden p-2 text-[#475569] hover:text-[#d946ef]"
           onClick={() => setMobileMenuOpen(!mobileMenuOpen)}
         >
           {mobileMenuOpen ? <X className="w-5 h-5" /> : <Menu className="w-5 h-5" />}
@@ -90,7 +90,7 @@ export default function Header() {
               <Link
                 key={item.label}
                 href={item.href}
-                className="px-4 py-3 text-sm font-medium text-[#475569] hover:text-[#7C3AED] hover:bg-[#F5F3FF] rounded-lg transition-all"
+                className="px-4 py-3 text-sm font-medium text-[#475569] hover:text-[#d946ef] hover:bg-[#FAF5FF] rounded-lg transition-all"
                 onClick={() => setMobileMenuOpen(false)}
               >
                 {item.label}
@@ -98,7 +98,7 @@ export default function Header() {
             ))}
             <Link
               href="/all-tools"
-              className="mt-2 px-5 py-3 text-sm font-medium text-white bg-gradient-to-r from-[#7C3AED] to-[#6366F1] rounded-xl text-center"
+              className="mt-2 px-5 py-3 text-sm font-medium text-white bg-gradient-to-r from-[#d946ef] to-[#a21caf] rounded-xl text-center"
               onClick={() => setMobileMenuOpen(false)}
             >
               Explore Tools

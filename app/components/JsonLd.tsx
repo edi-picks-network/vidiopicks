@@ -8,9 +8,9 @@ interface JsonLdProps {
 }
 
 export default function JsonLd({
-  siteName = 'VidioPicks',
-  siteUrl = 'https://vidiopicks.net',
-  description = 'Honest hosting reviews and comparisons for modern businesses.',
+  siteName = 'VidioPics',
+  siteUrl = 'https://vidiopics.com',
+  description = 'Curated video tools by NewtGroup.',
 }: JsonLdProps) {
   useEffect(() => {
     const script = document.createElement('script');

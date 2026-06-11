@@ -1,9 +1,9 @@
 import type { Metadata } from "next";
 
 export const metadata: Metadata = {
-  title: "Affiliate Disclosure — VidioPicks",
+  title: "Affiliate Disclosure — VidioPics",
   description:
-    "VidioPicks's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
+    "VidioPics's affiliate disclosure policy. Learn how we may earn commissions through partner links on our site.",
 };
 
 export default function DisclosurePage() {
@@ -26,7 +26,7 @@ export default function DisclosurePage() {
           <section>
             <h2 className="text-xl font-bold text-[#F0F2FE] mb-3">Transparency First</h2>
             <p>
-              VidioPicks is committed to transparency. This Affiliate Disclosure
+              VidioPics is committed to transparency. This Affiliate Disclosure
               explains how we may earn compensation through links on our website.
             </p>
           </section>
@@ -34,7 +34,7 @@ export default function DisclosurePage() {
           <section>
             <h2 className="text-xl font-bold text-[#F0F2FE] mb-3">Affiliate Links</h2>
             <p>
-              Some of the links on VidioPicks are affiliate links. This means that
+              Some of the links on VidioPics are affiliate links. This means that
               if you click on a link and make a purchase or sign up for a service, we may
               receive a commission at no additional cost to you.
             </p>
@@ -77,8 +77,8 @@ export default function DisclosurePage() {
             <p>
               If you have any questions about our affiliate relationships or this
               disclosure, please contact us at{" "}
-              <a href="mailto:info@vidiopicks.net" className="text-[#EC4899] hover:underline">
-                info@vidiopicks.net
+              <a href="mailto:info@vidiopics.com" className="text-[#EC4899] hover:underline">
+                info@vidiopics.com
               </a>
               .
             </p>
