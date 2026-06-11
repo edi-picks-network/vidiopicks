@@ -6,6 +6,7 @@ const BLOG_SLUGS = [
     "ai-video-editing-tools-2026",
     "youtube-studio-vs-premiere-pro-vs-davinci-resolve-best-video-editor-for-creators",
     "screen-recording-software-2026-obs-loom-camtasia-screenflow",
+    "ai-video-generation-tools-2026-synthesia-heygen-runway-pika",
 ] as const;
 
 const TOOL_SLUGS = [
