@@ -560,7 +560,23 @@ Alternative recommendations:
     reviewCount: 2840,
     icon: Zap,
     description: "AI-powered video editing and generation platform with Gen-3 multimodal capabilities.",
-    longDescription: `Runway is a leading AI video tool enabling creators to generate, edit, and manipulate video using text, images, and audio prompts. Features include green screen removal, motion tracking, lip sync, and real-time collaboration.`,
+    longDescription: `Runway ML is a groundbreaking creative platform that empowers filmmakers, editors, designers, and social creators with state-of-the-art generative AI tools—integrated directly into a collaborative, browser-based video editor. At its core lies **Gen-3**, Runway's most advanced multimodal foundation model, delivering unprecedented fidelity, temporal consistency, and prompt responsiveness for professional-grade video generation.
+
+### Key Capabilities
+- **Text-to-Video**: Transform descriptive prompts into high-resolution, 4–10 second cinematic clips—ideal for storyboarding, concept testing, or rapid content ideation.
+- **Video-to-Video**: Seamlessly re-style, re-animate, or repurpose existing footage—swap lighting, apply artistic filters, or convert live-action to animation in seconds.
+- **AI Green Screen**: Remove complex backgrounds with pixel-perfect precision—even with hair, motion blur, or transparent objects—no physical green screen required.
+- **Motion Brush**: Selectively animate or modify regions of a frame (e.g., make a character wave, ripple water, or rotate an object) while preserving surrounding context and motion coherence.
+- **Auto-Captions**: Generate accurate, time-synced, stylable subtitles in over 30 languages—with speaker diarization and editing controls for broadcast-ready accessibility.
+
+### Real-Time Collaboration & Workflow Integration
+Runway supports concurrent editing across teams, with version history, comment threads, asset linking, and Figma/Slack integrations. Projects auto-save to the cloud, enabling seamless handoffs between writers, editors, VFX artists, and marketers.
+
+### Tailored for Diverse Creators
+- **Professional Editors**: Accelerate rotoscoping, VFX prep, and client revisions—integrate outputs via ProRes export, DaVinci Resolve XML, or direct After Effects plugin support.
+- **Social Creators**: Produce scroll-stopping Reels, Shorts, and TikToks in minutes—leverage templates, trending aspect ratios, and one-click resizing with smart framing.
+
+With enterprise-grade security, SOC 2 compliance, and scalable team plans, Runway bridges the gap between AI experimentation and production-ready pipelines—making cutting-edge generative video accessible, reliable, and deeply integrated into modern creative workflows.`,
     pros: ["Intuitive interface", "State-of-the-art Gen-3 model", "Real-time collaboration", "Extensive template library"],
     cons: ["High GPU usage on local exports", "Limited free tier rendering minutes"],
     pricing: "Subscription",
@@ -715,7 +731,23 @@ Ratings sourced from G2 (Q1 2024).
     reviewCount: 3170,
     icon: Zap,
     description: "User-friendly AI video generator for personalized talking-head videos with realistic avatars and voices.",
-    longDescription: `HeyGen simplifies AI video creation with drag-and-drop editing, customizable AI avatars, voice cloning, and script-to-video automation — ideal for marketers, educators, and SMBs needing fast, branded video output.`,
+    longDescription: `## HeyGen: AI-Powered Video Creation at Scale
+
+HeyGen is a leading AI video generation platform that transforms text scripts into professional, lifelike avatar videos in minutes—no camera, studio, or editing skills required. Its intuitive interface and advanced generative AI make it ideal for teams seeking scalable, personalized video communication across sales, marketing, education, and internal comms.
+
+### Core Capabilities
+- **AI Avatar Video Creation**: Choose from 120+ diverse, customizable avatars—including photorealistic and animated options—with natural lip-sync, facial expressions, and body language powered by proprietary diffusion and transformer models.
+- **Script-to-Video Automation**: Paste any script (in 40+ languages), select an avatar and voice, and generate a polished video in under 60 seconds—with scene transitions, text overlays, and branded intros/outros.
+- **Voice Cloning & Custom Voices**: Create secure, one-time voice clones from 1-minute audio samples—or choose from 300+ premium AI voices with adjustable pitch, speed, and emotion for authentic delivery.
+- **Auto-Translate & AI Dubbing**: Instantly translate scripts into 50+ languages while preserving speaker tone and timing; sync dubbed audio with precise lip movement for globally resonant content.
+- **Background Removal & Enhancement**: Seamlessly remove or replace backgrounds using real-time AI segmentation—ideal for consistent branding or virtual studio setups.
+- **Chrome Extension & API Integrations**: Record quick demos or personalize outreach directly from Gmail, HubSpot, or Salesforce via the browser extension; connect to Zapier, Make.com, or custom apps via RESTful API for enterprise workflows.
+
+### Strategic Use Cases
+- **Sales Outreach**: Generate hyper-personalized prospecting videos (e.g., name, company, pain point) at scale—boosting reply rates by up to 7x versus static emails.
+- **Education & Training**: Convert course modules, SOPs, or compliance docs into engaging, multilingual explainer videos—reducing production time by 90% and improving knowledge retention.
+
+HeyGen combines enterprise-grade security (SOC 2 compliant), granular usage analytics, and collaborative workspaces—making it the go-to solution for teams prioritizing speed, personalization, and global reach without compromising quality.`,
     pros: ["Beginner-friendly UI", "Fast avatar & voice setup", "Chrome extension for quick recording", "Strong API for integrations"],
     cons: ["Limited fine-grained facial control", "Occasional lip-sync drift in long scripts"],
     pricing: "Subscription",
@@ -816,7 +848,20 @@ Ratings sourced from G2 (Q1 2024).
     reviewCount: 2890,
     icon: Video,
     description: "B2B-focused video hosting with deep marketing integrations, heatmaps, and lead capture tools.",
-    longDescription: `Wistia specializes in helping marketers convert viewers into leads through interactive video features like CTAs, email-gated content, engagement heatmaps, and native CRM integrations (HubSpot, Marketo, Salesforce).`,
+    longDescription: `## Powerful B2B Video Hosting & Marketing Platform
+Wistia is a premium video hosting and marketing platform purpose-built for B2B teams seeking to convert viewers into qualified leads and customers. Unlike generic video hosts, Wistia delivers enterprise-grade performance, deep analytics, and native marketing tools—all in one unified platform.
+
+## Key Capabilities for Revenue-Driven Video
+- **Engagement Heatmaps**: Visualize exactly where viewers pause, rewind, or drop off—down to the second—so you can optimize content for maximum retention and impact.
+- **Lead Capture CTAs**: Embed customizable, context-aware calls-to-action directly on videos (e.g., 'Download the Guide' or 'Book a Demo') that appear at precise timestamps or after specific engagement thresholds.
+- **Email-Gated Content**: Require email addresses before playback—ideal for gated webinars, product demos, or whitepapers—while seamlessly capturing leads into your database.
+- **CRM & Marketing Automation Integrations**: Native two-way sync with HubSpot, Marketo, and Salesforce enables automatic lead enrichment, activity tracking, and closed-loop reporting—so sales sees video engagement alongside contact history.
+- **A/B Testing**: Experiment with different thumbnails, intros, CTAs, or player colors to determine what drives higher completion rates and conversions—no coding required.
+- **Advanced Analytics**: Go beyond view counts: track viewer identity (when known), time spent, engagement score, heatmaps, and conversion paths—tied to individual contacts and accounts.
+- **Customizable, Brand-Consistent Embeds**: Fully white-label players with custom colors, logos, and controls—plus privacy-focused settings (e.g., disable related videos, block indexing) to maintain brand integrity and SEO control.
+- **Soapbox Screen Recorder**: Built-in, no-download screen and webcam recording tool for fast, professional-quality video creation—ideal for sales reps, customer success teams, and internal comms.
+
+Wistia empowers marketers, sales teams, and customer success professionals to turn every video into a measurable, revenue-generating asset—without relying on disjointed third-party tools or compromising on performance, privacy, or scalability.`,
     pros: ["Outstanding video engagement analytics", "Lead-capture overlays and CTAs", "Seamless marketing stack integrations", "Dedicated support for business plans"],
     cons: ["No free tier beyond basic trial", "Less suited for public-facing entertainment content"],
     pricing: "Subscription",
