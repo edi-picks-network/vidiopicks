@@ -92,7 +92,7 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 2150,
     icon: Video,
     description: "Apple's professional video editing app optimized for macOS, known for speed, magnetic timeline, and performance.",
-    longDescription: `Final Cut Pro delivers blazing-fast rendering on Apple Silicon, a unique magnetic timeline that eliminates track conflicts, advanced object tracking, HDR color grading, and tight integration with Motion and Compressor. It supports ProRes RAW, Dolby Atmos, and real-time 360° editing.`,
+    longDescription: `Final Cut Pro is a professional-grade video editing software designed exclusively for macOS, catering to the needs of Mac-based professional editors, indie filmmakers, and content creators. This powerful tool is known for its speed, intuitive interface, and advanced features that streamline the post-production process, making it an industry favorite.\n\n### Key Features and Capabilities\n**Magnetic Timeline:** One of the standout features of Final Cut Pro is its Magnetic Timeline, which allows for a more flexible and intuitive editing experience. Clips automatically move out of the way when you insert new footage, eliminating the need for manual track management. This feature is particularly useful for complex projects with multiple layers and effects.\n\n**Object Tracking and Stabilization:** Final Cut Pro offers robust object tracking and stabilization tools. The built-in Object Tracker can automatically analyze and follow objects within your footage, making it easy to apply effects or color corrections to specific elements. Additionally, the stabilization feature helps smooth out shaky footage, ensuring a professional and polished final product.\n\n**HDR Color Grading:** With support for High Dynamic Range (HDR) color grading, Final Cut Pro enables users to work with a wider range of colors and brightness levels. This feature is essential for creating visually stunning content that stands out on modern displays. The color grading tools are both powerful and user-friendly, allowing for precise adjustments and creative control.\n\n**Multicam Editing:** Final Cut Pro supports multicam editing with up to 64 angles, making it ideal for complex productions such as live events, interviews, and reality TV. The software automatically synchronizes clips based on audio, timecode, or in/out points, streamlining the editing process and saving valuable time.\n\n**ProRes RAW Support:** For those working with high-quality raw footage, Final Cut Pro offers native support for ProRes RAW. This format provides the highest quality and flexibility for post-production, allowing for extensive color grading and image manipulation without compromising on performance.\n\n### Performance and Quality Benchmarks\nFinal Cut Pro is optimized for Apple's hardware, leveraging the power of the M1 and M2 chips for exceptional performance. It supports real-time playback and rendering of high-resolution, high-frame-rate footage, even with multiple effects and layers. In benchmark tests, Final Cut Pro consistently outperforms other leading video editing software, especially when it comes to handling large, complex projects and exporting final outputs.\n\n### Platform Support and Integration\nFinal Cut Pro is available exclusively for macOS, ensuring seamless integration with Apple's ecosystem. It works flawlessly with other Apple applications such as Motion for motion graphics and Compressor for advanced encoding and transcoding. Additionally, Final Cut Pro supports a wide range of third-party plugins and extensions, further expanding its capabilities and versatility.\n\n### Ideal Use Cases\nFinal Cut Pro is the go-to choice for Mac-based professional editors and indie filmmakers who require a powerful, yet intuitive, video editing solution. Its advanced features, such as the Magnetic Timeline, object tracking, and HDR color grading, make it ideal for a variety of projects, including feature films, documentaries, commercials, and corporate videos. Whether you're working on a small indie project or a large-scale production, Final Cut Pro provides the tools and performance needed to bring your vision to life.`,
     pros: ["Optimized for Mac hardware", "Magnetic timeline reduces clutter", "One-time purchase", "Excellent performance with large media"],
     cons: ["macOS only", "Limited third-party plugin support vs. Premiere"],
     pricing: "Paid",
@@ -128,7 +128,36 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 4870,
     icon: Video,
     description: "All-in-one solution for editing, color correction, VFX, motion graphics, and audio post — with a powerful free version.",
-    longDescription: `DaVinci Resolve combines professional non-linear editing, Hollywood-grade color science (used on films like Avatar and Dune), Fairlight audio post, Fusion VFX/compositing, and Media & Deliver pages in one unified app. Its free version includes nearly all features except some collaboration and GPU-accelerated rendering options.`,
+    longDescription: `DaVinci Resolve is a comprehensive, all-in-one solution for video editing, color correction, visual effects, motion graphics, and audio post-production. It caters to a wide range of professionals, from independent filmmakers and YouTubers to high-end Hollywood studios, making it an ideal choice for colorists, editors, and hybrid creatives who need a robust, end-to-end post-production tool.
+
+### Key Features and Capabilities
+
+**Node-Based Color Grading:**
+DaVinci Resolve's color grading capabilities are industry-leading, thanks to its node-based interface. This system allows for complex and precise color adjustments, enabling users to create intricate looks and styles. The primary, secondary, and power windows provide detailed control over every aspect of the image, and the built-in scopes (waveform, vectorscope, histogram) ensure accurate color correction. Additionally, the software supports HDR and wide color gamut, making it suitable for the latest display technologies.
+
+**Fairlight Audio Mixing:**
+The Fairlight page in DaVinci Resolve offers a professional-grade audio post-production environment. It includes a full-featured digital audio workstation (DAW) with support for up to 1,000 tracks, real-time EQ and dynamics processing, and advanced automation. The intuitive mixer interface, along with the ability to edit and mix in a single timeline, streamlines the audio workflow. The software also supports ADR, Foley, and sound design, making it a complete audio solution.
+
+**Fusion Visual Effects:**
+Fusion, integrated into DaVinci Resolve, provides a powerful set of tools for creating and compositing visual effects. It features a node-based interface that allows for complex VFX workflows, including keying, rotoscoping, tracking, and 3D compositing. Fusion's GPU-accelerated rendering ensures fast performance, even when working with high-resolution footage. The extensive library of effects and the ability to create custom nodes make it a versatile tool for both simple and complex VFX tasks.
+
+**Collaborative Editing:**
+DaVinci Resolve's collaborative features enable multiple users to work on the same project simultaneously. Editors, colorists, and sound designers can access and modify the project in real-time, which is particularly useful for large-scale productions. The software supports shared storage solutions and integrates with popular project management tools, ensuring seamless collaboration across teams.
+
+**AI-Based Speech-to-Text:**
+One of the standout features of DaVinci Resolve is its AI-based speech-to-text functionality. This tool automatically generates subtitles and transcriptions, saving significant time and effort. The accuracy of the AI is impressive, and it supports multiple languages, making it a valuable asset for content creators who need to add captions or transcribe interviews.
+
+### Performance and Quality Benchmarks
+
+DaVinci Resolve is optimized for high performance, especially when running on hardware with dedicated GPUs. The software leverages CUDA and OpenCL for GPU acceleration, ensuring smooth playback and fast rendering times. In benchmark tests, DaVinci Resolve has been shown to handle 4K and 8K footage with ease, maintaining real-time performance even with complex effects and color grading applied. The software's stability and reliability have made it a trusted choice for major film and television productions.
+
+### Platform Support and Integration
+
+DaVinci Resolve is available on Windows, macOS, and Linux, providing cross-platform compatibility. It supports a wide range of file formats, including RAW camera files, and integrates seamlessly with other post-production tools such as Adobe After Effects, Premiere Pro, and Final Cut Pro. The software also offers extensive support for third-party plugins, allowing users to extend its functionality with specialized tools.
+
+### Ideal Use Cases
+
+DaVinci Resolve is ideal for a variety of use cases, from small-scale projects to large-scale productions. Independent filmmakers and YouTubers can take advantage of its powerful free version, which includes most of the essential features. For professional studios, the Studio version, available for a one-time fee of $295, offers additional features such as multi-user collaboration, advanced noise reduction, and support for 3D stereoscopic projects. Whether you're a colorist, editor, or a hybrid creative, DaVinci Resolve provides a comprehensive suite of tools to meet your post-production needs.`,
     pros: ["Industry-leading color grading", "Free version is extremely capable", "Integrated audio/VFX/editing workflow", "Cross-platform"],
     cons: ["Resource-intensive", "UI can feel overwhelming for newcomers"],
     pricing: "Freemium",
@@ -164,7 +193,36 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 4120,
     icon: Video,
     description: "User-friendly, AI-powered video editor popular for social media creators, with mobile and desktop versions.",
-    longDescription: `CapCut (by ByteDance) offers intuitive drag-and-drop editing, auto-captions, AI background removal, template-based storytelling, keyframe animation, and direct publishing to TikTok, YouTube Shorts, and Instagram Reels. Its desktop version supports 4K export, green screen, and multi-track editing — all while maintaining simplicity.`,
+    longDescription: `CapCut is a powerful, user-friendly video editing tool designed for social media creators, educators, and marketers who need to produce high-quality, engaging short-form videos. With both mobile and desktop versions, CapCut offers a versatile and accessible solution for users of all skill levels, making it an ideal choice for those looking to enhance their content without the steep learning curve often associated with professional video editing software.
+
+### Key Features and Capabilities
+
+**Auto-Captioning & Translation:**
+One of CapCut's standout features is its AI-powered auto-captioning and translation. This feature automatically generates captions for your videos, which can be easily edited and customized. The translation capability allows you to convert these captions into multiple languages, making your content more accessible to a global audience. This is particularly useful for social media creators and educators who want to reach a wider, more diverse audience.
+
+**AI Background Remover:**
+CapCut's AI background remover is another innovative feature that sets it apart from other video editors. This tool allows you to remove the background from your video clips, replacing it with a solid color, image, or even a new video. This is perfect for creating dynamic and visually appealing content, such as virtual backgrounds for educational videos or marketing presentations.
+
+**Template Library:**
+CapCut offers a vast library of pre-designed templates that can be used to create professional-looking videos quickly and easily. These templates cover a wide range of styles and themes, from trendy social media posts to educational tutorials. Users can customize these templates with their own text, images, and videos, making it simple to produce high-quality content in a fraction of the time it would take to start from scratch.
+
+**Keyframe Animation:**
+For those looking to add more advanced visual effects to their videos, CapCut provides keyframe animation. This feature allows you to create smooth, precise animations by setting keyframes at specific points in your video. Whether you're animating text, objects, or transitions, keyframe animation gives you the control to bring your creative vision to life.
+
+**Direct TikTok/YouTube Upload:**
+CapCut simplifies the process of sharing your videos by offering direct upload options to popular platforms like TikTok and YouTube. Once you've finished editing your video, you can export it in the desired format and resolution, and then upload it directly to your chosen platform. This streamlined workflow saves time and ensures that your content is ready to go live as soon as possible.
+
+### Performance and Quality Benchmarks
+
+CapCut is known for its fast and efficient performance, even on lower-end devices. The app is optimized to handle large video files and complex edits without significant lag or crashes. In terms of video quality, CapCut supports up to 4K resolution, ensuring that your final output is crisp and clear. The AI-powered features, such as auto-captioning and background removal, are highly accurate and reliable, providing professional results with minimal effort.
+
+### Platform Support and Integration
+
+CapCut is available on both iOS and Android devices, as well as on Windows and macOS. This cross-platform support makes it easy to switch between devices and continue working on your projects seamlessly. The app also integrates smoothly with popular social media platforms, allowing you to share your videos directly from the editor. Additionally, CapCut supports a wide range of file formats, including MP4, MOV, and AVI, ensuring compatibility with most video sources.
+
+### Ideal Use Cases
+
+CapCut is particularly well-suited for social media creators who need to produce engaging, high-quality content quickly. Its user-friendly interface and AI-powered features make it an excellent choice for those who may not have extensive video editing experience. Educators can use CapCut to create visually appealing and informative tutorials, while marketers can leverage its advanced features to produce compelling promotional videos. Whether you're a beginner or a seasoned pro, CapCut offers the tools and flexibility to help you achieve your creative goals.`,
     pros: ["Free with no watermarks", "Strong AI tools for creators", "Seamless TikTok integration", "Cross-platform (iOS, Android, Windows, macOS)"],
     cons: ["Limited advanced color grading", "Cloud dependency for some templates"],
     pricing: "Free",
