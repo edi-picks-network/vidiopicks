@@ -841,7 +841,7 @@ HeyGen combines enterprise-grade security (SOC 2 compliant), granular usage anal
     reviewCount: 3240,
     icon: Video,
     description: "Professional video hosting platform with advanced privacy, analytics, and customization options.",
-    longDescription: `Vimeo stands out as a premium B2B video hosting and streaming platform designed for professionals who prioritize quality, control, and privacy over broad-scale virality. Unlike consumer-first platforms, Vimeo delivers enterprise-grade security (SOC 2 Type II compliant), granular access controls (password protection, domain restriction, embed whitelisting), and ad-free viewing—critical for marketing teams, SaaS companies, and creative agencies delivering client-facing demos or internal training. Its 4K HDR streaming supports up to 100 Mbps bitrate with adaptive bitrate delivery across 95%+ of global devices, and average load times under 1.2 seconds on desktop (per third-party WebPageTest benchmarks). The platform integrates natively with Salesforce (via API or native connector), HubSpot (two-way contact sync), Marketo, Slack, and Zapier—enabling automated lead capture from video CTAs and behavioral tracking (e.g., heatmaps showing 68% of viewers rewatch the first 15 seconds of product walkthroughs). Advanced analytics include engagement graphs segmented by geography, device, and referral source, plus CSV exports of individual viewer paths. Vimeo Record (screen + webcam capture) enables async sales demos with auto-transcription and chapter markers. Teams can manage permissions via role-based access (Admin, Member, Viewer) and enforce brand consistency using customizable player skins with logo, color, and CTA overlays. With 99.99% uptime SLA, end-to-end encryption, and GDPR/CCPA compliance, it's trusted by brands like Shopify, Dropbox, and IBM. Vimeo's API v3 supports custom CMS integrations, bulk uploads (up to 250 GB/file), and webhook triggers for publishing workflows. Ideal for mid-market to enterprise users needing secure, scalable video infrastructure—not viral reach.`,
+    longDescription: `Vimeo stands out as a premium enterprise video hosting and streaming platform designed for professionals who prioritize quality, control, and privacy over broad-scale virality. Unlike consumer-first platforms, Vimeo delivers enterprise-grade security (SOC 2 Type II compliant), granular access controls (password protection, domain restriction, embed whitelisting), and ad-free viewing—critical for marketing teams, SaaS companies, and creative agencies delivering client-facing demos or internal training. Its 4K HDR streaming supports up to 100 Mbps bitrate with adaptive bitrate delivery across 95%+ of global devices, and average load times under 1.2 seconds on desktop (per third-party WebPageTest benchmarks). The platform integrates natively with Salesforce (via API or native connector), HubSpot (two-way contact sync), Marketo, Slack, and Zapier—enabling automated lead capture from video CTAs and behavioral tracking (e.g., heatmaps showing 68% of viewers rewatch the first 15 seconds of product walkthroughs). Advanced analytics include engagement graphs segmented by geography, device, and referral source, plus CSV exports of individual viewer paths. Vimeo Record (screen + webcam capture) enables async sales demos with auto-transcription and chapter markers. Teams can manage permissions via role-based access (Admin, Member, Viewer) and enforce brand consistency using customizable player skins with logo, color, and CTA overlays. With 99.99% uptime SLA, end-to-end encryption, and GDPR/CCPA compliance, it's trusted by brands like Shopify, Dropbox, and IBM. Vimeo's API v3 supports custom CMS integrations, bulk uploads (up to 250 GB/file), and webhook triggers for publishing workflows. Ideal for mid-market to enterprise users needing secure, scalable video infrastructure—not viral reach.`,
     pros: [
         "4K HDR streaming with <1.2s avg. load time",
         "SOC 2 Type II and GDPR-compliant security",
@@ -905,9 +905,9 @@ HeyGen combines enterprise-grade security (SOC 2 compliant), granular usage anal
     rating: 4.5,
     reviewCount: 2890,
     icon: Video,
-    description: "B2B-focused video hosting with deep marketing integrations, heatmaps, and lead capture tools.",
-    longDescription: `## Powerful B2B Video Hosting & Marketing Platform
-Wistia is a premium video hosting and marketing platform purpose-built for B2B teams seeking to convert viewers into qualified leads and customers. Unlike generic video hosts, Wistia delivers enterprise-grade performance, deep analytics, and native marketing tools—all in one unified platform.
+    description: "enterprise-focused video hosting with deep marketing integrations, heatmaps, and lead capture tools.",
+    longDescription: `## Powerful Business Video Hosting & Marketing Platform
+Wistia is a premium video hosting and marketing platform purpose-built for enterprise teams seeking to convert viewers into qualified leads and customers. Unlike generic video hosts, Wistia delivers enterprise-grade performance, deep analytics, and native marketing tools—all in one unified platform.
 
 ## Key Capabilities for Revenue-Driven Video
 - **Engagement Heatmaps**: Visualize exactly where viewers pause, rewind, or drop off—down to the second—so you can optimize content for maximum retention and impact.
@@ -925,7 +925,7 @@ Wistia empowers marketers, sales teams, and customer success professionals to tu
     pricing: "Subscription",
     pricingDetail: "from $19/mo",
     features: ["Engagement heatmaps", "Email-gated videos", "CRM sync", "A/B testing", "Customizable embeds"],
-    useCase: "B2B marketers and sales teams using video for lead generation and conversion tracking.",
+    useCase: "business marketers and sales teams using video for lead generation and conversion tracking.",
     websiteUrl: "https://wistia.com",
     alternatives: ["vimeo", "brightcove", "streamyard"],
     scoreBreakdown: {"features": 82, "reviews": 80, "momentum": 78, "popularity": 76},

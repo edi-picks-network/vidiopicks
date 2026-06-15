@@ -35,3 +35,4 @@ new_blog_content.md
 new_blog_entry.py
 append_blog.py
 .gitignore
+.next_old/
