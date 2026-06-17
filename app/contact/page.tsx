@@ -143,8 +143,8 @@ export default function ContactPage() {
                 <p className="text-sm text-[#64748B]">
                   <strong className="text-[#0F172A]">Tool Submissions:</strong>
                   <br />
-                  <a href="mailto:tools@vidiopics.com" className="text-[#d946ef] hover:underline">
-                    tools@vidiopics.com
+                  <a href="mailto:tools@vidiopicks.com" className="text-[#d946ef] hover:underline">
+                    tools@vidiopicks.com
                   </a>
                 </p>
                 <p className="text-sm text-[#64748B]">

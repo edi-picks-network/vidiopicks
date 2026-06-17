@@ -82,7 +82,7 @@ const CATEGORY_SLUGS = [
 ] as const;
 
 export async function GET() {
-  const baseUrl = "https://vidiopics.com";
+  const baseUrl = "https://vidiopicks.com";
 
   const urls: string[] = [];
 

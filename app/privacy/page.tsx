@@ -28,7 +28,7 @@ export default function PrivacyPage() {
             <p>
               VidioPics ("we," "our," or "us") is committed to protecting your privacy.
               This Privacy Policy explains how we collect, use, disclose, and safeguard your
-              information when you visit our website vidiopics.com (the "Site"). Please read this
+              information when you visit our website vidiopicks.com (the "Site"). Please read this
               policy carefully. If you do not agree with the terms, do not access the Site.
             </p>
           </section>
@@ -148,7 +148,7 @@ export default function PrivacyPage() {
               <li><strong>Right to Opt Out (CCPA):</strong> California residents may opt out of the sale of their personal information. We do not sell personal information.</li>
             </ul>
             <p className="mt-3">
-              To exercise any of these rights, please contact us at privacy@vidiopics.com. We
+              To exercise any of these rights, please contact us at privacy@vidiopicks.com. We
               will respond to your request within 30 days.
             </p>
           </section>
@@ -181,7 +181,7 @@ export default function PrivacyPage() {
               knowingly collect personal information from children. If we become aware that a
               child has provided us with personal data, we will delete it immediately. Parents
               or guardians who believe their child has submitted information to us should contact
-              us at privacy@vidiopics.com.
+              us at privacy@vidiopicks.com.
             </p>
           </section>
 
@@ -211,8 +211,8 @@ export default function PrivacyPage() {
               contact us:
             </p>
             <div className="mt-4 p-5 bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl">
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> privacy@vidiopics.com</p>
-              <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> support@vidiopics.com</p>
+              <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> privacy@vidiopicks.com</p>
+              <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> support@vidiopicks.com</p>
               <p><strong className="text-[#F0F2FE]">Address:</strong> 123 Westminster Street, Suite 48, Providence, RI 02903</p>
             </div>
           </section>

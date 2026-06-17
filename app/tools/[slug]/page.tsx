@@ -65,7 +65,7 @@ export default function ToolDetailPage() {
 
     const org = organizationSchema(
       'VidioPics',
-      'https://vidiopics.com',
+      'https://vidiopicks.com',
       'Curated video tools directory by NewtGroup.'
     );
     const s2 = document.createElement('script');

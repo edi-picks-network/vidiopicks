@@ -77,8 +77,8 @@ export default function DisclosurePage() {
             <p>
               If you have any questions about our affiliate relationships or this
               disclosure, please contact us at{" "}
-              <a href="mailto:info@vidiopics.com" className="text-[#EC4899] hover:underline">
-                info@vidiopics.com
+              <a href="mailto:info@vidiopicks.com" className="text-[#EC4899] hover:underline">
+                info@vidiopicks.com
               </a>
               .
             </p>

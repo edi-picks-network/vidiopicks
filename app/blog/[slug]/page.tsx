@@ -171,7 +171,7 @@ export default async function BlogPostPage({
   );
   const orgJsonLd = organizationSchema(
     'VidioPics',
-    'https://vidiopics.com',
+    'https://vidiopicks.com',
     'Curated video tools directory by NewtGroup.'
   );
 
