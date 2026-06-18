@@ -8,6 +8,7 @@ const BLOG_SLUGS = [
     "screen-recording-software-2026-obs-loom-camtasia-screenflow",
     "ai-video-generation-tools-2026-synthesia-heygen-runway-pika",
     "best-live-streaming-software-2026-obs-streamlabs-vmix",
+    "ai-video-generation-tools-2026-complete-guide",
 ] as const;
 
 const TOOL_SLUGS = [
