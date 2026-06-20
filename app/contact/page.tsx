@@ -136,8 +136,8 @@ export default function ContactPage() {
                 <p className="text-sm text-[#64748B]">
                   <strong className="text-[#0F172A]">General:</strong>
                   <br />
-                  <a href="mailto:hello@newtgroup.space" className="text-[#d946ef] hover:underline">
-                    hello@newtgroup.space
+                  <a href="mailto:create@vidiopicks.com" className="text-[#d946ef] hover:underline">
+                    create@vidiopicks.com
                   </a>
                 </p>
                 <p className="text-sm text-[#64748B]">
@@ -150,8 +150,8 @@ export default function ContactPage() {
                 <p className="text-sm text-[#64748B]">
                   <strong className="text-[#0F172A]">Press:</strong>
                   <br />
-                  <a href="mailto:press@newtgroup.space" className="text-[#d946ef] hover:underline">
-                    press@newtgroup.space
+                  <a href="mailto:create@vidiopicks.com" className="text-[#d946ef] hover:underline">
+                    create@vidiopicks.com
                   </a>
                 </p>
               </div>

@@ -141,10 +141,10 @@ export default function AboutPage() {
               Contact Us
             </Link>
             <a
-              href="mailto:hello@newtgroup.space"
+              href="mailto:create@vidiopicks.com"
               className="px-6 py-3 border border-[#E2E8F0] hover:border-[#d946ef]/40 text-[#475569] hover:text-[#d946ef] font-medium rounded-lg transition-all"
             >
-              hello@newtgroup.space
+              create@vidiopicks.com
             </a>
           </div>
         </div>
