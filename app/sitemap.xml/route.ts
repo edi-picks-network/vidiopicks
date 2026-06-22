@@ -2,13 +2,16 @@ import { MetadataRoute } from "next";
 
 const BLOG_SLUGS = [
   "best-video-editing-software-2026-comparison",
-    "best-live-streaming-software-2026-comparison",
-    "ai-video-editing-tools-2026",
-    "youtube-studio-vs-premiere-pro-vs-davinci-resolve-best-video-editor-for-creators",
-    "screen-recording-software-2026-obs-loom-camtasia-screenflow",
-    "ai-video-generation-tools-2026-synthesia-heygen-runway-pika",
-    "best-live-streaming-software-2026-obs-streamlabs-vmix",
+    "how-ai-is-transforming-video-marketing-in-2026",
+    "youtube-vs-vimeo-vs-wistia-vs-streamable-2026",
+    "best-screen-recording-software-2026-comprehensive-guide",
+    "how-we-tested-video-hosting-platforms-for-startup",
+    "animation-tools-for-social-media-creators-2026",
+    "ai-video-generation-tools-2026-complete-guide",
+    "ai-video-editing-workflows-2026-professional-editors-guide",
     "best-video-compression-tools-2026",
+    "ai-video-tools-in-2026",
+    "multicam-editing-workflow-guide-2026",
 ] as const;
 
 const TOOL_SLUGS = [
