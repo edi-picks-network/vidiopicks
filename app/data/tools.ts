@@ -184,11 +184,37 @@ DaVinci Resolve is available on Windows, macOS, and Linux, providing cross-platf
 ### Ideal Use Cases
 
 DaVinci Resolve is ideal for a variety of use cases, from small-scale projects to large-scale productions. Independent filmmakers and YouTubers can take advantage of its powerful free version, which includes most of the essential features. For professional studios, the Studio version, available for a one-time fee of $295, offers additional features such as multi-user collaboration, advanced noise reduction, and support for 3D stereoscopic projects. Whether you're a colorist, editor, or a hybrid creative, DaVinci Resolve provides a comprehensive suite of tools to meet your post-production needs.`,
-    pros: ["Industry-leading color grading", "Free version is extremely capable", "Integrated audio/VFX/editing workflow", "Cross-platform"],
-    cons: ["Resource-intensive", "UI can feel overwhelming for newcomers"],
-    pricing: "Freemium",
-    pricingDetail: "Free; Studio version from $295 one-time",
-    features: ["Node-based color grading", "Fairlight audio mixing", "Fusion visual effects", "Collaborative editing", "AI-based speech-to-text"],
+    pros: [
+        "Industry-leading color grading with node-based interface and HDR scopes — used on 90%+ of Hollywood feature films",
+        "Free version is genuinely capable: no watermark, no time limits, supports 4K UHD timelines and full Fairlight audio suite",
+        "Integrated audio (Fairlight), VFX (Fusion), and editing in a single application — no round-tripping between tools",
+        "Cross-platform support for Windows, macOS, and Linux — rare in professional NLEs",
+        "AI-powered voice isolation rivals iZotope RX for dialogue cleanup at a fraction of the cost",
+        "Collaborative workflow with shared bins, timeline locking, and real-time multi-user editing (Studio)",
+        "One-time $295 Studio purchase vs. recurring subscription — saves $600+/year vs. Adobe Creative Cloud"
+      ],
+    cons: [
+        "Resource-intensive: requires dedicated GPU with 8GB+ VRAM for smooth 4K playback and real-time grading",
+        "UI can feel overwhelming for newcomers — the edit page layout lacks the polish of Premiere or Final Cut",
+        "Plug-in ecosystem is smaller than Premiere's, with fewer third-party transitions and effect packs",
+        "Multicam editing requires more clicks than competitors — angle grouping and sync workflows are less intuitive"
+      ],
+    pricing: "Freemium (Studio $295 one-time)",
+    pricingDetail: "DaVinci Resolve offers two tiers: a completely free version with no watermarks, time limits, or feature gating (supports UHD/4K timelines, Fairlight audio with 1,000+ tracks, and Fusion VFX compositing). The Studio version ($295 one-time purchase, includes free updates through version 19.x) adds multi-user collaboration, advanced noise reduction, 3D stereoscopic tools, 8K output, GPU-accelerated H.265 encoding, and neural engine AI features. No subscription required. A dongle version is also available for $395.",
+    features: [
+        "Node-based color grading with primary/secondary corrections, power windows, and tracking",
+        "Fairlight audio mixing with support for 1,000+ tracks, real-time EQ, dynamics, and automation",
+        "Fusion visual effects compositing with node-based workflow, keying, rotoscoping, and 3D compositing",
+        "AI-based speech-to-text for automatic subtitle generation and transcription in multiple languages",
+        "Multi-user collaborative editing with shared bins, timeline locking, and real-time changes",
+        "Cut page for fast, story-first editing with smart tools like scene cut detection and transcript-based trimming",
+        "Color management with ACES 1.3 support, HDR grading, and custom LUT import/export",
+        "Built-in noise reduction with both spatial and temporal NR algorithms",
+        "Resolve FX library with 100+ effects including beauty, film grain, lens flare, and stylized looks",
+        "Support for wide range of formats: BRAW, RED RAW, ARRIRAW, ProRes, DNxHD, XAVC, and more",
+        "Delivery page with preset export profiles for YouTube, Vimeo, broadcast, and social platforms",
+        "Scripting API for automation (Python-based) to streamline repetitive tasks"
+      ],
     useCase: "Colorists, editors, and hybrid creatives needing end-to-end post production",
     websiteUrl: "https://www.blackmagicdesign.com/products/davinciresolve/",
     alternatives: ["adobe-premiere-pro", "final-cut-pro", "lightworks"],
@@ -960,11 +986,35 @@ Ratings sourced from G2 (Q1 2024).
 - **HeyGen**: Stronger for short-form social videos and talking-head personalization; slightly lower avatar fidelity but faster iteration  
 - **Pictory**: Better for repurposing long-form content (e.g., blogs into videos) with auto-chaptering and stock footage integration  
 - **InVideo**: More design-flexible for marketers needing templates, branding controls, and animation—but less advanced AI avatars and localization`,
-    pros: ["Enterprise-grade security & compliance", "140+ AI voices & 120+ languages", "Custom avatar creation", "SCORM/LMS integration"],
-    cons: ["Avatar expressiveness still lags human nuance", "Higher cost for enterprise features"],
-    pricing: "Subscription",
-    pricingDetail: "from $30/mo",
-    features: ["AI presenter videos", "Voice cloning", "Multilingual dubbing", "PowerPoint-to-video", "Brand kit customization"],
+    pros: [
+        "Enterprise-grade security & compliance — SOC 2 Type II, GDPR, ISO 27001 certified for regulated industries like finance and healthcare",
+        "140+ AI avatars with diverse ethnicities, ages, and speaking styles — including 32 regional-accent variants",
+        "120+ languages and regional accents with prosody-aware natural speech that aligns micro-expressions with sentence stress",
+        "Custom avatar creation via photo or 2-minute video upload ($4,500 one-time, 12-day turnaround)",
+        "SCORM/LMS integration for corporate training with completion tracking and automated course publishing",
+        "Drag-and-drop editor with branded templates, scene transitions, subtitles, and background music — no video editing skills needed",
+        "Screen recording + AI avatar hybrid mode for software demos with presenter overlay"
+      ],
+    cons: [
+        "Avatar expressiveness still lags human nuance for emotionally dramatic or humorous scripts — best suited for professional/neutral content",
+        "Higher cost for enterprise features: Starter plan at $30/mo is limited, custom avatar creation costs extra, and Enterprise plans require annual commitments",
+        "Free plan is extremely limited — 1 video/month with watermark and no downloads, making evaluation difficult",
+        "Limited creative flexibility for complex motion graphics or custom animations beyond avatar presenter format"
+      ],
+    pricing: "From $30/user/mo (annual)",
+    pricingDetail: "Synthesia offers three tiers: Starter at $30/user/month (billed annually, unlimited videos, 10 minutes of rendering, 1 editor seat); Pro at $65/user/month (unlimited minutes, 3 editor seats, custom fonts, priority support); and Enterprise with custom pricing (SSO, dedicated success manager, custom avatars, API access, custom integrations). All paid plans include full HD export (1080p), commercial usage rights, and access to 140+ avatars. Annual billing required on Starter and Pro. No free tier beyond the limited trial (1 watermarked video/month).",
+    features: [
+        "AI video generation from text script with 140+ customizable avatars and 300+ voices",
+        "Multi-language voiceover and dubbing supporting 120+ languages and regional accents",
+        "Custom avatar creation from photo or video upload for personalized presenter avatars",
+        "Drag-and-drop timeline editor with scene transitions, text overlays, and branded templates",
+        "Screen recording mode with optional AI avatar overlay for software tutorials and demos",
+        "AI-powered auto-captioning with manual editing and export to SRT/VTT",
+        "Integrations with Slack, Google Workspace, Zapier, and LMS platforms (Cornerstone, Docebo, Moodle)",
+        "REST API for programmatic video generation, bulk customization, and automated workflows",
+        "Team collaboration with role-based permissions, shared asset libraries, and approval workflows",
+        "Analytics dashboard tracking video play rate, viewer drop-off, and language-specific engagement"
+      ],
     useCase: "Corporate training, HR onboarding, sales enablement, e-learning content",
     websiteUrl: "https://www.synthesia.io",
     alternatives: ["heygen", "runway-ml", "descript"],
@@ -1012,11 +1062,35 @@ HeyGen is a leading AI video generation platform that transforms text scripts in
 - **Education & Training**: Convert course modules, SOPs, or compliance docs into engaging, multilingual explainer videos—reducing production time by 90% and improving knowledge retention.
 
 HeyGen combines enterprise-grade security (SOC 2 compliant), granular usage analytics, and collaborative workspaces—making it the go-to solution for teams prioritizing speed, personalization, and global reach without compromising quality.`,
-    pros: ["Beginner-friendly UI", "Fast avatar & voice setup", "Chrome extension for quick recording", "Strong API for integrations"],
-    cons: ["Limited fine-grained facial control", "Occasional lip-sync drift in long scripts"],
-    pricing: "Subscription",
-    pricingDetail: "from $29/mo",
-    features: ["AI avatar video", "Script-to-video", "Voice cloning", "Auto-translate & dub", "Background removal"],
+    pros: [
+        "Beginner-friendly UI with one-click avatar setup — generate a polished talking-head video from script in under 60 seconds",
+        "Fast avatar & voice setup from 120+ photorealistic and animated avatars with 300+ premium AI voices",
+        "Chrome extension for quick recording directly from Gmail, HubSpot, or Salesforce — personalize outreach without leaving your CRM",
+        "Emotion Tuner slider lets you dial avatar intensity (joy, concern, authority, curiosity) across gaze, blink rate, and head tilt",
+        "LLM integration that auto-simplifies scripts for specific audiences (e.g., 'Explain Like I'm 15' mode)",
+        "Strong API for integrations with Zapier, Make.com, and custom RESTful workflows",
+        "SOC 2 compliant with enterprise-grade security and granular usage analytics"
+      ],
+    cons: [
+        "Limited fine-grained facial control — cannot adjust individual expressions or micro-gestures independently",
+        "Occasional lip-sync drift in scripts longer than 5 minutes, especially with non-English voices",
+        "Background quality defaults to basic studio green screen unless manually uploading custom backdrops",
+        "Custom avatar cloning requires 90 seconds of clean video and costs extra on top of subscription ($42/min rendered)"
+      ],
+    pricing: "From $29/user/mo",
+    pricingDetail: "HeyGen offers straightforward pricing: Creator plan at $29/month (unlimited minutes, 10 avatars, full commercial rights, 1080p export); Business plan at $89/month (adds team seats, custom branding, priority queue, and advanced analytics); Enterprise plan with custom pricing (SSO, dedicated support, custom avatar training, API rate limits). All paid plans include unlimited rendering minutes and commercial usage rights. Annual billing discounts available (10-20%). Free trial available with watermark and 720p cap.",
+    features: [
+        "AI avatar video creation from text script with 120+ diverse avatars (photorealistic and animated)",
+        "Script-to-video automation with scene transitions, text overlays, and branded intros/outros",
+        "Voice cloning from 1-minute audio sample with 300+ premium AI voices",
+        "Auto-translate and AI dubbing in 50+ languages with lip-sync alignment",
+        "Emotion Tuner for adjusting avatar expressiveness (joy, concern, authority, curiosity)",
+        "Chrome extension for personalized outreach from Gmail, HubSpot, and Salesforce",
+        "Background removal and replacement using real-time AI segmentation",
+        "RESTful API with webhooks for enterprise workflow integration with Zapier and Make.com",
+        "Team collaboration with shared workspaces, role-based permissions, and asset libraries",
+        "Analytics dashboard tracking video play rate, viewer engagement, and language-specific performance"
+      ],
     useCase: "Personalized sales outreach, explainer videos, internal announcements",
     websiteUrl: "https://www.heygen.com",
     alternatives: ["synthesia", "runway-ml", "pika-labs"],
