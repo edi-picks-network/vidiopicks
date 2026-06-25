@@ -12,8 +12,9 @@ const BLOG_SLUGS = [
     "best-video-compression-tools-2026",
     "ai-video-tools-in-2026",
     "multicam-editing-workflow-guide-2026",
+    "best-ai-video-generators-2026-sora-kling-runway-haiper-vidu-pika",
+    "best-ai-video-tools-creators-2026-comparison",
 ] as const;
-
 const TOOL_SLUGS = [
   "akamai",
     "alibaba-cloud",
