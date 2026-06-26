@@ -14,6 +14,7 @@ const BLOG_SLUGS = [
     "multicam-editing-workflow-guide-2026",
     "best-ai-video-generators-2026-sora-kling-runway-haiper-vidu-pika",
     "best-ai-video-tools-creators-2026-comparison",
+    "stock-video-platforms-2026-comparison-guide",
 ] as const;
 const TOOL_SLUGS = [
   "akamai",
