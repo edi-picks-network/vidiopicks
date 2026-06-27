@@ -15,6 +15,7 @@ const BLOG_SLUGS = [
     "best-ai-video-generators-2026-sora-kling-runway-haiper-vidu-pika",
     "best-ai-video-tools-creators-2026-comparison",
     "stock-video-platforms-2026-comparison-guide",
+    "best-video-encoding-tools-2026-handbrake-ffmpeg-adobe-davinci",
 ] as const;
 const TOOL_SLUGS = [
   "akamai",
