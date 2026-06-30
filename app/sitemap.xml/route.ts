@@ -18,6 +18,8 @@ const BLOG_SLUGS = [
     "stock-video-platforms-2026-comparison-guide",
     "best-video-encoding-tools-2026-handbrake-ffmpeg-adobe-davinci",
     "data-driven-video-strategy-analytics-metrics-2026",
+    "screen-recording-software-2026-obs-vs-camtasia-vs-screenflow-vs-loom",
+    "live-streaming-beginners-guide-2026-equipment-software",
 ] as const;
 const TOOL_SLUGS = [
   "akamai",
