@@ -20,6 +20,7 @@ const BLOG_SLUGS = [
     "data-driven-video-strategy-analytics-metrics-2026",
     "screen-recording-software-2026-obs-vs-camtasia-vs-screenflow-vs-loom",
     "live-streaming-beginners-guide-2026-equipment-software",
+    "video-editing-tips-professional-workflow-2026",
 ] as const;
 const TOOL_SLUGS = [
   "akamai",
