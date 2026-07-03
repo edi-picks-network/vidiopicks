@@ -21,6 +21,8 @@ const BLOG_SLUGS = [
     "screen-recording-software-2026-obs-vs-camtasia-vs-screenflow-vs-loom",
     "live-streaming-beginners-guide-2026-equipment-software",
     "video-editing-tips-professional-workflow-2026",
+    "open-source-video-editing-2026-shotcut-olive-kdenlive",
+    "best-free-video-editing-software-2026-guide",
 ] as const;
 const TOOL_SLUGS = [
   "akamai",
