@@ -23,6 +23,7 @@ const BLOG_SLUGS = [
     "video-editing-tips-professional-workflow-2026",
     "open-source-video-editing-2026-shotcut-olive-kdenlive",
     "best-free-video-editing-software-2026-guide",
+    "color-grading-beginners-guide-2026-davinci-premiere-fcp",
 ] as const;
 const TOOL_SLUGS = [
   "akamai",
