@@ -36,3 +36,7 @@ new_blog_entry.py
 append_blog.py
 .gitignore
 .next_old/
+
+package.json
+package-lock.json
+tsconfig.json

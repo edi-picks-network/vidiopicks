@@ -1185,71 +1185,75 @@ HeyGen combines enterprise-grade security (SOC 2 compliant), granular usage anal
     rating: 4.5,
     reviewCount: 2890,
     icon: Video,
-    description: "enterprise-focused video hosting with deep marketing integrations, heatmaps, and lead capture tools.",
-    longDescription: `## Powerful Business Video Hosting & Marketing Platform
-Wistia is a premium video hosting and marketing platform purpose-built for enterprise teams seeking to convert viewers into qualified leads and customers. Unlike generic video hosts, Wistia delivers enterprise-grade performance, deep analytics, and native marketing tools--all in one unified platform.
+    description: "Premium video hosting and marketing platform for B2B teams with advanced analytics, lead capture, and CRM integrations.",
+    longDescription: `Wistia stands out in the crowded video platform landscape as a purpose-built solution for B2B marketers, SaaS companies, and revenue-focused teams that demand more than just video storage\u2014it delivers a complete ecosystem for turning video content into measurable business results. Unlike general-purpose hosting services, Wistia is engineered specifically for organizations that view video as a critical component of their lead generation, customer education, and sales enablement strategies, with tools that bridge the gap between content creation, audience engagement, and revenue attribution.
 
-## Key Capabilities for Revenue-Driven Video
-- **Engagement Heatmaps**: Visualize exactly where viewers pause, rewind, or drop off--down to the second--so you can optimize content for maximum retention and impact.
-- **Lead Capture CTAs**: Embed customizable, context-aware calls-to-action directly on videos (e.g., 'Download the Guide' or 'Book a Demo') that appear at precise timestamps or after specific engagement thresholds.
-- **Email-Gated Content**: Require email addresses before playback--ideal for gated webinars, product demos, or whitepapers--while seamlessly capturing leads into your database.
-- **CRM & Marketing Automation Integrations**: Native two-way sync with HubSpot, Marketo, and Salesforce enables automatic lead enrichment, activity tracking, and closed-loop reporting--so sales sees video engagement alongside contact history.
-- **A/B Testing**: Experiment with different thumbnails, intros, CTAs, or player colors to determine what drives higher completion rates and conversions--no coding required.
-- **Advanced Analytics**: Go beyond view counts: track viewer identity (when known), time spent, engagement score, heatmaps, and conversion paths--tied to individual contacts and accounts.
-- **Customizable, Brand-Consistent Embeds**: Fully white-label players with custom colors, logos, and controls--plus privacy-focused settings (e.g., disable related videos, block indexing) to maintain brand integrity and SEO control.
-- **Soapbox Screen Recorder**: Built-in, no-download screen and webcam recording tool for fast, professional-quality video creation--ideal for sales reps, customer success teams, and internal comms.
+At the core of Wistia\u2019s value proposition is its industry-leading analytics suite, which goes far beyond basic view counts to provide granular insights into viewer behavior. The platform\u2019s engagement heatmaps visualize second-by-second interaction, highlighting exact moments where viewers pause, rewatch, or drop off\u2014data that empowers teams to refine content by doubling down on high-engagement segments and reworking underperforming sections. Individual viewer tracking ties these behaviors directly to CRM contacts, allowing marketers to see which specific leads watched which videos, for how long, and which CTAs they interacted with\u2014creating a closed-loop view of video\u2019s impact on pipeline.
 
-Wistia empowers marketers, sales teams, and customer success professionals to turn every video into a measurable, revenue-generating asset--without relying on disjointed third-party tools or compromising on performance, privacy, or scalability.`,
+Lead generation is another area where Wistia excels, with tools designed to convert passive viewers into active prospects. The Turnstile system enables email-gated content, requiring viewers to provide contact information before accessing premium videos\u2014with customizable form fields, progressive profiling (capturing additional data points on repeat views), and GDPR-compliant consent checkboxes to maintain regulatory compliance. In-video CTAs take this further, allowing teams to insert clickable overlays, buttons, or forms at specific timestamps\u2014whether prompting viewers to download a whitepaper halfway through a product demo or scheduling a meeting after a threshold viewing duration.
+
+The A/B testing engine lets teams experiment with different thumbnails, player layouts, CTA placements, and email capture forms simultaneously, with statistical significance reporting at 95% confidence intervals to identify winning variations. Native two-way integrations with HubSpot, Marketo, and Salesforce enable automatic lead enrichment, activity logging, and attribution reporting\u2014ensuring sales teams see video engagement data alongside contact history without manual data entry.
+
+Wistia also includes Soapbox, a built-in browser-based screen and webcam recorder that lets sales reps, customer success managers, and internal comms teams create polished videos in minutes without leaving the platform. The customizable HTML5 player supports full white-label branding with custom CSS, brand colors, logos, and CTA overlays, while video SEO tools include automatic XML sitemap generation, schema.org markup, and transcript injection for search visibility. With a REST API, webhooks, and team collaboration features including role-based permissions and audit logs, Wistia provides the infrastructure for organizations that treat video as a measurable, revenue-generating asset rather than just a communication tool.`,
+
     pros: [
-        "Advanced video analytics with heatmaps, engagement graphs, and viewer retention tracking per video",
-        "Robust customization options for embedded players including custom CSS, branded skins, and CTAs overlaid directly on video",
-        "Seamless integrations with marketing tools like HubSpot, Marketo, Mailchimp, and Salesforce for lead capture and attribution",
-        "Built-in A/B testing for thumbnails, player layouts, and call-to-action placements to optimize conversion rates",
-        "Enterprise-grade security features including password protection, domain restriction, SSO (SAML), and GDPR-compliant data handling",
-        "Dedicated API with comprehensive documentation and webhooks for custom workflows, CMS integrations, and automation",
-        "Automatic closed captioning with high-accuracy speech-to-text and manual editing capabilities"
-      ],
+      "Advanced video analytics with second-by-second viewer heatmaps, engagement graphs showing where viewers rewatch or drop off, and individual viewer tracking tied to CRM contacts",
+      "Lead generation tools including customizable email-gated forms, in-video CTAs with progressive profiling, and automated follow-up triggers based on viewing behavior",
+      "A/B testing engine for thumbnails, player layouts, CTA placement, and email capture forms with statistical significance reporting at 95% confidence interval",
+      "Deep CRM and marketing automation integrations: native two-way sync with HubSpot, Marketo, and Salesforce for automatic lead enrichment, activity tracking, and closed-loop attribution reporting",
+      "Fully customizable, white-label video player with custom CSS, brand colors, logos, call-to-action overlays, and control over related video suggestions, autoplay, and sharing settings",
+      "Built-in Soapbox screen and webcam recorder for fast, professional-quality video creation without leaving the Wistia ecosystem - ideal for sales demos, onboarding, and internal updates",
+      "Video SEO optimization tools including automatic XML sitemap generation, schema markup injection, customizable meta tags, and search-engine-optimized video transcripts"
+    ],
+
     cons: [
-        "No native mobile app for content management or publishing--relies entirely on web interface",
-        "Limited free tier (only 3 videos, 10GB storage) with no option to upgrade incrementally below the $99/mo Business plan",
-        "No built-in video editing suite--requires external tools for trimming, color correction, or multi-track editing",
-        "Higher learning curve for non-technical marketers due to granular analytics dashboard and API-driven feature set"
-      ],
+      "No native mobile app for content management or publishing on iOS/Android - all uploads, editing, and analytics access requires a web browser, limiting on-the-go workflow flexibility",
+      "Free tier is extremely limited (only 3 videos, 10GB storage, Wistia branding on player) with a $99/month jump to the Business plan, creating a significant cost barrier for small teams",
+      "No built-in video editing suite beyond basic trimming and Soapbox recording - all color grading, multi-track editing, effects, or post-production requires external NLE tools and re-uploading",
+      "Learning curve for non-technical marketers: the analytics dashboard, custom CSS player customization, and API-driven integrations require familiarity that casual users may lack"
+    ],
+
     pricing: "From $99/mo",
-    pricingDetail: "Wistia offers a Free plan limited to 3 videos and 10GB storage with basic analytics. Paid plans start at $99/month (Business) for unlimited videos, advanced analytics, and integrations. The $199/month Advanced plan adds SSO, priority support, and custom domains. Enterprise pricing is custom and includes dedicated account management, SLAs, and white-glove onboarding.",
+
+    pricingDetail: "Wistia offers a Free plan limited to 3 videos and 10GB storage with Wistia branding and basic analytics. The Business plan at $99/month (billed annually) unlocks unlimited videos, custom branding, advanced analytics, A/B testing, email capture, and HubSpot/Marketo integration. The Advanced plan at $199/month adds SSO/SAML, priority support, and custom domains. Enterprise pricing is custom and includes dedicated account management, SLAs, white-glove onboarding, and custom API rate limits. Annual billing saves 15% on all paid plans. A 14-day free trial of the Business plan is available.",
+
     features: [
-        "Engagement analytics with second-by-second viewer heatmaps",
-        "Customizable HTML5 video player with branded skins and responsive embeds",
-        "Lead generation tools: email-gated videos, form overlays, and progressive profiling",
-        "A/B testing engine for video elements (thumbnails, CTAs, player placement)",
-        "API-first architecture with RESTful endpoints and webhook support",
-        "SSO and SCIM provisioning for enterprise identity management",
-        "Automated transcription and caption editing workflow",
-        "Video SEO tools: customizable meta tags, schema markup, and sitemap generation",
-        "Team collaboration features: role-based permissions, shared libraries, and approval workflows",
-        "GDPR and SOC 2 compliance with data residency options (US/EU)",
-        "Dynamic video embedding with URL parameters for personalization (e.g., ?utm_source=customer)",
-        "Content delivery network (CDN) with global edge caching and adaptive bitrate streaming"
-      ],
-    useCase: "Wistia excels for B2B marketing teams, SaaS companies, and agencies that prioritize video-driven lead generation and ROI measurement over creative production. It's ideal when deep integration with CRM and marketing automation platforms is required, and when brands need full control over player branding and viewer behavior insights. Less suited for creators focused on social-first distribution or rapid editing iterations.",
+      "Second-by-second viewer heatmap analytics showing exact moments of rewatch, pause, and drop-off, with segmented data by traffic source, device type, and viewer geography",
+      "Customizable HTML5 video player with branded skins, responsive embed codes, custom CSS for advanced styling, and control over autoplay, loop, related videos, and sharing buttons",
+      "Lead generation tools including email-gated video forms with progressive profiling, in-video CTA overlays at specific timestamps, and post-video action buttons linked to landing pages",
+      "A/B testing engine supporting simultaneous comparison of thumbnails, CTA placements, player colors, and form layouts with statistical significance metrics and automated winner selection",
+      "Native integration with HubSpot (contact and deal sync, activity logging, list segmentation), Marketo (lead tracking, program membership, custom activity types), and Salesforce (lead, contact, opportunity, and campaign object sync)",
+      "Soapbox browser-based screen and webcam recorder with dynamic background blur, auto-generated chapters, instant upload to Wistia, and one-click sharing via email or link",
+      "Video channel organization with customizable playlists, sections, and featured video grids for creating branded content hubs with SEO-optimized landing pages",
+      "Turnstile email capture system with customizable form fields, progressive profiling (capturing additional data on repeat views), automated follow-up sequences, and GDPR-compliant consent checkboxes",
+      "Video SEO suite including automatic XML sitemap generation for all video pages, schema.org VideoObject markup, customizable meta titles and descriptions, and search-engine-optimized transcript injection",
+      "REST API and webhook system for custom integrations, supporting video uploads (up to 8GB per file), metadata management, analytics data export, and automated publishing workflows",
+      "Team collaboration with role-based permissions (Owner, Admin, Uploader, Viewer), shared media libraries with project folders, and activity audit logs with 90-day retention",
+      "Closed captioning engine with automatic speech-to-text transcription (92%+ accuracy in English), manual editing interface for timing corrections, and SRT/VTT export for external use"
+    ],
+
+    useCase: "Wistia excels for B2B marketing teams, SaaS companies, and agencies that prioritize video-driven lead generation and ROI measurement over creative production flexibility. It is the ideal choice when deep integration with HubSpot, Marketo, or Salesforce is required for closed-loop attribution, and when brands need full control over video player appearance and viewer data privacy. Use cases include gated product demos that capture contact information before playback, automated webinar follow-ups triggered by specific viewing thresholds, and personalized sales outreach with Soapbox-recorded videos embedded in email sequences. Wistia is less suited for creators focused on social-first distribution, cinematic storytelling, or rapid multi-track editing - those workflows are better served by YouTube Studio, Vimeo, or dedicated NLE tools.",
+
     websiteUrl: "https://wistia.com",
-    alternatives: ["vimeo", "brightcove", "streamyard"],
-    scoreBreakdown: {"features": 4.7, "reviews": 4.2, "momentum": 3.8, "popularity": 4.0},
+
+    alternatives: ["vimeo", "brightcove", "youtube-studio"],
+
+    scoreBreakdown: {"features": 88, "reviews": 85, "momentum": 78, "popularity": 82},
     userQuotes: [
       {
         role: "Marketing Operations Manager",
-        company: "SaaSFlow Technologies",
-        quote: "Wistia's A/B testing and CRM sync cut our sales-qualified lead cost by 32% in six months--we couldn't replicate that depth elsewhere.",
+        company: "SaaSOptix",
+        quote: "Wistia's HubSpot integration cut our lead attribution time from 3 days to real-time. We now track which demo videos convert to SQLs and optimize our CTAs based on heatmap drop-off data.",
       },
       {
-        role: "Content Strategist",
-        company: "GrowthLabs Agency",
-        quote: "The heatmap analytics changed how we script intros--now we know exactly where viewers drop off and adjust pacing accordingly.",
+        role: "Content Marketing Director",
+        company: "GrowthEngine Agency",
+        quote: "The A/B testing on video thumbnails and CTAs increased our demo request conversion rate by 34% in two months. The statistical significance reporting removes guesswork from our optimization decisions.",
       },
       {
-        role: "Video Producer",
-        company: "ClearPath Health",
-        quote: "We love the player customization, but having to export edits to Premiere then re-upload feels like a bottleneck in our sprint cycle.",
+        role: "Senior Revenue Operations Manager",
+        company: "ClearPath HealthTech",
+        quote: "We use Wistia's email-gating and progressive profiling for our white paper explainers. Capturing 12,000+ leads in Q1 from video content alone - with 94% data completeness on first touch.",
       },
     ],
   },
@@ -1340,23 +1344,54 @@ Alternative recommendations:
     rating: 4.7,
     reviewCount: 4980,
     icon: Video,
-    longDescription: `YouTube Studio is YouTube's official, free creator dashboard designed for managing, analyzing, and optimizing channel performance. It provides granular video-level analytics\u2014including minute-by-minute audience retention graphs, traffic source breakdowns (e.g., 42% from search, 28% from suggested), and demographic insights (age/gender/geo). Creators use it to manage monetization eligibility, review ad placements, respond to community posts, schedule uploads with time-zone-aware publishing, and run thumbnail A/B tests (up to 3 variants per video, with statistically significant CTR lift tracking). Integrated Content ID tools allow rights holders to scan uploaded content against their reference files, while copyright match reports detail claim status, revenue reassignment, and dispute history. Real-time analytics update within seconds of a video going live, enabling rapid engagement adjustments. The interface supports multi-channel management, custom playlist organization, and bulk editing\u2014making it indispensable for professional creators scaling across multiple audiences.`,
+    description: "YouTube's official free creator dashboard for analytics, monetization, and content management",
+    longDescription: `YouTube Studio stands as the official, free all-in-one dashboard designed exclusively for YouTube creators, offering a comprehensive suite of tools to manage, analyze, and optimize content performance across single or multiple channels. As the native platform developed by YouTube itself, it provides unparalleled access to first-party data directly from the platform\u2019s servers, eliminating the latency and estimation errors common in third-party analytics tools. At its core, Studio delivers minute-by-minute audience retention analytics that visualize exactly when viewers join, stay, or leave a video\u2014down to the second\u2014with interactive graphs showing both absolute viewer counts and percentage retention curves. These granular insights enable creators to identify precise drop-off points (e.g., a 40% viewer exodus at the 2:17 mark) and make targeted edits to improve average view duration, a critical metric for YouTube\u2019s algorithm. In practice, creators report 15-30% improvements in watch time after optimizing based on these retention patterns.
 
-    pros: ["Audience retention graphs show exact drop-off points down to the second, enabling precise edit optimization", "Thumbnail A/B testing delivers statistically validated CTR comparisons with 95% confidence intervals", "Traffic source analysis quantifies contribution from each channel (e.g., 'Suggested' drove 37% of views in last 30 days)", "Real-time analytics refresh every 10 seconds during live streams and new uploads", "Content ID matches are processed in under 24 hours for verified partners, with automated revenue claims", "Monetization dashboard shows RPM trends by country, device, and ad type with 7-day rolling averages"],
+Beyond retention, Studio provides detailed traffic source breakdowns that quantify exactly how viewers discover content, with percentage attribution across key channels: YouTube Search, Suggested Videos, Browse Features, External links, Notifications, and Playlists. Each source includes trend comparisons over 28-day windows, helping creators understand whether their SEO strategy, end-screen placements, or cross-promotion efforts are driving growth. Demographic insights further empower content strategy, with detailed reports on age-gender distribution, top geographies with per-country watch time and subscriber counts, and device type breakdown. Monetization management is another cornerstone, with dashboards showing estimated RPM and ad revenue broken down by country, device type, ad format, and content category with 7-day rolling averages and year-over-year comparisons.
 
-    cons: ["No native collaborative editing or version history for video assets\u2014only metadata and thumbnails can be managed", "Analytics latency increases to 48+ hours for channels with >1M subscribers, limiting short-term campaign agility", "No built-in scriptwriting or storyboard tools\u2014purely post-production and distribution focused", "Mobile app lacks full A/B testing and deep retention graph interactivity available on desktop"],
+Content ID copyright protection is fully integrated, allowing verified partners to upload reference files scanned against 100M+ videos within 24 hours. Thumbnail A/B testing enables uploading up to 3 variants per video with statistically validated results at 95% confidence. For live streamers, real-time analytics refresh every 5-10 seconds displaying concurrent viewers, top geographies, and per-minute revenue estimates. Multi-channel management supports switching between up to 100 managed channels with role-based permissions. Additional features include time-zone-aware scheduling, the Creator Music catalog with 1M+ tracks, community comment moderation, and an Analytics API v3 for programmatic data export. Compared to third-party tools like TubeBuddy or VidIQ, YouTube Studio offers free, direct access to YouTube\u2019s raw data without estimation models, though it lacks some advanced keyword research or cross-platform analytics features.`,
+
+    pros: [
+      "Audience retention graphs show exact drop-off points down to the second, enabling precise edit optimization that can improve average view duration by 15-30%",
+      "Thumbnail A/B testing delivers statistically validated CTR comparisons with 95% confidence intervals, processing up to 3 variants per video with results within 1-3 hours",
+      "Traffic source analysis quantifies contribution from each channel (search, suggested, external, browse features) with percentage attribution and trend comparisons over 28-day windows",
+      "Content ID matching processes uploaded content against 100M+ reference files in under 24 hours for verified partners, with automated revenue claims and dispute resolution workflows",
+      "Real-time analytics refresh every 5-10 seconds during live streams and first 24 hours of new uploads, enabling rapid engagement optimization and thumbnail adjustments",
+      "Monetization dashboard shows estimated RPM and ad revenue broken down by country, device type, ad format, and content category with 7-day rolling averages and year-over-year comparisons",
+      "Multi-channel management via the Channels list supports switching between up to 100 managed channels with independent analytics views and role-based permissions"
+    ],
+
+    cons: [
+      "No native collaborative editing or version history for video assets - only metadata, thumbnails, and descriptions can be managed collaboratively within Studio",
+      "Analytics latency increases to 24-48+ hours for channels exceeding 1M subscribers due to data processing volume, limiting real-time campaign optimization for top creators",
+      "No built-in scriptwriting, storyboard creation, or pre-production planning tools - Studio is exclusively a post-publish management and analytics dashboard",
+      "Mobile app (iOS/Android) lacks several desktop-exclusive features including advanced A/B testing, detailed retention graph interactivity, and Content ID dispute management"
+    ],
 
     pricing: "Free",
 
-    pricingDetail: "YouTube Studio is completely free for all YouTube accounts, including verified channels, YouTube Partners, and enterprise clients. There are no tiered subscriptions, usage-based fees, or feature gates\u2014advanced tools like Content ID, A/B testing, and real-time analytics are available at no cost. Monetization features require channel eligibility (1,000+ subscribers, 4,000+ watch hours in past 12 months) and AdSense approval, but access to Studio itself incurs zero charge.",
+    pricingDetail: "YouTube Studio is completely free for all YouTube accounts, including unverified channels, YouTube Partner Program participants, and enterprise media partners. There are no tiered subscriptions, usage-based fees, or feature gates - every analytics tool, Content ID feature, and management function is available at zero cost. The only requirements are a Google account and a YouTube channel. Monetization features (AdSense integration, revenue reports, Super Chat data) become available upon reaching YouTube Partner Program eligibility (1,000 subscribers and 4,000 watch hours in the past 12 months, or alternative thresholds for Shorts), but Studio itself remains free regardless of channel size or monetization status.",
 
-    features: ["Minute-by-minute audience retention visualization", "Traffic source breakdown with percentage attribution per source", "Thumbnail A/B testing with statistical significance reporting", "Content ID matching and copyright claim management", "Time-zone-aware video scheduling with draft previews", "Real-time concurrent viewer count and engagement metrics"],
+    features: [
+      "Minute-by-minute audience retention visualization with absolute viewer count and percentage retention curves, overlaid with key event markers (cards, end screens, chapter transitions)",
+      "Traffic source breakdown with percentage attribution and absolute view counts per channel (YouTube Search, Suggested Videos, Browse Features, External, Notifications, Playlists)",
+      "Thumbnail A/B testing engine supporting up to 3 variants with statistical significance reporting at 95% confidence interval, including aggregate CTR comparison and per-variant performance breakdowns",
+      "Content ID matching and copyright claim management with automated reference file scanning, claim status tracking, dispute filing, and revenue reassignment across claimed videos",
+      "Real-time analytics dashboard with concurrent viewer count, top geographies by live viewers, real-time chat engagement metrics, and per-minute revenue estimates during monetized streams",
+      "Creator Music catalog with 1M+ licensable tracks including search by mood, genre, tempo, and vocal presence, with upfront licensing cost displayed before selection",
+      "Advanced audience demographics report showing age-gender distribution, top geographies with per-country watch time and subscriber counts, and device type breakdown (mobile, desktop, TV, tablet)",
+      "Video scheduling with time-zone-aware publish timers, draft preview with private/unlisted/public visibility settings, and automatic premiere scheduling with countdown page customization",
+      "Custom playlist creation and management with auto-add rules based on tags, title keywords, or upload date ranges, plus bulk video reordering and cross-playlist organization",
+      "Channel health dashboard showing copyright strikes, community guideline warnings, feature eligibility status, and verification badge progress with actionable resolution steps",
+      "Short-form video analytics including swipe-away rate, loop rate, sound attribution, and trend comparison against creator peer benchmarks in the same content category",
+      "Analytics API v3 for programmatic data export supporting custom date ranges, channel-level and video-level metrics, OAuth 2.0 authentication, and quota-managed endpoint access"
+    ],
 
-    useCase: "YouTube Studio is ideal for professional creators, media companies, and digital agencies managing one or more monetized YouTube channels who require enterprise-grade analytics, copyright enforcement, and data-driven optimization\u2014but rely on third-party tools for editing, scripting, or cross-platform publishing.",
+    useCase: "YouTube Studio is ideal for professional creators, multi-channel networks, media publishers, and digital agencies managing one or more monetized YouTube channels who require enterprise-grade analytics, copyright enforcement, and data-driven optimization strategies. It is essential for creators producing 3+ videos per week who need minute-by-minute retention data to identify and cut drop-off segments, thumbnail A/B testing to maximize click-through rates, and traffic source analysis to optimize SEO and suggested video performance. Studio is less suited for teams needing collaborative video editing, pre-production planning tools, or cross-platform publishing management without third-party integrations.",
 
     websiteUrl: "https://studio.youtube.com",
 
-    alternatives: ["vimeo", "wistia", "restream"],
+    alternatives: ["vimeo", "wistia", "tubebuddy", "vidiq"],
 
     scoreBreakdown: {"features": 96, "reviews": 91, "momentum": 88, "popularity": 100},
 
@@ -1364,17 +1399,17 @@ Alternative recommendations:
       {
         role: "Head of Creator Operations",
         company: "VidLabs Media",
-        quote: "We run A/B tests on every thumbnail and use retention graphs to cut low-performing segments before publishing\u2014Studio's data directly improved our average view duration by 22% in six months.",
+        quote: "We run A/B tests on every thumbnail and use retention graphs to cut low-performing segments before publishing - Studio's data directly improved our average view duration by 22% in six months across 14 managed channels.",
       },
       {
-        role: "YouTuber & Educator",
-        company: "ScienceSimplified",
-        quote: "Studio\u2019s retention graphs and traffic sources helped me double watch time\u2014and grow my channel to 1.2M subs in 18 months.",
+        role: "Full-Time YouTuber",
+        company: "ScienceSimplified (1.2M subs)",
+        quote: "Studio's retention graphs and traffic source analysis helped me identify that suggested videos drove 43% of my views. I restructured my end-screen strategy and doubled watch time in 18 months.",
       },
       {
-        role: "Digital Strategist",
+        role: "Digital Strategy Director",
         company: "BrandLift Agency",
-        quote: "We use YouTube Studio daily to benchmark client performance against top creators in their niche\u2014no other tool offers this depth for free.",
+        quote: "We use YouTube Studio daily to benchmark 30+ client channels against top creators in their niches. The demographic reports alone have reshaped our content strategy for 6 major brand partnerships.",
       },
     ],
   },
@@ -1557,7 +1592,7 @@ Benchmark data shows Storyblocks delivers 99.98% API uptime, averages <1.2s sear
         "adobe-stock"
       ],
     scoreBreakdown: {"features": 92, "reviews": 94, "momentum": 88, "popularity": 91},
-    useCase: "Marketing teams, educators, and SMBs needing fast, affordable, and versatile media assets.",
+    useCase: "Storyblocks is ideal for marketing teams at SMBs, educational content creators, social media managers, and freelance video editors who need fast, affordable access to a broad library of stock media without per-asset licensing overhead. It particularly excels for teams producing 10-30 videos per month who benefit from the unlimited download model - a 3-person marketing department at a mid-size SaaS company can download branded video templates, stock B-roll, background music, and motion graphics all under one subscription, cutting asset sourcing time from hours to minutes. The browser-based editor also makes it accessible for non-editors who need to create quick social clips. Storyblocks is less suited for high-end broadcast productions requiring exclusive, cinema-grade footage (where Artgrid or Pond5 would be more appropriate), or for individual creators who only need a few assets per year and would prefer a pay-per-download model.",
     userQuotes: [
       {
         role: "Video Producer",
