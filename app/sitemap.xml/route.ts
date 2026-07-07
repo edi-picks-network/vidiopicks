@@ -25,6 +25,7 @@ const BLOG_SLUGS = [
     "best-free-video-editing-software-2026-guide",
     "color-grading-beginners-guide-2026-davinci-premiere-fcp",
     "multi-platform-video-workflow-ai-tools-2026-diary",
+    "youtube-thumbnail-design-guide-2026-click-through-rate",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
