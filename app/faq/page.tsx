@@ -28,7 +28,7 @@ const FAQ_SCHEMA = {
       name: "How do I choose the right video editing tool for my content?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Consider: (1) Your content type — short-form vertical videos (TikTok/Reels), YouTube long-form, or professional productions. (2) Skill level — beginner-friendly tools like CapCut and iMovie vs professional suites. (3) Platform — mobile editing for on-the-go vs desktop for detailed work. (4) Features needed — green screen, motion tracking, color grading, text animations. (5) Budget — free tools like DaVinci Resolve are powerful but have learning curves; paid tools like Final Cut Pro offer streamlined workflows. Browse VidioPicks for detailed comparisons.",
+        text: "Consider: (1) Your content type — short-form vertical videos (TikTok/Reels), YouTube long-form, or professional productions. (2) Skill level — beginner-friendly tools like CapCut and iMovie vs professional suites. (3) Platform — mobile editing for on-the-go vs desktop for detailed work. (4) Features needed — green screen, motion tracking, color grading, text animations. (5) Budget — free tools like DaVinci Resolve are powerful but have learning curves; paid tools like Final Cut Pro offer streamlined workflows. Browse VidioPics for detailed comparisons.",
       },
     },
     {
@@ -84,7 +84,7 @@ const FAQ_SCHEMA = {
       name: "How do I ensure my video tools integrate well together?",
       acceptedAnswer: {
         "@type": "Answer",
-        text: "Check for: import/export compatibility (common codecs like H.264, ProRes, DNxHD), plugin ecosystems (After Effects plugins for Premiere, OpenFX for DaVinci), cloud storage integration (Google Drive, Dropbox, Frame.io), and API access for automation. Many modern tools support direct round-tripping — for example, editing audio in Adobe Audition from Premiere Pro, or sending color grades between DaVinci Resolve and Final Cut Pro via XML/EDL. VidioPicks lists integration details for every tool in our directory.",
+        text: "Check for: import/export compatibility (common codecs like H.264, ProRes, DNxHD), plugin ecosystems (After Effects plugins for Premiere, OpenFX for DaVinci), cloud storage integration (Google Drive, Dropbox, Frame.io), and API access for automation. Many modern tools support direct round-tripping — for example, editing audio in Adobe Audition from Premiere Pro, or sending color grades between DaVinci Resolve and Final Cut Pro via XML/EDL. VidioPics lists integration details for every tool in our directory.",
       },
     },
     {
