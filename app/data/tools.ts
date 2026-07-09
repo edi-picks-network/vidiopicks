@@ -426,26 +426,37 @@ Blender 4.2 (released August 2023) is a production-ready, open-source 3D creatio
     description: "Professional 3D modeling, animation, simulation, and rendering application known for intuitive interface and MoGraph tools.",
     longDescription: `Maxon Cinema 4D is a professional 3D modeling, animation, and rendering application widely adopted in broadcast design, motion graphics, advertising, and visual effects pipelines. Its hallmark MoGraph module enables procedural, non-destructive animation through effectors, cloners, and fields -- allowing artists to generate complex motion graphics systems (e.g., dynamic text animations, particle-driven geometry, or physics-based simulations) with minimal keyframing. Cinema 4D excels in real-time viewport performance thanks to its robust OpenGL-based viewport and native GPU-accelerated rendering via Redshift (bundled since R25). Tight integration with Adobe After Effects via Cineware enables round-trip workflow with live-linked 3D scenes, preserving layers, materials, and camera data. The software supports industry-standard formats including Alembic, USD, FBX, and OBJ, and includes advanced tools like Spline Dynamics for cloth-like behavior, Volume Builder for voxel-based modeling, and Node-based material editing (via the Material Nodes system introduced in S22). Its intuitive, customizable UI, consistent update cadence (with two major releases per year), and strong educational licensing make it especially accessible to studios scaling from small teams to enterprise broadcast environments.`,
     pros: [
-        "MoGraph toolkit enables rapid, parametric motion graphics creation without extensive keyframing",
-        "Cineware integration provides seamless, live-linked 3D compositing inside Adobe After Effects",
-        "Redshift renderer is bundled and fully integrated, offering production-ready GPU-accelerated rendering",
-        "Stable, crash-resistant architecture with optimized OpenGL viewport performance even on complex scenes"
+        "MoGraph toolkit enables rapid, parametric motion graphics creation with cloners, effectors, and fracture objects -- no manual keyframing needed for complex animations",
+        "Cineware integration provides seamless, live-linked 3D compositing inside Adobe After Effects preserving layers, cameras, lights, and materials",
+        "Redshift renderer is bundled and fully integrated, offering production-grade GPU-accelerated rendering with support for volumetrics, denoising, and distributed rendering",
+        "Stable, crash-resistant architecture with optimized OpenGL viewport performance even on complex scenes with millions of polygons",
+        "Node-based material editor enables PBR workflows, custom shader graphs, and texture baking for physically accurate surface results",
+        "Intuitive UI with consistent update cadence (two major releases per year) and strong educational licensing makes it accessible for studios scaling from small teams to enterprise broadcast environments",
+        "Spline Dynamics system enables physics-based cable, rope, and organic motion animation without manual keyframe placement"
       ],
     cons: [
-        "Limited character rigging and deformation tools compared to Maya or Blender, making it less suited for high-end character animation",
-        "No built-in simulation engine for advanced fluid or destruction effects -- relies on third-party plugins like X-Particles",
-        "Subscription-only licensing model (no perpetual license option since 2023) limits long-term cost predictability for some studios",
-        "Smaller third-party plugin ecosystem compared to Maya or Houdini, especially for VFX-specific toolsets"
+        "Limited character rigging and deformation tools compared to Maya or Blender, making it less suited for high-end character animation in film pipelines",
+        "No built-in simulation engine for advanced fluid or destruction effects -- relies entirely on third-party plugins like X-Particles or TurbulenceFD",
+        "Subscription-only licensing model starting at $94.99/month (no perpetual license option since 2023) limits long-term cost predictability for independent creators and small studios",
+        "Smaller third-party plugin ecosystem compared to Maya or Houdini, especially for VFX-specific toolsets like advanced particle systems or procedural destruction",
+        "No native Linux version restricts deployment options for studios using mixed-OS render farms or Linux-only pipelines",
+        "Real-time viewport performance degrades significantly when scene polygon count exceeds 5 million without manual LOD management or proxy object workflows"
       ],
     pricing: "Subscription",
-    pricingDetail: "Cinema 4D is available exclusively via subscription: $94.99/month or $999/year (billed annually); includes all updates, Redshift, and access to Maxon One cloud services. Educational licenses are available at a discounted rate for verified students and faculty.",
+    pricingDetail: "Cinema 4D is available exclusively via subscription: $94.99/month or $999/year (billed annually); includes all updates, Redshift GPU renderer, and access to Maxon One cloud services with 500GB storage. Educational licenses available at 50% discount for verified students and faculty. A 14-day fully functional trial is available. No perpetual license option since Maxon transitioned to subscription-only in 2023. Team and enterprise plans include centralized license management, SSO/SAML, and priority technical support at custom pricing.",
     features: [
-        "MoGraph: Procedural animation system with effectors, cloners, fracture objects, and field-driven controls",
-        "Redshift GPU Renderer: Fully integrated, physically-based renderer with support for volumetrics, denoising, and distributed rendering",
-        "Cineware: Direct After Effects plugin enabling live scene linking, layer preservation, and camera sync",
-        "Node-Based Materials: Visual shader editor supporting PBR workflows, custom node graphs, and texture baking",
+        "MoGraph: Procedural animation system with effectors, cloners, fracture objects, and field-driven controls for automated motion graphics",
+        "Redshift GPU Renderer: Fully integrated, physically-based renderer with support for volumetrics, denoising, distributed rendering, and multi-GPU setups",
+        "Cineware: Direct After Effects plugin enabling live scene linking, layer preservation, camera sync, and material round-tripping",
+        "Node-Based Materials: Visual shader editor supporting PBR workflows, custom node graphs, texture baking, and displacement mapping",
         "Volume Builder and Mesher: Voxel-based modeling tools for intuitive Boolean operations and topology-agnostic mesh generation",
-        "Spline Dynamics: Physics-based spline animation system for cables, ropes, and organic motion"
+        "Spline Dynamics: Physics-based spline animation system for cables, ropes, and organic motion with collision detection",
+        "Character Object and Toon Rig: Ready-to-use biped rig with IK/FK switching, auto-weight painting, and pose morph system",
+        "Fields and Falloffs: Advanced animation control via noise, color, and formula-based fields that drive effector weights and deformation strength",
+        "Scene Nodes: Non-destructive, node-based scene assembly system for complex procedural modeling and instancing",
+        "Take System: Multi-shot management with per-camera override, render settings variation, and automated shot iteration",
+        "Python API and C++ SDK: Full programmatic control for custom tools, pipeline integration, and batch processing",
+        "USD, Alembic, FBX, OBJ, and SVG import/export for cross-application pipeline compatibility"
       ],
     useCase: "Best for broadcast designers and motion graphics artists who need fast, reliable, and intuitive 3D motion graphics creation tightly integrated with Adobe After Effects.",
     websiteUrl: "https://www.maxon.net/en/cinema-4d",
@@ -474,26 +485,37 @@ Blender 4.2 (released August 2023) is a production-ready, open-source 3D creatio
     description: "Professional 2D animation software used by top studios for TV, film, and interactive content.",
     longDescription: `Toon Boom Harmony is the premier professional 2D animation software trusted by top-tier studios for broadcast, streaming, and feature production. Used on globally acclaimed series such as 'Rick and Morty', 'Bluey', 'The Legend of Korra', and 'Star Wars: The Clone Wars', Harmony delivers a unified pipeline spanning drawing, rigging, animation, compositing, and camera work -- all within a single, node-based environment. Its vector-and-bitmap hybrid drawing engine supports pressure-sensitive tablet input with onion skinning, multiplane camera rigs, and real-time preview rendering. The advanced rigging system includes bone-based deformation, inverse kinematics (IK), morph targets, and modular rig components that support non-linear animation editing. Harmony's node-based compositing workspace enables complex visual effects, dynamic masking, and layered blending modes -- fully integrated with the timeline and animation data. It supports industry-standard formats including FBX, Alembic, SVG, PSD, and MXF, and offers robust Python and C++ APIs for studio-level automation and pipeline integration. With dedicated modes for Storyboarding, Drawing, Animation, and Effects, Harmony scales from solo artists to large distributed teams using centralized project management and version-controlled asset libraries.`,
     pros: [
-        "Industry-proven reliability for high-stakes broadcast and streaming production",
-        "Node-based compositing tightly integrated with animation data -- enabling procedural VFX without external software",
-        "Advanced rigging with IK/FK switching, deformers, and reusable modular rigs optimized for TV episode turnover",
-        "Comprehensive multiplatform support including macOS, Windows, and Linux, plus native Apple Silicon acceleration"
+        "Industry-proven reliability for high-stakes broadcast and streaming production -- used on award-winning series like 'Rick and Morty', 'Bluey', and 'Star Wars: The Clone Wars'",
+        "Node-based compositing tightly integrated with animation data -- enabling procedural VFX, dynamic masking, and multi-layer compositing without external software",
+        "Advanced rigging system with IK/FK switching, mesh deformation, deformers, and reusable modular rigs optimized for TV episode turnover and season-long production cycles",
+        "Comprehensive multiplatform support including macOS, Windows, and Linux, plus native Apple Silicon acceleration for M-series chip users",
+        "Vector-and-bitmap hybrid drawing engine with pressure-sensitive tablet input, onion skinning, and real-time preview rendering for traditional and digital workflows",
+        "Multiplane camera rigs with depth-aware parallax, motion blur, and lens distortion controls for cinematic 2D camera moves",
+        "Python and C++ SDK for custom tool development, pipeline automation, and deep integration with studio asset management systems"
       ],
     cons: [
-        "Steep learning curve due to deep feature set and node-based workflow -- requires significant onboarding time for new animators",
-        "High system requirements: minimum 16GB RAM and dedicated GPU recommended; performance degrades on older hardware",
-        "Limited built-in audio editing tools -- voice-over syncing and sound design require round-tripping to DAWs like Pro Tools or Audition",
-        "No free tier or perpetual license option -- subscription-only model with no offline activation for enterprise deployments"
+        "Steep learning curve due to deep feature set and node-based workflow architecture -- requires significant onboarding time (typically 4-8 weeks) for new animators transitioning from simpler tools",
+        "High system requirements: minimum 16GB RAM and dedicated GPU recommended; performance degrades noticeably on hardware older than 3 years with complex rigs or heavy compositing",
+        "Limited built-in audio editing tools -- voice-over syncing, sound design, and audio post-production require round-tripping to dedicated DAWs like Pro Tools or Adobe Audition",
+        "No free tier or perpetual license option -- subscription-only model with minimum $29/month Essential tier and no offline activation for enterprise deployments",
+        "Rigging complexity can be overwhelming for solo creators or small studios producing simpler 2D content that doesn't leverage the full animation pipeline capabilities",
+        "Plugin ecosystem is smaller than CelAction or Moho, limiting third-party extension options for specialized effects or niche workflow automation"
       ],
     pricing: "From $29/mo",
-    pricingDetail: "Toon Boom Harmony offers three subscription tiers: Essentials ($29/month), Advanced ($59/month), and Premium ($99/month); annual billing provides 2 months free, and enterprise plans include SSO, centralized admin, and priority support.",
+    pricingDetail: "Toon Boom Harmony offers three subscription tiers: Essentials ($29/month per user, 25 concurrent projects, basic compositing), Advanced ($59/month per user, unlimited projects, full compositing, multi-user collaboration), and Premium ($99/month per user, all features including Python SDK, advanced effects, and priority support). Annual billing provides 2 months free across all tiers. Enterprise plans include SSO/SAML, centralized admin dashboard, dedicated onboarding, and custom SLA agreements. A 21-day free trial with full access to Premium features is available. No perpetual license or free tier is offered.",
     features: [
-        "Vector-and-raster hybrid drawing engine with pressure-sensitive brush controls and texture mapping",
-        "Smart rigging system with inverse kinematics, mesh deformation, and pose-to-pose interpolation",
-        "Node-based compositing workspace supporting dynamic masks, color correction nodes, and FX layers",
-        "Multiplane camera rig with depth-aware parallax, lens distortion, and motion blur controls",
-        "Python and C++ SDK for custom tool development, pipeline automation, and studio integration",
-        "Collaborative project management with centralized asset libraries, version history, and role-based permissions"
+        "Vector-and-raster hybrid drawing engine with pressure-sensitive brush controls, texture mapping, and real-time stroke preview",
+        "Smart rigging system with inverse kinematics, forward kinematics, mesh deformation, deformers, and pose-to-pose interpolation for seamless character animation",
+        "Node-based compositing workspace supporting dynamic masks, color correction nodes, FX layers, and multi-level blending modes for post-production effects",
+        "Multiplane camera rig with depth-aware parallax, lens distortion, motion blur controls, and multi-point tracking for cinematic 2D camera animation",
+        "Python and C++ SDK for custom tool development, pipeline automation, asset management integration, and studio-specific workflow scripting",
+        "Collaborative project management with centralized asset libraries, version-controlled timelines, role-based permissions, and distributed team workflows",
+        "Traditional animation tools including onion skinning, light table, x-sheet exposure management, and peg-based layer organization",
+        "Cut-out animation system with bone-based rigging, deformers, mesh warp, and automatic in-between generation for efficient TV-style production",
+        "Audio engine with waveform visualization, lip-sync detection markers, frame-accurate sound scrubbing, and multi-track audio timeline support",
+        "Effects library with 200+ built-in filters including particle systems, glow, blur, shadows, distortion, and stylized render presets",
+        "Export and compositing pipeline supporting Adobe After Effects Dynamic Link, OpenEXR multi-pass rendering, and Alembic scene export",
+        "Color management with ACEScg workflow support, custom palette libraries, and automatic color modeling for consistent branding across episodes"
       ],
     useCase: "Best suited for professional studios and freelance animators producing broadcast- or streaming-grade 2D animated series, explainer videos, and character-driven motion graphics requiring rig-based efficiency and compositing precision.",
     websiteUrl: "https://www.toonboom.com/products/harmony",
@@ -897,20 +919,23 @@ With enterprise-grade security, SOC 2 compliance, and scalable team plans, Runwa
     description: "Cutting-edge text-to-video and image-to-video generator focused on high-fidelity motion.",
     longDescription: `Pika Labs is a cutting-edge AI video generation platform designed for creators, developers, and enterprises seeking high-fidelity, controllable short-form video synthesis. Built on proprietary diffusion-based architectures fine-tuned for temporal coherence, Pika Labs supports multiple input modalities: text-to-video (T2V), image-to-video (I2V), and video-to-video (V2V) with precise motion control. Its latest model iteration (v1.5, released Q2 2024) achieves 1080p output resolution at up to 6 seconds duration per generation, with frame rates configurable between 12\u201330 FPS and consistent inter-frame PSNR >32 dB across synthetic motion benchmarks. Unlike many competitors relying on latent video diffusion with limited temporal conditioning, Pika employs a hybrid spatio-temporal attention mechanism\u2014integrating 3D convolutional kernels with cross-frame attention layers\u2014to preserve object identity and motion physics across sequences. Benchmarking against Sora (limited access), Runway Gen-3, and Kaedim shows Pika delivers 27% higher motion smoothness (measured via optical flow consistency score) and 41% faster inference latency on equivalent A100 hardware (median 9.2s vs. 15.6s for 4s/24fps clips). The platform exposes granular controls including motion intensity sliders (0\u2013100), camera path presets (pan, zoom, orbit), and mask-based region prompting for localized animation. It natively supports PNG sequence imports, alpha-channel preservation, and JSON-structured prompt engineering with weight syntax (e.g., "cyberpunk cityscape::1.4, rain reflections::0.8"). Pika Labs targets professional workflows where fidelity, repeatability, and integration matter: marketing teams generating social-first vertical ads (TikTok, Instagram Reels), indie game studios prototyping cutscenes, product designers animating UI mockups, and educators producing explainer content with consistent visual branding. Its API supports batch processing (up to 50 concurrent jobs), webhook callbacks, and metadata tagging for asset management. While not optimized for ultra-long-form output (>8s), Pika excels in the 2\u20136 second sweet spot demanded by performance-critical digital channels\u2014achieving 92% human preference rating in side-by-side A/B testing against top-tier alternatives for brand-aligned motion accuracy and artifact suppression. Integration is streamlined via REST API, Figma plugin, and upcoming Unreal Engine 5.3 native plugin (beta Q3 2024).`,
     pros: [
-        "Achieves 92.4% temporal consistency (measured by Fréchet Video Distance) across 6-second 1080p clips, outperforming Gen-3's 78.1% on the WebVid-10M benchmark",
+        "Achieves 92.4% temporal consistency (measured by Frechet Video Distance) across 6-second 1080p clips, outperforming Gen-3's 78.1% on the WebVid-10M benchmark",
         "Enables prompt chaining with sub-15-second turnaround per 3-second clip (avg. 12.7s on A100 GPUs), delivering 6.2x faster iteration than Gen-3's median 79.3s per clip",
-        "Offers a free tier granting 200 seconds/month of 1080p video generation--equivalent to 33x6s clips--with paid plans starting at $12/month for 600 seconds and enterprise SLA-backed uptime (99.95% over last 12 months)",
+        "Offers a free tier granting 200 seconds/month of 1080p video generation -- equivalent to 33x6s clips -- with paid plans starting at $12/month for 600 seconds and enterprise SLA-backed uptime (99.95% over last 12 months)",
         "Motion anchor maintains <2.3-pixel object position drift (measured via optical flow RMS error) over full 6-second sequences while enabling independent background motion up to 120 degrees rotational velocity",
-        "Hosts 12,400+ active Discord members with 97% response rate <5 minutes in #support; ships model updates every Tuesday, including 3 major architecture improvements (v1.3-v1.5) since Q1 2024"
+        "Hosts 12,400+ active Discord members with 97% response rate <5 minutes in #support; ships model updates every Tuesday, including 3 major architecture improvements (v1.3-v1.5) since Q1 2024",
+        "Image-to-video and video-to-video modes enable precise style transfer, re-animation, and content repurposing from existing visual assets",
+        "Camera path presets (pan, zoom, orbit, crane, dolly) provide cinematic control over virtual camera movement without manual keyframing"
       ],
     cons: [
-        "Pika Labs caps native video export at 1080p (1920x1080), with no option for true 4K (3840x2160) rendering--even when input prompts specify ultra-high-resolution output, as confirmed in v1.7.2 (tested March 2024).",
-        "Timeline editing is restricted to basic clip trimming, reordering, and concatenation; advanced functions like keyframe-based scaling, speed ramping, or layer compositing are absent--verified across 12 user workflow audits conducted in Q1 2024.",
-        "Identity consistency degrades significantly beyond 6 seconds: facial feature retention drops from 92% (at 4s) to 63% (at 8s) in controlled benchmark tests using standardized portrait prompts (n=47 clips, Pika v1.7.1, SSIM-based alignment metric)."
+        "Pika Labs caps native video export at 1080p (1920x1080), with no option for true 4K (3840x2160) rendering -- even when input prompts specify ultra-high-resolution output, as confirmed in v1.7.2 (tested March 2024).",
+        "Timeline editing is restricted to basic clip trimming, reordering, and concatenation; advanced functions like keyframe-based scaling, speed ramping, or layer compositing are absent -- verified across 12 user workflow audits conducted in Q1 2024.",
+        "Identity consistency degrades significantly beyond 6 seconds: facial feature retention drops from 92% (at 4s) to 63% (at 8s) in controlled benchmark tests using standardized portrait prompts (n=47 clips, Pika v1.7.1, SSIM-based alignment metric).",
+        "No native audio generation or lip-sync for voiceover -- audio must be added externally in a separate NLE, adding friction to the video production workflow for talking-head or narration-heavy content"
       ],
     pricing: "Freemium",
-    pricingDetail: "Free tier: 200 seconds/month at 1080p; Standard plan: $12/month (1,000 seconds); Pro plan: $28/month (unlimited seconds, priority queue, motion anchors); Annual billing offers 20% discount. All plans include access to v1.5 model with 1080p output and image-to-video.",
-    features: ["Text-to-video generation (up to 6 sec at 1080p/24fps)", "Image-to-video with motion control sliders", "Video-to-video style transfer and animation", "Motion anchor for object-locked animation", "Audio-to-video lip sync (WAV input, ±3 frame accuracy)", "Frame interpolation up to 60fps", "Camera path presets (pan, zoom, orbit, crane)", "Advanced prompt engineering with weight syntax", "Batch processing API (up to 50 concurrent requests)", "Discord bot for rapid prototyping"],
+    pricingDetail: "Free tier: 200 seconds/month at 1080p (33x6s clips), basic motion controls, standard queue with no watermark. Standard plan: $12/month (1,000 seconds, priority queue, motion anchors, API access). Pro plan: $28/month (unlimited seconds, highest priority queue, all camera presets, batch processing, Discord priority support). Annual billing offers 20% discount on all paid plans. All plans include access to v1.5 model with 1080p output and image-to-video. Enterprise plans with dedicated GPU clusters, custom model fine-tuning, and SLA-backed uptime (99.95%) are available at custom pricing through sales.",
+    features: ["Text-to-video generation (up to 6 sec at 1080p/24fps)", "Image-to-video with motion control sliders", "Video-to-video style transfer and animation", "Motion anchor for object-locked animation", "Audio-to-video lip sync (WAV input, +/-3 frame accuracy)", "Frame interpolation up to 60fps", "Camera path presets (pan, zoom, orbit, crane, dolly)", "Advanced prompt engineering with weight syntax", "Batch processing API (up to 50 concurrent requests)", "Discord bot for rapid prototyping", "PNG sequence import with alpha-channel preservation", "JSON-structured prompt templates with variable substitution for programmatic generation"],
     useCase: "Social media managers creating animated short-form vertical content (TikTok, Reels, Shorts) at scale, indie game studios prototyping cutscenes, product designers animating UI mockups, and educators producing consistent branded explainers.",
     websiteUrl: "https://pika.art",
     alternatives: ["runway-ml", "invideo-ai", "descript"],
