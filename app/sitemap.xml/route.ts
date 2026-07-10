@@ -28,6 +28,8 @@ const BLOG_SLUGS = [
     "best-ai-video-tools-for-marketing-in-2026",
     "youtube-thumbnail-design-guide-2026-click-through-rate",
     "cloud-video-editing-workflows-2026-remote-post-production",
+    "how-to-start-gaming-youtube-channel-tools-setup-2026",
+    "video-pre-production-tools-2026-scriptwriting-storyboarding",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
