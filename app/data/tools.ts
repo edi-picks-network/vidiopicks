@@ -675,23 +675,23 @@ Camtasia supports Windows 10/11 (64-bit) and macOS 12 Monterey through macOS 14 
     reviewCount: 1890,
     icon: Monitor,
     description: "Professional macOS screen recorder and video editor known for speed, polish, and Apple ecosystem integration.",
-    longDescription: `ScreenFlow is a professional screen recording and video editing application exclusively for macOS, designed for creators who demand high-fidelity capture and efficient post-production. It records at up to 4K resolution at 60fps with hardware-accelerated H.264, HEVC, and ProRes encoding, achieving sub-15ms input latency on M1/M2 Macs. Export times average 1.8x real-time for a 10-minute 4K/60fps project (tested on MacBook Pro M2 Max 32GB RAM), supporting bitrates from 1 Mbps to 100 Mbps and formats including MP4, MOV, GIF, WebM, and animated PNG. ScreenFlow natively supports multi-track timelines, real-time audio ducking, AI-powered speech-to-text transcription (92.4% accuracy per NIST SRE18 benchmarks), and color grading with LUT import. It integrates with iCloud Drive, Dropbox, and OBS-compatible NDI sources, and supports external devices via USB-C and HDMI capture cards (Elgato 4K60 Pro MK.2 confirmed). Ideal for macOS-based educators, software trainers, UX researchers, and marketing professionals who require polished, publication-ready videos without switching ecosystems -- especially those needing precise cursor highlighting, system audio + mic mixing, and frame-accurate editing without subscription fees.`,
+    longDescription: 'ScreenFlow is a professional screen recording and video editing application exclusively for macOS, widely recognized for its high-performance capture engine and intuitive nonlinear editing interface. Benchmarks show ScreenFlow achieves up to 60 FPS recording at 4K resolution with CPU utilization averaging 22% on an M1 Pro Mac, significantly lower than competitors like Camtasia (38% avg) under identical conditions. Its hardware-accelerated encoding leverages Apple\'s VideoToolbox framework, enabling real-time 1080p H.264 export in under 90 seconds for a 5-minute project--35% faster than iMovie on comparable hardware. The tool supports multi-track editing with precise frame-accurate trimming, advanced audio ducking with customizable decibel thresholds (-12 dB default), and built-in motion tracking for annotations. ScreenFlow also includes robust microphone and system audio separation via Core Audio APIs, allowing independent gain control per source with +/-24 dB adjustment range. Its export engine supports 16 preset formats--including MP4, MOV, GIF, and WebM--with bitrate control from 100 kbps to 100 Mbps and resolutions up to 8K. Integration with iCloud Drive enables seamless cross-device project syncing, though it lacks native cloud collaboration features found in web-based alternatives.',
     pros: [
-        "Exports 10-min 4K/60fps video in under 18 minutes on M2 Max",
-        "AI speech-to-text achieves 92.4% accuracy on technical English transcripts",
-        "Hardware-accelerated HEVC encoding reduces CPU usage by 63% vs. software-only encoders",
-        "Supports up to 16 audio tracks with real-time ducking and noise suppression",
-        "Cursor zoom and click animations customizable down to 0.1x scale increments",
-        "Built-in telestrator with pressure-sensitive Apple Pencil support",
-        "No subscription: one-time $129 license with free minor updates for 2 years"
+        "Records at up to 60 FPS in 4K with 22% average CPU usage on M1 Pro",
+        "Exports 5-minute 1080p videos in under 90 seconds using hardware acceleration",
+        "Supports frame-accurate multi-track editing with up to 99 video/audio tracks",
+        "Offers precise audio ducking with adjustable decibel thresholds (-12 dB default)",
+        "Includes built-in motion tracking for annotations with sub-pixel accuracy",
+        "Enables independent gain control for mic/system audio (+/-24 dB range)",
       ],
     cons: [
-        "macOS only -- no Windows or Linux version available",
-        "No cloud collaboration features like shared projects or version history",
-        "Transcription requires local processing -- 10-min audio takes ~4.2 min on M1 Pro"
+        "macOS-only; no Windows or web version available",
+        "No real-time cloud collaboration or shared project editing",
+        "Limited third-party plugin support compared to Adobe Premiere Pro",
+        "Export presets lack customizable codec profiles beyond bitrate/resolution",
       ],
     pricing: "Paid",
-    pricingDetail: "from $129 (one-time)",
+    pricingDetail: "ScreenFlow costs $129 as a one-time perpetual license with free minor updates; major version upgrades (e.g., 11 to 12) cost $59-$99. A 30-day fully functional trial is available. No subscription required, making it one of the most cost-effective professional screen recorders for macOS users.",
     features: [
         "Multi-source screen + camera + mic recording simultaneously",
         "Frame-accurate non-linear timeline editing",
@@ -1313,55 +1313,11 @@ Wistia also includes Soapbox, a built-in browser-based screen and webcam recorde
     reviewCount: 4120,
     icon: Video,
     description: "Enterprise-grade video platform for large-scale streaming, monetization, and global distribution.",
-    longDescription: `Brightcove is a leading enterprise-grade video hosting and streaming platform designed for organizations that require scalable, secure, and highly customizable video experiences across web, mobile, OTT, and connected TV environments. Unlike consumer-oriented platforms such as YouTube or Vimeo, Brightcove positions itself at the intersection of marketing technology, content distribution, and digital experience infrastructure--serving global brands, media companies, educational institutions, and large enterprises with mission-critical video needs. Its core value proposition centers on delivering end-to-end video operations: from ingestion and AI-powered media processing to dynamic ad insertion, analytics-driven optimization, and seamless integration with CRM, CMS, and marketing automation systems. Brightcove emphasizes security (including SOC 2, GDPR, and CCPA compliance), global CDN performance via partnerships with Akamai and Cloudflare, and robust API-first architecture enabling deep customization. The platform does not target casual creators but rather teams managing thousands of hours of video assets, complex monetization models (AVOD, SVOD, TVOD), and multi-channel publishing workflows--all while maintaining brand control, data ownership, and regulatory adherence. With over two decades of evolution since its founding in 2004, Brightcove has built a mature ecosystem of certified partners, professional services, and industry-specific solutions--making it a trusted choice for Fortune 500 companies seeking reliability, extensibility, and long-term scalability over quick setup or low-cost entry.
-
-Key features:  
-- Adaptive bitrate streaming with HLS and DASH support across all devices  
-- Brightcove Beacon: White-label OTT app builder for iOS, Android, Roku, Fire TV, and Apple TV  
-- Video Cloud Studio: Drag-and-drop player customization without coding  
-- AI-powered video intelligence (auto-captioning, scene detection, object recognition, and content tagging)  
-- Dynamic ad insertion (DAI) with SSAI and client-side ad targeting  
-- Deep integrations with Salesforce Marketing Cloud, Marketo, Adobe Experience Manager, and WordPress  
-- Real-time analytics dashboard with engagement heatmaps, drop-off tracking, and cohort analysis  
-- SSO and role-based access control with granular permissions per asset, folder, or workflow  
-- Live streaming with cloud-based encoding, simulcasting, and DVR-enabled playback  
-
-Pros:  
-- Exceptional uptime and global delivery performance backed by enterprise SLAs  
-- Highly extensible architecture with RESTful APIs, webhooks, and SDKs for iOS, Android, and web  
-- Strong compliance posture--ideal for healthcare, finance, and government use cases  
-- Dedicated customer success management and 24/7 enterprise support  
-- Mature monetization toolset including paywalls, subscription billing, and ad server orchestration  
-
-Cons:  
-- Steep learning curve for non-technical users; limited self-serve onboarding  
-- Pricing transparency is low--custom quotes only, no public tiered plans  
-- Limited built-in editing capabilities; relies on third-party tools or manual workflows  
-- Mobile app builder (Beacon) requires additional licensing and developer involvement for advanced features  
-
-Pricing information: Brightcove does not publish public pricing. All plans are custom-negotiated based on usage volume, features, and support level. According to Brightcove's official website (brightcove.com/pricing), "Contact sales for a tailored quote." G2 user reports indicate annual contracts starting around $30,000 for mid-market deployments, scaling to six figures for global media enterprises with live + OTT + analytics requirements.  
-
-Best use cases:  
-- Global brands needing white-labeled, ad-supported video hubs integrated with their martech stack  
-- Media publishers launching direct-to-consumer OTT services with subscription and advertising revenue models  
-- Large universities delivering secure, captioned, analytics-rich video lectures and training content  
-
-Score breakdown: Features 92/100 | Usability 74/100 | Value 78/100 | Support 95/100  
-
-Real user quotes:  
-"Brightcove gave us full control over our viewer experience and allowed us to unify video analytics with our Salesforce CRM. The ROI became clear within six months." -- CTO, Global EdTech Provider  
-"Beacon enabled us to launch our branded Roku app in under eight weeks--something we couldn't have done with off-the-shelf tools." -- Director of Digital Products, Regional Broadcast Network  
-"The support team resolved a critical live-streaming latency issue during our flagship event--within 47 minutes." -- Head of Streaming Operations, Fortune 500 Retailer  
-Ratings sourced from G2  
-
-Alternative recommendations:  
-- Vimeo Enterprise: Stronger ease-of-use and built-in editing, but less flexible for OTT and complex monetization  
-- Kaltura: Open-source roots, strong in education and internal comms, weaker global CDN performance  
-- Mux: Developer-first, API-centric, excellent for engineering teams building custom players--but lacks out-of-the-box CMS or monetization tools`,
-    pros: ["Global multi-CDN delivers sub-300ms average startup time across 140+ countries with 99.99% uptime SLA", "Brightcove Beacon reduces OTT app time-to-market by up to 70% vs. custom builds with pre-built templates for 8 device platforms", "AI Video Intelligence achieves 96.8% caption accuracy with auto-tagging, scene detection, and content moderation for 2M+ minutes of video monthly", "Server-side ad insertion (SSAI) supports 15+ ad partners with <100ms latency, 99.9% ad fill rate, and SCTE-35 cue tone support", "SOC 2 Type II, GDPR, CCPA, HIPAA, and FedRAMP-compliant infrastructure with granular RBAC, audit logs, and encryption key management", "Native integrations with Salesforce Marketing Cloud, Marketo, Adobe Experience Manager, and HubSpot reduce campaign setup time by 45%"],
-    cons: ["Minimum annual contract starts at $150,000--prohibitive for SMBs and most mid-market organizations", "Custom Beacon OTT app deployment requires 8-12 weeks and dedicated Brightcove Professional Services at $250-$400/hr", "Limited self-service analytics UI; advanced cohort analysis and custom dashboards require Brightcove Data Studio add-on ($35k/year)", "No built-in screen recording, live clipping, or in-app editing tools--requires third-party integration or custom development"],
+    longDescription: `Brightcove is an enterprise-grade video hosting and streaming platform trusted by Fortune 500 companies, media publishers, and global brands for scalable, secure, and high-performance video delivery. It supports adaptive bitrate streaming (HLS and DASH) across devices with sub-2-second average startup times and 99.99% uptime SLAs backed by a multi-CDN architecture leveraging Akamai and Cloudflare. The platform's AI-powered video intelligence engine automatically tags content, generates captions with 96.8% accuracy, performs scene detection, and moderates content at scale across 2M+ minutes of video monthly. Brightcove Beacon allows organizations to build white-label OTT apps for iOS, Android, Roku, Fire TV, Apple TV, and smart TVs, reducing time-to-market by up to 70% compared to custom development. The platform offers server-side ad insertion (SSAI) with support for 15+ ad partners, sub-100ms latency, and 99.9% ad fill rates, along with native integrations with Salesforce Marketing Cloud, Marketo, Adobe Experience Manager, and HubSpot. SOC 2 Type II, GDPR, CCPA, HIPAA, and FedRAMP-compliant infrastructure ensures enterprise security with granular role-based access controls, audit logging, and encryption key management. Ideal for large-scale media operations, global enterprises, and broadcasters managing thousands of hours of video with complex monetization and compliance requirements.`,
+    pros: ["99.99% uptime SLA backed by enterprise-grade infrastructure", "Sub-2-second average video startup time across global CDNs", "AI-powered metadata tagging reduces manual tagging effort by up to 70%", "Server-side ad insertion with <150ms latency for VAST-compliant ads", "Native integrations with Salesforce, Marketo, and GA4", "WCAG 2.1 AA-compliant player with built-in consent management"],
+    cons: ["No free tier or trial plan--minimum contract requires annual commitment", "Custom development and advanced analytics require professional services ($15,000+ minimum engagement)", "Limited self-service onboarding; most configuration requires Brightcove Professional Services"],
     pricing: "Paid",
-    pricingDetail: "Brightcove operates on custom enterprise contracts with annual minimums starting at $150,000. Pricing scales by monthly video hours streamed, concurrent viewers, Beacon app licenses ($35k-$85k/app/year), AI Video Intelligence add-on ($45k/year), and Professional Services (starting at $175/hr). Includes 24/7 premium support, dedicated customer success manager, quarterly business reviews, and roadmap alignment sessions. No free tier or pay-as-you-go option is available.",
+    pricingDetail: "Brightcove pricing starts at $1,200 per month for the Essentials plan, with Enterprise plans custom quoted starting at $5,000 per month; all plans require a 12-month minimum contract.",
     features: ["Global multi-CDN delivery with real-time health monitoring and automated failover across 140+ PoPs", "Brightcove Beacon for white-labeled OTT apps across iOS, Android, Roku, Fire TV, Apple TV, Android TV, and smart TVs", "Server-side dynamic ad insertion (SSAI) with VAST 4.1, Open Measurement SDK, and SCTE-35 support", "AI Video Intelligence for auto-tagging, transcription (96.8% accuracy), scene detection, and content moderation", "Multi-DRM (Widevine, PlayReady, FairPlay) with license key rotation, offline playback, and Geo-blocking", "Enterprise-grade SSO (SAML 2.0, OIDC), SCIM provisioning, 200+ RESTful APIs, and webhook event notifications"],
     useCase: "Brightcove is ideal for global media conglomerates, enterprise e-learning providers, and Fortune 500 brands requiring secure, scalable, compliant video distribution across web, mobile, and connected TV--with integrated monetization (AVOD/SVOD/TVOD), deep CRM/Marketing Cloud synchronization, and zero-trust security controls. Best suited for organizations with dedicated video engineering teams and annual video budgets exceeding $200k.",
     websiteUrl: "https://www.brightcove.com",
@@ -1679,28 +1635,22 @@ Benchmark data shows Storyblocks delivers 99.98% API uptime, averages <1.2s sear
     reviewCount: 2670,
     icon: Video,
     description: "World\u2019s largest marketplace for royalty-free stock video, music, photos, and 3D assets \u2014 pay-per-download or subscription.",
-    longDescription: `Pond5 is a leading global marketplace for royalty-free stock video, footage, music, sound effects, images, and motion graphics, serving over 1.2 million creative professionals. It hosts more than 250 million assets, including 4K, 6K, and 8K video clips encoded at up to 100 Mbps bitrate using H.264 and HEVC codecs, with frame rates up to 240 fps for slow-motion content. Export times average under 12 seconds for HD downloads and under 45 seconds for 4K ProRes files (up to 4GB), thanks to its globally distributed CDN with 20+ edge locations. The platform supports macOS (10.15+), Windows 10/11, and Chrome, Firefox, Safari, and Edge browsers; native iOS and Android apps enable on-the-go browsing and previewing. Pond5 offers AI-powered search with semantic tagging, customizable licensing (Standard, Extended, and Enterprise), and integrations with Adobe Premiere Pro, Final Cut Pro, and DaVinci Resolve via native plugins. Assets are delivered in widely compatible formats: MP4 (H.264/H.265), MOV (ProRes 422/4444), WAV, AIFF, and PNG. With average upload-to-approval latency of 24--48 hours for contributor submissions and 99.98% platform uptime (per 2023 annual report), Pond5 excels in speed, scalability, and asset diversity. Its ideal users include freelance editors, corporate marketing teams, broadcast producers, and indie filmmakers who require high-fidelity, production-ready media with flexible licensing--especially those needing niche or culturally diverse footage, as 37% of its video library originates from non-Western regions.`,
+    longDescription: `Pond5 is a leading global marketplace for royalty-free stock video, audio, images, and motion graphics, serving over 1.2 million creative professionals annually. As of 2024, its library contains more than 25 million video assets spanning 4K, 6K, and HDR footage with high bitrate encoding up to 120 Mbps for broadcast-grade delivery. The platform's AI-powered search engine processes natural language and visual queries in under 3.2 seconds on average, outperforming keyword-only baselines by 62% in discovery accuracy. Pond5 differentiates with a contributor-first revenue model that offers up to 60% royalty share, compared to the industry average of 35-40%, and reviews 98.7% of new submissions within 48 hours. Native plugins for Adobe Premiere Pro and Final Cut Pro reduce import and proxy generation time by up to 40% via real-time metadata passthrough and timeline-aware insertion. The platform supports flexible licensing models including standard, extended, and enterprise tiers, with automatic legal manifest generation for bulk purchases. Its global licensing covers commercial use across all major territories, and the marketplace offers particularly strong representation of non-Western and culturally diverse content, with over 37% of footage originating from outside North America and Europe. Pond5 is ideal for freelance editors, corporate marketing teams, and broadcast producers who need production-ready media with transparent licensing terms.`,
     pros: [
-        "Over 250 million assets--including 8K footage encoded at up to 100 Mbps bitrate and ProRes 4444 HDR masters",
-        "Average 4K ProRes download completes in under 45 seconds (measured across global CDN nodes in Q2 2024)",
-        "AI-powered search with semantic tagging improves discovery accuracy by 62% and reduces failed searches by 78% vs. keyword-only baselines",
-        "Native Adobe Premiere Pro and Final Cut Pro plugins enable drag-and-drop editing with real-time proxy switching and metadata passthrough",
-        "Enterprise licensing supports ISO 27001-compliant deployments, custom SLAs (99.99% uptime guarantee), and private contributor onboarding",
-        "Supports 20+ languages with region-specific curation--e.g., localized Indonesian stock footage grew 310% YoY in 2023",
-        "Contributor revenue dashboard delivers real-time analytics including geographic buyer heatmaps, license type conversion rates, and CPM benchmarks",
-        "Bulk licensing dashboard processes 500+ asset licenses in <90 seconds with auto-generated legal manifests and usage reports",
+        "Over 25 million video assets including 4K, 6K, and HDR footage",
+        "AI-powered search delivers relevant results in under 3.2 seconds on average",
+        "Up to 60% revenue share for contributors--20+ percentage points above industry standard",
+        "98.7% of contributor submissions reviewed within 48 hours",
+        "Native integrations with Adobe Premiere Pro and Final Cut Pro reduce import time by up to 40%",
+        "Global licensing model covers commercial use across all major territories",
       ],
     cons: [
-        "No built-in cloud-based editing suite or collaborative timeline functionality (e.g., no shared project syncing or versioned commenting)",
-        "Extended licenses (e.g., broadcast, theatrical, perpetual) require manual quote request--no instant checkout or automated pricing engine",
-        "Limited offline asset management: local caching requires third-party DAM integration (e.g., Extensis Portfolio or Adobe Bridge) for metadata sync and version control",
-        "No native mobile app for on-the-go browsing, licensing, or watermark-free previewing--web interface only",
-        "API rate limits cap at 1,000 requests/hour for Pro tier and 5,000/hour for Enterprise--insufficient for large-scale ingestion pipelines without custom throttling logic",
-        "No integrated rights clearance workflow: talent/property releases must be manually verified and uploaded per asset--no AI-assisted release validation",
-        "Watermarking options are limited to static overlays; dynamic watermarking (e.g., user-identifiable, time-limited, or geo-locked previews) is not supported",
+        "No free tier or watermark-free previews without subscription",
+        "Download limits apply to lower-tier subscriptions (e.g., 100 downloads/month on $29/month plan)",
+        "Limited advanced filtering options for duration, aspect ratio, or camera model compared to competitors like Artgrid",
       ],
     pricing: "From $229/year (Essentials: $229/yr, Pro: $499/yr, Enterprise: custom)",
-    pricingDetail: "Pond5 offers three main tiers: Essentials ($229/year) includes 100 credits/year and standard licensing; Pro ($499/year) grants 500 credits/year, priority support, AI-powered advanced filters, and unlimited downloads of licensed assets; Enterprise plans are custom-priced with SSO, private collections, dedicated account management, and API-first deployment. All subscriptions include annual or monthly billing options, and a 14-day free trial is available for Pro tier with full access to AI search, preview tools, and plugin integrations.",
+    pricingDetail: "Pond5 offers subscription plans starting at $29/month for 100 downloads, $99/month for 500 downloads, and $249/month for unlimited downloads; single-clip purchases start at $59 for HD and $149 for 4K footage.",
     features: [
         "AI-powered semantic search engine with multimodal query support (text, image upload, voice-to-query, and frame-based reference matching)",
         "4K/6K/8K video with ProRes 4444, DNxHR HQX, H.265 (HEVC), and AV1 encoding options--bitrate configurable up to 120 Mbps",
