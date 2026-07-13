@@ -30,6 +30,7 @@ const BLOG_SLUGS = [
     "cloud-video-editing-workflows-2026-remote-post-production",
     "how-to-start-gaming-youtube-channel-tools-setup-2026",
     "video-pre-production-tools-2026-scriptwriting-storyboarding",
+    "best-ai-video-generation-tools-2026-comparison",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
