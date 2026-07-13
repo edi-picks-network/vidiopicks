@@ -40,3 +40,6 @@ append_blog.py
 package.json
 package-lock.json
 tsconfig.json
+
+*.py
+*.json
