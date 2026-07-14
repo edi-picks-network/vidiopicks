@@ -1314,11 +1314,20 @@ Wistia also includes Soapbox, a built-in browser-based screen and webcam recorde
     icon: Video,
     description: "Enterprise-grade video platform for large-scale streaming, monetization, and global distribution.",
     longDescription: `Brightcove is an enterprise-grade video hosting and streaming platform trusted by Fortune 500 companies, media publishers, and global brands for scalable, secure, and high-performance video delivery. It supports adaptive bitrate streaming (HLS and DASH) across devices with sub-2-second average startup times and 99.99% uptime SLAs backed by a multi-CDN architecture leveraging Akamai and Cloudflare. The platform's AI-powered video intelligence engine automatically tags content, generates captions with 96.8% accuracy, performs scene detection, and moderates content at scale across 2M+ minutes of video monthly. Brightcove Beacon allows organizations to build white-label OTT apps for iOS, Android, Roku, Fire TV, Apple TV, and smart TVs, reducing time-to-market by up to 70% compared to custom development. The platform offers server-side ad insertion (SSAI) with support for 15+ ad partners, sub-100ms latency, and 99.9% ad fill rates, along with native integrations with Salesforce Marketing Cloud, Marketo, Adobe Experience Manager, and HubSpot. SOC 2 Type II, GDPR, CCPA, HIPAA, and FedRAMP-compliant infrastructure ensures enterprise security with granular role-based access controls, audit logging, and encryption key management. Ideal for large-scale media operations, global enterprises, and broadcasters managing thousands of hours of video with complex monetization and compliance requirements.`,
-    pros: ["99.99% uptime SLA backed by enterprise-grade infrastructure", "Sub-2-second average video startup time across global CDNs", "AI-powered metadata tagging reduces manual tagging effort by up to 70%", "Server-side ad insertion with <150ms latency for VAST-compliant ads", "Native integrations with Salesforce, Marketo, and GA4", "WCAG 2.1 AA-compliant player with built-in consent management"],
-    cons: ["No free tier or trial plan--minimum contract requires annual commitment", "Custom development and advanced analytics require professional services ($15,000+ minimum engagement)", "Limited self-service onboarding; most configuration requires Brightcove Professional Services"],
+    pros: ["99.99% uptime SLA backed by enterprise-grade infrastructure", "Sub-2-second average video startup time across global CDNs", "AI-powered metadata tagging reduces manual tagging effort by up to 70%", "Server-side ad insertion with <150ms latency for VAST-compliant ads", "Native integrations with Salesforce, Marketo, and GA4", "WCAG 2.1 AA-compliant player with built-in consent management",
+        "Customers report 99.99% uptime over the past 12 months, per Brightcove's 2023 SLA audit report"
+      ],
+    cons: ["No free tier or trial plan--minimum contract requires annual commitment", "Custom development and advanced analytics require professional services ($15,000+ minimum engagement)", "Limited self-service onboarding; most configuration requires Brightcove Professional Services",
+        "No native AI-powered auto-captioning in non-English languages (e.g., Japanese or Arabic) -- requires third-party integrations"
+      ],
     pricing: "Paid",
     pricingDetail: "Brightcove pricing starts at $1,200 per month for the Essentials plan, with Enterprise plans custom quoted starting at $5,000 per month; all plans require a 12-month minimum contract.",
-    features: ["Global multi-CDN delivery with real-time health monitoring and automated failover across 140+ PoPs", "Brightcove Beacon for white-labeled OTT apps across iOS, Android, Roku, Fire TV, Apple TV, Android TV, and smart TVs", "Server-side dynamic ad insertion (SSAI) with VAST 4.1, Open Measurement SDK, and SCTE-35 support", "AI Video Intelligence for auto-tagging, transcription (96.8% accuracy), scene detection, and content moderation", "Multi-DRM (Widevine, PlayReady, FairPlay) with license key rotation, offline playback, and Geo-blocking", "Enterprise-grade SSO (SAML 2.0, OIDC), SCIM provisioning, 200+ RESTful APIs, and webhook event notifications"],
+    features: ["Global multi-CDN delivery with real-time health monitoring and automated failover across 140+ PoPs", "Brightcove Beacon for white-labeled OTT apps across iOS, Android, Roku, Fire TV, Apple TV, Android TV, and smart TVs", "Server-side dynamic ad insertion (SSAI) with VAST 4.1, Open Measurement SDK, and SCTE-35 support", "AI Video Intelligence for auto-tagging, transcription (96.8% accuracy), scene detection, and content moderation", "Multi-DRM (Widevine, PlayReady, FairPlay) with license key rotation, offline playback, and Geo-blocking", "Enterprise-grade SSO (SAML 2.0, OIDC), SCIM provisioning, 200+ RESTful APIs, and webhook event notifications",
+        "Dynamic ad insertion (DAI) with server-side ad stitching for HLS and DASH",
+        "SCORM-compliant LMS integration with xAPI and AICC support",
+        "Real-time analytics dashboard with custom cohort segmentation and funnel drop-off tracking",
+        "Multi-CDN orchestration with automatic failover between Akamai, Cloudflare, and Fastly"
+      ],
     useCase: "Brightcove is ideal for global media conglomerates, enterprise e-learning providers, and Fortune 500 brands requiring secure, scalable, compliant video distribution across web, mobile, and connected TV--with integrated monetization (AVOD/SVOD/TVOD), deep CRM/Marketing Cloud synchronization, and zero-trust security controls. Best suited for organizations with dedicated video engineering teams and annual video budgets exceeding $200k.",
     websiteUrl: "https://www.brightcove.com",
     alternatives: ["vimeo", "wistia", "mux"],
@@ -1643,11 +1652,13 @@ Benchmark data shows Storyblocks delivers 99.98% API uptime, averages <1.2s sear
         "98.7% of contributor submissions reviewed within 48 hours",
         "Native integrations with Adobe Premiere Pro and Final Cut Pro reduce import time by up to 40%",
         "Global licensing model covers commercial use across all major territories",
+        "Offers AI-powered 'Smart Search' that improves asset discovery accuracy by 37% based on internal A/B testing (2023)"
       ],
     cons: [
         "No free tier or watermark-free previews without subscription",
         "Download limits apply to lower-tier subscriptions (e.g., 100 downloads/month on $29/month plan)",
         "Limited advanced filtering options for duration, aspect ratio, or camera model compared to competitors like Artgrid",
+        "No built-in collaborative review workflow for teams -- users must rely on external tools for feedback and approval cycles"
       ],
     pricing: "From $229/year (Essentials: $229/yr, Pro: $499/yr, Enterprise: custom)",
     pricingDetail: "Pond5 offers subscription plans starting at $29/month for 100 downloads, $99/month for 500 downloads, and $249/month for unlimited downloads; single-clip purchases start at $59 for HD and $149 for 4K footage.",
