@@ -31,6 +31,10 @@ const BLOG_SLUGS = [
     "how-to-start-gaming-youtube-channel-tools-setup-2026",
     "video-pre-production-tools-2026-scriptwriting-storyboarding",
     "best-ai-video-generation-tools-2026-comparison",
+    "best-free-video-editing-tools-2026-detailed-review",
+    "ai-video-captioning-tools-2026-comparison",
+    "video-collaboration-review-platforms-2026-frameio-wipster-vimeo",
+    "video-marketing-small-business-2026-tools-strategies",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
