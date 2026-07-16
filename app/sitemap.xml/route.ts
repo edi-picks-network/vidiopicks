@@ -35,6 +35,7 @@ const BLOG_SLUGS = [
     "ai-video-captioning-tools-2026-comparison",
     "video-collaboration-review-platforms-2026-frameio-wipster-vimeo",
     "video-marketing-small-business-2026-tools-strategies",
+    "podcast-recording-editing-tools-2026-comparison",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
