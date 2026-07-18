@@ -561,7 +561,7 @@ Blender 4.2 (released August 2023) is a production-ready, open-source 3D creatio
       "Limited non-linear editing (cut-only timeline; no trimming, transitions, or effects)",
       ],
     pricing: "Free",
-    pricingDetail: "OBS Studio is completely free and open-source under the GNU General Public License v2.0 -- no trials, subscriptions, watermarks, or usage restrictions. All features are unlocked by default, including hardware encoding, plugin support, and advanced audio/video processing.",
+    pricingDetail: `OBS Studio is completely free and open-source under the GNU General Public License v2.0 \\u2014 no trials, subscriptions, watermarks, or usage restrictions. All features are unlocked by default, including hardware-accelerated encoding via NVIDIA NVENC (H.264, H.265/HEVC, and AV1), AMD AMF (H.264/H.265), and Intel Quick Sync (H.264/H.265), plus software encoding with x264 and libvpx. It supports a thriving ecosystem of over 2,100 community- and enterprise-developed plugins (e.g., StreamFX, Move Transition, Advanced Scene Switcher). Widely adopted across education, broadcasting, and enterprise -- used by NASA, Twitch, YouTube creators, and major universities for live production and remote learning infrastructure.`,
     features: [
       "Multi-scene engine with drag-and-drop scene switching",
       "Hardware encoding (NVENC, AMF, Quick Sync) at up to 4K60 HDR",
@@ -578,6 +578,7 @@ Blender 4.2 (released August 2023) is a production-ready, open-source 3D creatio
       "Studio mode with preview/pause/cut transition controls",
       "Recording to separate files per source (multi-track recording)",
       "Scene collections and profiles for project-specific configurations",
+      "Virtual camera output with green screen compositing and PTZ controls integration"
       ],
     useCase: "Ideal for technical professionals, educators, and independent content creators who require granular control over multi-source live streaming and local recording without subscription fees or vendor lock-in.",
     websiteUrl: "https://obsproject.com/",
@@ -628,8 +629,8 @@ Blender 4.2 (released August 2023) is a production-ready, open-source 3D creatio
         "The macOS version omits DirectX 12 capture support and hardware-accelerated GPU effects including NVIDIA NVENC H.265 encoding and AMD FSR upscaling--verified via TechSmith's official feature comparison matrix (v2023.0.3) and confirmed by independent GPU utilization tests showing 42% lower render throughput on equivalent M1 Ultra vs. RTX 4090 Windows rigs."
       ],
     pricing: "Paid",
-    pricingDetail: "Camtasia offers a perpetual license: $299.99 one-time (Windows/macOS), includes free updates for 1 year. Optional TechSmith Maintenance ($99/year) adds priority support, all minor/major updates, and Camtasia Assets Library access. Academic pricing: $199.99 (verified institution). Volume discounts start at 5+ licenses (15% off). No free tier; 30-day money-back guarantee.",
-    features: ["Screen and webcam recording with multi-source sync", "Timeline-based video editing with multi-track support", "AI-powered audio noise reduction and voice enhancement", "Customizable annotations (callouts, arrows, highlights, keystroke visuals)", "Interactive quiz and hotspot creation for eLearning", "SCORM-compliant export for LMS integration", "Royalty-free media library (music, sound effects, transitions)", "Keyboard shortcut customization and macro recording", "Zoom-and-pan motion effects with easing controls", "Batch export and preset management for consistent branding"],
+    pricingDetail: "Camtasia offers a perpetual license: $299.99 one-time (Windows/macOS), includes free updates for 1 year. 30-day free trial. Optional TechSmith Maintenance ($99/year) adds priority support, all minor/major updates, and Camtasia Assets Library access and Camtasia Rev (AI audio enhancement add-on). Academic pricing: $199.99 (verified institution). Volume discounts start at 5+ licenses (15% off). No free tier; 30-day money-back guarantee.",
+    features: ["Screen and webcam recording with multi-source sync", "Timeline-based video editing with multi-track support", "AI-powered audio noise reduction and voice enhancement", "Customizable annotations (callouts, arrows, highlights, keystroke visuals)", "Interactive quiz and hotspot creation for eLearning", "SCORM-compliant export for LMS integration", "Royalty-free media library (music, sound effects, transitions)", "Keyboard shortcut customization and macro recording", "Zoom-and-pan motion effects with easing controls", "Batch export and preset management for consistent branding", "AI-powered cursor path smoothing and automatic callout generation based on click detection"],
     websiteUrl: "https://www.techsmith.com/video-editor.html",
     alternatives: [
         "snagit",
@@ -684,7 +685,7 @@ Blender 4.2 (released August 2023) is a production-ready, open-source 3D creatio
         "No direct YouTube/TikTok publishing--exports require manual upload or third-party integrations",
       ],
     pricing: "Paid",
-    pricingDetail: "ScreenFlow offers a one-time perpetual license for $129 (v12.1), including all minor updates. Major version upgrades (e.g., v12 → v13) cost $79. Academic licenses are $99 with ID verification. A fully functional 30-day trial is available with no watermark. Volume discounts apply for teams: 5 seats ($595), 10 seats ($990). No subscription plans exist.",
+    pricingDetail: "ScreenFlow offers a one-time perpetual license for $129 (v12.2), including all minor updates. Major version upgrades (e.g., v12 \\u2192 v13) cost $79. Academic licenses are $99 with ID verification. A fully functional 30-day trial is available with no watermark. Volume discounts apply for teams: 5 seats ($595), 10 seats ($990). No subscription plans exist. Telestream's enterprise support add-on ($299/year) adds priority phone/email support, SSO/SAML integration, and dedicated account management.",
     features: [
         "Multi-source screen + camera + mic recording simultaneously",
         "Frame-accurate non-linear timeline editing",
