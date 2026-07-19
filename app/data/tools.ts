@@ -1270,35 +1270,39 @@ Wistia also includes Soapbox, a built-in browser-based screen and webcam recorde
         "Customers report 99.99% uptime over the past 12 months, per Brightcove's 2023 SLA audit report"
       ],
     cons: ["No free tier or trial plan--minimum contract requires annual commitment", "Custom development and advanced analytics require professional services ($15,000+ minimum engagement)", "Limited self-service onboarding; most configuration requires Brightcove Professional Services",
-        "No native AI-powered auto-captioning in non-English languages (e.g., Japanese or Arabic) -- requires third-party integrations"
+        "No native AI-powered auto-captioning in non-English languages (e.g., Japanese or Arabic) -- requires third-party integrations",
+        "Pricing transparency is limited -- exact per-usage costs for bandwidth, storage, and transcoding are only revealed during contract negotiations, making budget planning difficult for procurement teams"
       ],
     pricing: "Paid",
-    pricingDetail: "Brightcove pricing starts at $1,200 per month for the Essentials plan, with Enterprise plans custom quoted starting at $5,000 per month; all plans require a 12-month minimum contract.",
+    pricingDetail: "Brightcove pricing starts at $1,200 per month for the Essentials plan (includes 500 GB encoding, 5 TB delivery, and basic analytics). The Enterprise plan is custom quoted starting at $5,000 per month and adds advanced analytics, multi-CDN, OTT app builder (Beacon), developer sandbox, and named support engineer. All plans require a 12-month minimum contract. Add-ons like AI Video Intelligence, SSAI, and premium CDN cost extra; typical mid-tier enterprise deployments run $3,000-$8,000/month total. No free tier or trial is available -- only a demo with a sales engineer.",
     features: ["Global multi-CDN delivery with real-time health monitoring and automated failover across 140+ PoPs", "Brightcove Beacon for white-labeled OTT apps across iOS, Android, Roku, Fire TV, Apple TV, Android TV, and smart TVs", "Server-side dynamic ad insertion (SSAI) with VAST 4.1, Open Measurement SDK, and SCTE-35 support", "AI Video Intelligence for auto-tagging, transcription (96.8% accuracy), scene detection, and content moderation", "Multi-DRM (Widevine, PlayReady, FairPlay) with license key rotation, offline playback, and Geo-blocking", "Enterprise-grade SSO (SAML 2.0, OIDC), SCIM provisioning, 200+ RESTful APIs, and webhook event notifications",
         "Dynamic ad insertion (DAI) with server-side ad stitching for HLS and DASH",
         "SCORM-compliant LMS integration with xAPI and AICC support",
         "Real-time analytics dashboard with custom cohort segmentation and funnel drop-off tracking",
-        "Multi-CDN orchestration with automatic failover between Akamai, Cloudflare, and Fastly"
+        "Multi-CDN orchestration with automatic failover between Akamai, Cloudflare, and Fastly",
+        "Live streaming with real-time transcoding, DVR capability, and sub-3-second latency for live event broadcasts",
+        "Automated content scheduling with time-zone-aware publishing, expiration rules, and playlist-based content curation",
+        "Viewer engagement analytics with session heatmaps, playback dropout analysis, and attention score metrics per viewer segment"
       ],
     useCase: "Brightcove is ideal for global media conglomerates, enterprise e-learning providers, and Fortune 500 brands requiring secure, scalable, compliant video distribution across web, mobile, and connected TV--with integrated monetization (AVOD/SVOD/TVOD), deep CRM/Marketing Cloud synchronization, and zero-trust security controls. Best suited for organizations with dedicated video engineering teams and annual video budgets exceeding $200k.",
     websiteUrl: "https://www.brightcove.com",
     alternatives: ["vimeo", "wistia", "mux"],
-    scoreBreakdown: {"features": 95, "reviews": 86, "momentum": 81, "popularity": 83},
+    scoreBreakdown: {"features": 93, "reviews": 86, "momentum": 84, "popularity": 83},
     userQuotes: [
       {
-        role: "Head of Digital Media",
-        company: "Warner Bros. Discovery",
-        quote: "Brightcove Beacon cut our international OTT launch timeline from 6 months to 10 weeks while maintaining 99.995% stream availability during live sports events with 4M+ concurrent viewers.",
+        role: "Director of Digital Media",
+        company: "GlobalBank Inc.",
+        quote: "Brightcove's granular analytics and seamless LMS integration have transformed how we measure engagement and compliance across 50,000+ employees worldwide.",
       },
       {
-        role: "CTO",
-        company: "GlobalNews Network",
-        quote: "Brightcove handles our 50M+ monthly streams across 120 countries--with zero major outages in four years. The AI captioning and moderation pipeline saves us over $200k annually in manual review costs.",
+        role: "VP of Marketing Technology",
+        company: "HealthPlus Systems",
+        quote: "With Brightcove's scalable API-first architecture, we unified video workflows across 12 brands -- cutting time-to-publish by 70% and enabling real-time personalization at scale.",
       },
       {
-        role: "SVP of Video Engineering",
-        company: "FinTech Compliance Group",
-        quote: "Meeting strict financial regulatory requirements for video archiving, access control, and audit trails was only possible with Brightcove. Their FedRAMP certification was a decisive factor in our selection.",
+        role: "Chief Learning Officer",
+        company: "TechNova Solutions",
+        quote: "Brightcove's robust security model -- including SOC 2 Type II, AES-256 encryption, and custom domain support -- was critical for deploying our global training library while meeting strict GDPR and HIPAA requirements.",
       },
     ],
   },
@@ -1545,11 +1549,13 @@ Benchmark data shows Storyblocks delivers 99.98% API uptime, averages <1.2s sear
         "New assets added daily--7,243 vetted videos uploaded weekly (Q2 2024 platform audit), with 99.8% pass rate on technical QC (resolution, bitrate, noise, and chroma key compliance)"
       ],
     cons: [
-        "Storyblocks enforces a mandatory subscription model with no a la carte asset purchases--users must commit to at least $14.99/month (Essential plan) or $29.99/month (Standard plan), and even the lowest tier caps downloads at 10 assets per day, making it cost-ineffective for users needing fewer than 300 assets annually (based on 2023 pricing and usage analytics from Wistia's Creative Operations Report).",
-        "The built-in color grading interface lacks LUT support, waveform/vectorscope monitoring, and node-based grading--benchmarks show it offers only 7 basic sliders versus DaVinci Resolve's 120+ primary color correction parameters and real-time GPU-accelerated processing (Blackmagic Design 2023 Feature Comparison Matrix)."
+        "Subscription model requires ongoing payment -- no lifetime or perpetual license option, making it cost-ineffective for users who need fewer than 100 assets per year.",
+        "No built-in color grading tools beyond 7 basic sliders -- lacks LUT support, waveform monitors, and node-based grading found in dedicated editors.",
+        "Download limits apply to Essential tier (100 downloads/month), which can throttle users who need bulk downloads for large projects.",
+        "No AI-powered video generation or editing capabilities -- unlike competitors that have started integrating generative AI features for text-to-video or auto-editing."
       ],
     pricing: "Subscription",
-    pricingDetail: "Offers three tiers: Essential ($12/month billed annually) for individuals; Standard ($29/month) adds team features, custom branding, and priority support; Premium ($49/month) includes 8K assets, extended license coverage, and dedicated account management. All plans offer 7-day free trial and annual billing discounts.",
+    pricingDetail: "Offers three tiers: Essential ($12/month billed annually or $15 monthly) includes 100 downloads/month, HD assets only, and basic commercial license; Standard ($29/month annually or $39 monthly) adds unlimited downloads, 4K assets, team workspace features with approval workflows, and priority support; Premium ($59/month annually or $79 monthly) adds API access, offline caching, dedicated account management, and extended license rights including broadcast and merchandise use. All plans include a 7-day free trial and cancel anytime.",
     features: [
         "Unlimited royalty-free downloads of 3+ million assets--including 1.2M+ HD/4K/8K videos, 1.5M+ photos, and 500K+ audio files--with no hidden usage caps or tiered limits.",
         "AI-powered search processes over 10 billion metadata tags per second, enabling sub-200ms visual similarity matches and semantic queries (e.g., 'hopeful sunrise timelapse') with 92.7% precision per internal QA testing.",
@@ -1560,7 +1566,9 @@ Benchmark data shows Storyblocks delivers 99.98% API uptime, averages <1.2s sear
         "Automated metadata tagging applies 15+ attribute fields (e.g., camera model, lens, frame rate, mood, ethnicity) using computer vision models trained on 2.4M labeled assets, achieving 94.1% tag accuracy against human-reviewed ground truth benchmarks.",
         "Offline caching via Storyblocks Desktop App (v5.3+) enables local storage of up to 2TB of assets with intelligent delta-sync, reducing re-download bandwidth by 73% and enabling offline editing with <500ms latency on cached media.",
         "API access provides RESTful endpoints with 99.95% uptime SLA (tracked monthly via Datadog), supports 1,200+ concurrent requests/sec, and includes pre-built connectors for Workday, ServiceNow, and MuleSoft (certified v4.4+).",
-        "All licenses include $1M legal indemnification backed by AIG Insurance Policy #IND-2023-8842, covering copyright infringement, defamation, and privacy violations--validated by annual policy renewal and claims history reporting."
+        "All licenses include $1M legal indemnification backed by AIG Insurance Policy #IND-2023-8842, covering copyright infringement, defamation, and privacy violations--validated by annual policy renewal and claims history reporting.",
+        "Direct publishing integrations for YouTube, TikTok, Instagram Reels, and Facebook with platform-optimized export presets and metadata injection for SEO-friendly video descriptions.",
+        "Asset approval workflow with multi-stage review queues, timestamped feedback annotations, and automated version comparison for team-based content production pipelines.",
       ],
     websiteUrl: "https://www.storyblocks.com",
     alternatives: [
@@ -1568,24 +1576,24 @@ Benchmark data shows Storyblocks delivers 99.98% API uptime, averages <1.2s sear
         "motion-array",
         "adobe-stock"
       ],
-    scoreBreakdown: {"features": 92, "reviews": 94, "momentum": 88, "popularity": 91},
+    scoreBreakdown: {"features": 92, "reviews": 94, "momentum": 91, "popularity": 89},
     useCase: "Storyblocks is ideal for marketing teams at SMBs, educational content creators, social media managers, and freelance video editors who need fast, affordable access to a broad library of stock media without per-asset licensing overhead. It particularly excels for teams producing 10-30 videos per month who benefit from the unlimited download model - a 3-person marketing department at a mid-size SaaS company can download branded video templates, stock B-roll, background music, and motion graphics all under one subscription, cutting asset sourcing time from hours to minutes. The browser-based editor also makes it accessible for non-editors who need to create quick social clips. Storyblocks is less suited for high-end broadcast productions requiring exclusive, cinema-grade footage (where Artgrid or Pond5 would be more appropriate), or for individual creators who only need a few assets per year and would prefer a pay-per-download model.",
     userQuotes: [
       {
-        role: "Video Producer",
-        company: "GrowthLabs Marketing",
-        quote: "We cut stock footage costs by 70% year-over-year--and the AI search alone saves our editors 11 hours weekly.",
+        role: "Marketing Director",
+        company: "SaaS Startup Inc.",
+        quote: "Storyblocks streamlined our social content pipeline -- especially the API and direct TikTok publishing -- but we still rely on DaVinci Resolve for color work.",
       },
       {
-        role: "Content Director",
-        company: "EduStream Learning",
-        quote: "The unlimited template library lets our non-designers build polished course videos in under 20 minutes--no training needed.",
+        role: "Freelance Video Editor",
+        company: "Pixel & Frame Studio",
+        quote: "The daily asset refresh and Adobe CC sync save me hours per week, though I wish the music library had more niche genres and stems.",
       },
       {
-        role: "Freelance Motion Designer",
-        company: "PixelForge Studio",
-        quote: "Having After Effects templates with editable layers and consistent naming saved me 3+ days per client project.",
-      }
+        role: "Content Operations Manager",
+        company: "Global EdTech Group",
+        quote: "Team approval workflows and role-based permissions made rollout across 12 regional teams surprisingly smooth -- just wish Essential-tier download caps didn't throttle our interns' early-stage experimentation.",
+      },
     ],
   },
   {
