@@ -4288,7 +4288,7 @@ Camtasia's new AI Voice Enhancer (v2026.1) edged out competitors in our noise-te
 **Is there a tool that integrates with Notion or Confluence?**
 Loom offers official two-way sync with Notion (embed videos, auto-update when Loom video changes) and Confluence (via macro plugin). Snagit exports directly to Confluence as annotated images or embedded MP4s. Others require manual uploads or Zapier bridges.
 
-Mia Torres is a Content Creator & Video Producer with over 8 years of experience producing tutorial content, software demos, and screencast videos for B2B SaaS companies. She specializes in screen capture workflows and video production pipelines.
+Mia Torres is a Content Creator & Video Producer with over 8 years of experience producing tutorial content, software demos, and screencast videos for SaaS and technology companies. She specializes in screen capture workflows and video production pipelines.
     `,
     author: "Mia Torres",
     authorRole: "Content Creator & Video Producer",
