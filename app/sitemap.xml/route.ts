@@ -36,7 +36,10 @@ const BLOG_SLUGS = [
     "video-collaboration-review-platforms-2026-frameio-wipster-vimeo",
     "video-marketing-small-business-2026-tools-strategies",
     "podcast-recording-editing-tools-2026-comparison",
-    "video-seo-guide-2026-optimize-videos-for-search",
+    "video-seo-guide-2026-optimize-videos-for-search"
+  "best-free-video-editors-2026-comparison",
+  "best-screen-recording-software-2026-comparison",
+  "handbrake-vs-ffmpeg-vs-shutter-encoder",,
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
