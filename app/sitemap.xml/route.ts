@@ -41,6 +41,7 @@ const BLOG_SLUGS = [
   "best-screen-recording-software-2026-comparison",
   "handbrake-vs-ffmpeg-vs-shutter-encoder",
   "ai-powered-video-tools-time-savers-2026",
+  "h266-vvc-vs-av1-vs-hevc-2026",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
