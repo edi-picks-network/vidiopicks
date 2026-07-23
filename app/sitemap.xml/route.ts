@@ -42,6 +42,7 @@ const BLOG_SLUGS = [
   "handbrake-vs-ffmpeg-vs-shutter-encoder",
   "ai-powered-video-tools-time-savers-2026",
   "h266-vvc-vs-av1-vs-hevc-2026",
+  "creating-video-course-2026-camtasia-capcut-screenflow",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
