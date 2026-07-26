@@ -43,6 +43,7 @@ const BLOG_SLUGS = [
   "ai-powered-video-tools-time-savers-2026",
   "h266-vvc-vs-av1-vs-hevc-2026",
   "creating-video-course-2026-camtasia-capcut-screenflow",
+  "video-marketing-funnel-strategy-2026-awareness-conversion",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",

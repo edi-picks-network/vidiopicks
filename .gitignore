@@ -42,4 +42,4 @@ package-lock.json
 tsconfig.json
 
 *.py
-*.json
+*.json.next_old/
