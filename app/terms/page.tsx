@@ -188,7 +188,6 @@ export default function TermsPage() {
               State of California, without regard to its conflict of law provisions. Any disputes
               arising under these Terms shall be resolved in the federal or state courts located
               in Cambridge, Massachusetts.</p>
-            </p>
           </section>
 
           <section>

@@ -44,6 +44,7 @@ const BLOG_SLUGS = [
   "h266-vvc-vs-av1-vs-hevc-2026",
   "creating-video-course-2026-camtasia-capcut-screenflow",
   "video-marketing-funnel-strategy-2026-awareness-conversion",
+  "best-free-video-editing-tools-beginners-2026",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
