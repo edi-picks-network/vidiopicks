@@ -195,7 +195,7 @@ export default function TermsPage() {
             <div className="mt-4 p-5 bg-[#0F1F2D] border border-[#1E3A5F] rounded-xl">
               <p className="mb-2"><strong className="text-[#F0F2FE]">Email:</strong> legal@vidiopicks.com</p>
               <p className="mb-2"><strong className="text-[#F0F2FE]">Support:</strong> support@vidiopicks.com</p>
-              <p><strong className="text-[#F0F2FE]">Address:</strong> VidioPicks LLC, 4 Cambridge Center, 7th Floor, Cambridge, MA 02142</p>
+              <p><strong className="text-[#F0F2FE]">Address:</strong> VidioPics LLC, 4 Cambridge Center, 7th Floor, Cambridge, MA 02142</p>
             </div>
           </section>
         </div>
