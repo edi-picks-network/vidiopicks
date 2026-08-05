@@ -5926,4 +5926,83 @@ The bottom line? AI video isn't magic--it's a collaborator with sharp edges and 
       "2026"
     ],
   },
+  {
+    slug: "color-grading-basics-beginners-guide-2026",
+    title: "Color Grading Basics: A Beginner's Guide for Video Editors in 2026",
+    excerpt:
+      "New to color grading? This beginner's guide walks you through scopes, shot matching, safe LUT use, and a repeatable grading workflow that makes any footage look cleaner -- written for editors in DaVinci Resolve, Premiere Pro, Final Cut Pro, and CapCut.",
+    content: `The difference between a YouTube video that looks "homegrown" and one that looks "produced" is rarely the camera -- it is the color grade. A consistent, thoughtful color grade is the single fastest way to make any footage feel more expensive. But for new editors, the color page is the most intimidating part of the timeline: endless scopes, confusing curves, and temptation to drag every slider until the image turns to mush.
+
+This guide is the color grading tutorial I wish I had when I started. It is written for beginners using DaVinci Resolve, Premiere Pro, Final Cut Pro, or CapCut, and it skips the theory you will never use. By the end you will know how to fix exposure, set white balance, match shots, and apply a tasteful look without wrecking your footage.
+
+## Understand the Color Page Before You Touch a Slider
+
+Every serious NLE has a color page, but they all work the same way underneath. The core idea is separation of concerns: you want to normalize the image first, then add a style. Correcting and stylizing are two different jobs, and if you do them in the wrong order you end up chasing your tail.
+
+In DaVinci Resolve this is the node tree. In Premiere it is Lumetri panels stacked top to bottom. In Final Cut it is the inspector plus a color board. Whichever tool you use, think of the workflow in four stages: exposure, white balance, contrast, and saturation -- always fixing problems before adding flavor.
+
+Resist the urge to color grade while it still looks dark or off-tint. A grade built on a broken image stays broken. Get the footage neutral first, then have fun.
+
+## Read Your Scopes, Not Your Eyes
+
+Your monitor lies. Brightness depends on your screen, your room lighting, and even the time of day. Your scopes do not. For a beginner, two scopes matter most.
+
+The waveform shows exposure across the frame, from black at the bottom to white at the top. Skin tones sit around 60 to 70 percent of the way up. The vectorscope shows color balance: when your image is neutral, the clusters stay near the center, and skin tone sits along the 11 o'clock line a little toward yellow. If the whole image leans one way, the trace moves off-center, and you push the tint back until it is centered again.
+
+I used to grade purely by eye for a year and I was wrong about half the time. Learning to read the waveform and vectorscope cut my corrections down from minutes to seconds and made my grades look consistent across dozens of videos.
+
+## Fix Exposure First with the Lift, Gamma, Gain
+
+Every correction starts with exposure. Use lift, gamma, and gain so you adjust the shadows, midtones, and highlights independently instead of shoving the whole image around.
+
+Set gain so highlights sit near the top of the waveform without clipping badly, set lift so shadows stay just above pure black rather than crushing, and then use gamma to push midtones where you want them. Two practical assignments: a flat, underexposed log clip needs gain raised and gamma lifted; an overexposed, blown-out clip needs gain pulled down before anything else.
+
+A common beginner mistake is doing everything with a single contrast or brightness slider and losing all control. Keep exposure and contrast as separate steps and your footage will stay cleaner.
+
+## White Balance with the Eyedropper as a Starting Point
+
+Tungsten and daylight cameras throw different tints at you depending on the light, so neutral white balance matters before you ever think about a "look."
+
+Most tools have a white balance eyedropper: click something that is actually white or neutral gray in the frame and the tool corrects the tint for you. Use that as your starting point, then nudge with temperature and tint to taste. Avoid clicking a highlight that is blown out or a cheek that contains real skin color -- you want a genuine neutral point, or you will introduce a wrong cast you then have to fight.
+
+Some editors grade "warm" on purpose, and that is fine for a style. But you should still know what neutral looks like so your warm is a deliberate choice and not an accident.
+
+## Match Your Shots Before You Stylize
+
+If you film your talking head, desk B-roll, and connection clips with different white balances or auto exposure, the edit jumps every time the angle changes. Shot matching is the invisible half of good color work.
+
+The fastest method is to place two clips side by side and match their waveforms. Lift each shot until shadows roughly align, gain until highlights align, then fix tint so the skin tones sit at the same spot on the vectorscope. DaVinci Resolve's "match frame" / shot match tools, Premiere's auto-match, and Final Cut's match color all give you a one-click starting point, but always verify by eye after they run.
+
+Aim for invisible, not impressive. If nobody can tell where one shot ends and the next begins, you have nailed shot matching.
+
+## Only After Correction, Add Your Look
+
+Now the fun part: lift the mood with one controlled creative grade instead of a pile of unrelated sliders. Try a simple, cinematic recipe: lift the shadows slightly toward blue or teal, warm up the highlights a notch, and pull saturation a touch for a filmic feel. Or for a clean social-media look, boost contrast and add a gentle vibrancy without going nuclear on the vectorscope.
+
+The secret is restraint. Keep skin tones from drifting too far, watch that the trace stays mostly inside the box on the vectorscope, and pull any one slider no more than a few percent. A subtle grade reads as professional; a heavy one reads as a filter.
+
+## Use LUTs and Presets as Shortcuts, Not Cheat Codes
+
+Ready-made LUTs and presets are tempting, and they are fine to use -- as a starting point. Drop the LUT on the clips first, then correct exposure and white balance underneath it. A LUT expects a clean, well-exposed input. If you feed it a muddy clip, you get a muddy LUT.
+
+For a beginner, I recommend one of two paths. Either learn to build your own looks with lift, gamma, gain and a vectorscope, or start from presets that are known to be flat enough to work on top of. Either way, your goal is to understand why the preset does what it does, so eventually you can recreate it blindfolded.
+
+## Grade at Export Resolution, and Check on Multiple Screens
+
+Color judgment changes with resolution and output. Grade in the timeline at your final delivery resolution, not at a low preview. A tiny preview window hides banding and noisy shadows that look bad on a big TV.
+
+Before you render, check the video on your phone and on a TV. Phone screens boost saturation and TVs crush shadows, so the exact same file can look different everywhere. If your grade looks good on a phone and a television without help, you have done your job.
+
+## A Simple Beginner Routine
+
+Here is the exact order I teach new editors. Correct exposure with lift, gamma, gain. Set white balance with the eyedropper, then adjust tint. Add contrast. Match every clip to your hero shot. Then, and only then, add one controlled look and check it on the vectorscope. Grade at final resolution, and preview on at least two screens before you render.
+
+Follow that order for a few weeks and color grading stops feeling like guesswork. Your videos will look noticeably cleaner, your skin tones will stay natural, and your edits will feel like one cohesive piece instead of a messy pile of clips -- which, for most creators, is worth more than a fancier camera ever was.`,
+    author: "Priya Nair",
+    authorRole: "Colorist and Video Editor",
+    date: "2026-08-06",
+    category: "Editing",
+    readTime: 9,
+    tags: ["color grading", "DaVinci Resolve", "Premiere Pro", "Final Cut Pro", "color correction", "video editing", "LUTs", "scopes", "editing workflow"],
+  },
 ];

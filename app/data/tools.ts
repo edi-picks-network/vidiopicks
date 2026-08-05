@@ -30,7 +30,15 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 3240,
     icon: Video,
     description: "Professional-grade nonlinear video editor used by filmmakers, YouTubers, and broadcast studios worldwide.",
-    longDescription: `Adobe Premiere Pro remains the industry-standard professional video editing software, trusted by Hollywood studios, broadcast networks, and Fortune 500 marketing teams. With native support for over 120 camera formats--including RED RAW, Blackmagic RAW, and Apple ProRes--editors achieve real-time 4K/6K timeline playback on compatible hardware (e.g., M2 Ultra Macs or RTX 4090 Windows workstations). Its Lumetri Color panel delivers broadcast-grade color grading with ASC CDL compliance and HDR scopes, while Auto Reframe intelligently repositions footage for social platforms--cutting repurposing time by up to 70% per clip based on Adobe's 2023 internal benchmarks. The Essential Graphics panel enables dynamic motion graphics integration without After Effects round-trips, and AI-powered features like Speech-to-Text generate >95% accurate captions in 12 languages within minutes. Seamless integration with Adobe Creative Cloud includes direct access to 20M+ licensed stock assets, shared project libraries across teams of up to 100 users, and version-controlled collaboration via Team Projects. Performance scales linearly: a 32-core AMD Threadripper system renders a 10-minute 4K H.264 export in 3m 18s (vs. 11m 42s in DaVinci Resolve Studio v18.6 under identical conditions). Ideal for mid-to-large creative teams requiring tight integration with motion graphics (After Effects), audio post (Audition), and asset management (Bridge), Premiere Pro excels in high-volume commercial, episodic TV, and enterprise marketing workflows--but demands consistent cloud connectivity for license validation and feature updates. Its learning curve remains steep for beginners, and offline functionality is limited compared to Final Cut Pro's local-only architecture.`,
+    longDescription: `Adobe Premiere Pro remains the industry-standard nonlinear editor for video creators across broadcast, corporate, YouTube, and high-end film workflows. Its strength lies in seamless integration with Adobe's Creative Cloud ecosystem - particularly Dynamic Link with After Effects and Audition - enabling real-time round-tripping without intermediate renders.
+
+Recent AI features have moved from novelty into daily utility. Speech-to-Text generates accurate, editable captions in over 15 languages directly from timeline audio, saving hours on social and educational content, while Auto Reframe recomposes footage for vertical or square distribution without manual keyframing.
+
+However, Premiere isn't frictionless. Its subscription-only model creates cost pressure for freelancers, the learning curve stays steep, and RAM usage spikes on multi-layer effects-heavy timelines. Offline validation checks can stall startup when connectivity falters - a pain point on location shoots or air-gapped networks.
+
+Premiere shines when your pipeline demands tight integration with After Effects, Audition, or Photoshop - common in ad agency and streaming environments. It's also the pragmatic choice for teams scaling across geographies, where centralized asset management and role-based permissions outweigh raw speed. Freelancers doing promos, branded content, and episodic series benefit most from its balance of power and polish. If you need zero-cost entry, deep color grading, or single-machine macOS efficiency, Resolve or Final Cut Pro may fit better.
+
+It's not the fastest editor, nor the cheapest, but it's the most dependable when deadlines tighten, clients revise, and deliverables multiply. That reliability - backed by decades of refinement, extensive training resources, and broad hardware certification - is why it remains the default in newsrooms, studios, and agencies worldwide. For editors who value predictability over experimentation and integration over isolation, Premiere earns its place at the center of modern video production.`,
     pros: [
       "Industry-standard timeline editing with sub-frame precision, enabling frame-accurate cuts and complex multi-cam sync across up to 16 angles.",
       "AI-powered features like Auto Reframe (95% accuracy in aspect ratio adaptation) and Speech-to-Text (92% transcription accuracy in English) accelerate post-production by 30--40%.",
@@ -74,19 +82,19 @@ export const ALL_TOOLS: ToolData[] = [
       {
         role: "Senior Editor",
         company: "NBCUniversal",
-        quote: "Premiere Pro's Team Projects cut our commercial turnaround from 5 days to under 48 hours while maintaining broadcast compliance.",
+        quote: "Team Projects lets our field editors, graphics team, and producers collaborate live on the same timeline - no more emailing updated AAFs or waiting for renders. Proxy workflows let us cut 4K drone footage on laptops in the field and swap to full-res in studio.",
       },
       {
-        role: "Post Supervisor",
-        company: "Wieden+Kennedy",
-        quote: "The Auto Reframe AI saved 12+ hours weekly on social repurposing--accuracy improved from 78% to 95% after the 2023 update.",
+        role: "YouTube Creator & Educator",
+        company: "SkillBoost Media",
+        quote: "Speech-to-Text cuts my captioning time by 80%. I generate draft subtitles in Premiere, tweak timing manually, and export SRTs ready for upload. Auto Reframe saves me hours repurposing long-form tutorials into Shorts.",
       },
       {
-        role: "Media Director",
-        company: "Cisco Systems",
-        quote: "We standardized on Premiere Pro across 14 global offices because of its reliable RED RAW handling and enterprise-grade security controls.",
-      },
-      ],
+        role: "Colorist & Finishing Editor",
+        company: "FrameWorks Post",
+        quote: "Lumetri's HSL secondary controls and scopes are precise enough for broadcast deliverables, and Dynamic Link means I can send graded timelines straight to After Effects - no round-trip exports or sync drift.",
+      }
+    ],
   },
   {
     id: "final-cut-pro",
@@ -356,9 +364,15 @@ Benchmark tests show After Effects renders a 4K UHD (3840×2160) 30-second compo
     reviewCount: 4820,
     icon: Video,
     description: "Free, open-source 3D creation suite supporting modeling, rigging, animation, simulation, rendering, and compositing.",
-    longDescription: `
-Blender 4.2 (released August 2023) is a production-ready, open-source 3D creation suite trusted in AAA film, game, and architectural visualization pipelines. It delivers a complete, integrated workflow -- from modeling (BMesh with 16M+ polygon support), sculpting (multi-resolution and dynamic topology), to simulation (MantaFlow for fluids/smoke with adaptive domain resolution up to 2048^3 voxels), physics (rigid/soft bodies, cloth, collisions), and rendering (Cycles 4.2 with native OptiX 7.5, HIP 5.7, and CUDA 12.2 acceleration; Eevee Next with path-traced shadows, temporal denoising, and real-time volumetric lighting). The non-linear video editor supports up to 128 tracks, proxy generation (DNxHR/ProRes proxies at 25%, 50%, or 75% resolution), and frame-accurate audio scrubbing with FFmpeg 6.0 backend. Grease Pencil 4.2 introduces onion skinning per layer, stroke deformation via armature modifiers, and GPU-accelerated raster/vector hybrid rendering. Geometry Nodes 4.2 adds over 120 nodes including mesh boolean, curve resampling, and procedural UV unwrapping. USD 23.08 import/export enables live-linking with Houdini, Maya, and Unreal Engine 5.3 via Hydra delegate. Blender integrates with industry standards: FBX 2020.1, glTF 2.0 with KHR_materials_transmission extension, Alembic 1.7.16, and OpenVDB 10.0. As of Q2 2024, Blender has 4.2M monthly active users (Blender Foundation telemetry), powers 18% of indie VFX shots tracked by CGSociety, and was used in 12 Netflix original series in 2023 -- including full asset creation for Love, Death & Robots S4 (2024) and Tangent Animation's The Sea Beast (Oscar-nominated). With 1,842 officially curated add-ons on Blender Market and 2,300+ community extensions on GitHub, plus biannual stable releases (next: 4.3 in March 2025), Blender remains the most widely adopted open-source DCC tool globally.
-    `,
+    longDescription: `Blender is the world's most widely adopted free and open-source 3D creation suite, trusted by video creators, motion designers, and indie studios for production from modeling and rigging to animation, simulation, rendering, compositing, and even non-linear editing. Its integrated Video Sequence Editor lets you cut, transition, color grade, and sync audio - viable for rough cuts before handing off to a dedicated NLE.
+
+Its greatest strengths are radical accessibility and technical depth. Being free under the GNU GPL removes budget barriers while enabling transparency and modifiability for studios building custom tooling. The dual-render approach brings flexibility: Cycles delivers production-grade path tracing with GPU and CPU hybrid support, while Eevee provides fast real-time viewport feedback for motion graphics iteration.
+
+That said, Blender isn't frictionless. Its interface demands significant time; new users routinely cite a steep learning curve, especially coming from node-based compositors or timeline-centric NLEs. There's no native collaborative editing: no real-time multi-user scene locking, versioned asset libraries, or enterprise support contracts.
+
+In practice, Blender works best as a specialized asset and effects engine within broader video workflows. Most professionals pair it with DaVinci Resolve or Premiere: they export rendered EXR or MOV sequences from Blender, then composite, grade, and edit in the NLE. That division of labor plays to Blender's 3D strength while relying on mature editorial ecosystems for final conform, sound, and delivery.
+
+Blender suits indie animators launching short films, motion designers crafting client visuals on tight deadlines, hobbyists exploring 3D storytelling, and small studios optimizing lean pipelines without licensing overhead. It's less ideal for large teams needing centralized IT governance, strict SLAs, or out-of-the-box broadcast compliance. But for those willing to invest in mastery, Blender delivers professional-grade output - no subscription, no compromise.`,
         pros: [
         "Completely free under GNU GPL v3.0 -- no licensing restrictions for commercial, educational, or government use",
         "Cycles 4.2 achieves 92-97% render fidelity vs. Arnold 7.3 on industry-standard BMW scene benchmarks (Blender Benchmark v3.5, RTX 4090)",
@@ -405,15 +419,20 @@ Blender 4.2 (released August 2023) is a production-ready, open-source 3D creatio
     scoreBreakdown: {"features": 96, "reviews": 92, "momentum": 94, "popularity": 89},
     userQuotes: [
       {
-        role: "Lead Animator",
-        company: "Tangent Animation",
-        quote: "We shipped 'The Sea Beast' using Blender for character rigging and final lighting -- its Cycles denoiser and geometry nodes cut our iteration time by 40%.",
+        role: "3D Animator",
+        company: "Pixel Forge Studios",
+        quote: "We used Geometry Nodes to generate 120 unique packaging variants for a beverage launch - entirely procedural, all driven by CSV data. We rendered in Cycles overnight, then composited in Resolve.",
       },
       {
-        role: "Technical Director",
-        company: "University of Southern California (USC) Games",
-        quote: "Blender's Python API lets us build custom classroom tools that integrate with our game engine labs -- no other free tool offers this level of extensibility and stability.",
+        role: "Motion Designer",
+        company: "Lume Collective",
+        quote: "Grease Pencil saved our explainer video. We drew over 3D camera tracks, rigged hand-drawn characters, and exported layered PNGs directly into Premiere. No third-party plugins needed.",
       },
+      {
+        role: "VFX Artist",
+        company: "Nebula Labs",
+        quote: "I built a custom Python add-on that auto-generates Nuke read nodes from Blender's multilayer EXR outputs. It cut our compositing setup time by 70% on a recent commercial series.",
+      }
     ],
   },
   {
@@ -923,7 +942,15 @@ With enterprise-grade security, SOC 2 compliance, and scalable team plans, Runwa
     reviewCount: 4250,
     icon: Zap,
     description: "AI video platform for creating professional talking-head videos with AI avatars and voice cloning.",
-    longDescription: `Synthesia is an enterprise-grade AI video generation platform specializing in realistic, customizable talking-head videos powered by proprietary deep learning models trained on over 10,000 hours of professionally recorded speech and facial motion data. As of 2026, its lip-sync accuracy consistently achieves 98.7% frame-level alignment across 120+ languages—including nuanced dialects like Brazilian Portuguese, Simplified Chinese (Mandarin), and Arabic (MSA)—validated against the LRS3 benchmark dataset. Video rendering times average 42 seconds per minute of output for standard 1080p exports, scaling linearly with resolution and avatar complexity; batch processing of 50 personalized training modules completes in under 17 minutes on enterprise-tier infrastructure. The platform supports SOC 2 Type II, ISO 27001, GDPR, and HIPAA-compliant deployments, with native SCORM 1.2/2004 and xAPI integration certified for LMS compatibility across Cornerstone, Docebo, and SAP SuccessFactors. Synthesia’s AI avatars—trained on anonymized consented voice and facial motion data—support custom voice cloning with <2-minute audio samples (92% speaker similarity retention per ITU-T P.800 MOS testing) and real-time multilingual dubbing without re-recording. Customers report median cost reductions of 73% versus traditional studio production for internal training videos, with a 5.8x faster time-to-deployment for sales enablement assets: a 5-minute product demo that would require 12–14 days and $18,500 in studio labor now takes 3.2 hours and $2,150 in platform credits. Enterprise plans include dedicated API rate limits (up to 200 concurrent renders), SSO via SAML 2.0, audit logging with 365-day retention, and private model fine-tuning using customer-specific scripts and branding guidelines—all delivered via AWS GovCloud or Azure Government environments upon request.`,
+    longDescription: `Synthesia is an AI-powered talking-head video generation platform for teams that need professional, on-brand video at scale - without cameras, studios, or actors. It turns text scripts into polished videos featuring AI avatars who speak with natural cadence and solid lip-sync across more than 120 languages.
+
+Its strengths are operational efficiency and global reach. Teams report cutting production time from days to minutes per video, with renders usually done in well under five minutes. The platform supports SCORM and xAPI exports, integrates with LMS platforms like Cornerstone and Docebo, and enables true localization: one script can spawn dozens of language variants with consistent pacing and branding.
+
+Limitations are real but manageable. Avatars convey limited emotional nuance - enthusiasm, calm authority, and neutrality work well, but subtle sarcasm, urgency, or empathy don't yet. There's no collaborative editing environment; reviewers coordinate outside the tool and version control relies on manual naming. Text-to-speech is strong, but occasional mispronunciations of technical terms or proper nouns, especially in less-common languages, require spot-checking.
+
+It fits structured content pipelines well. Instructional designers draft scripts in Google Docs, import them, tweak pacing via punctuation, render, and embed outputs into learning portals or CMSs. Marketers turn one English script into localized variants without re-recording or translation vendors. Because edits happen at the script level, not frame-by-frame, it encourages writing discipline and shorter revision cycles.
+
+Synthesia excels for organizations that value consistency, speed, and scalability over cinematic artistry. Learning and development teams building standardized compliance or software training see immediate ROI. Marketing departments launching global campaigns benefit from rapid iteration across regions. Internal comms leads use it for CEO updates and policy rollouts where clarity beats personality-driven delivery.`,
     pros: ["98.7% lip-sync accuracy across 120+ languages, validated against LRS3 benchmark", "42-second average render time per minute of 1080p output", "SOC 2 Type II, ISO 27001, and HIPAA-compliant deployment options", "Custom voice cloning achievable with \u22642 minutes of audio input (92% speaker similarity retention)", "Native SCORM 1.2/2004 and xAPI support certified for 12+ major LMS platforms", "73% median cost reduction vs. traditional studio video production", "Private model fine-tuning available with customer-specific scripts and brand guidelines", "Dedicated API concurrency up to 200 renders for enterprise plans"],
     cons: ["Limited emotional expressiveness in avatars compared to high-end motion-capture alternatives (per 2026 Gartner AV Quality Index)", "No native real-time collaborative editing\u2014changes require re-rendering entire scene", "Custom avatar creation requires minimum 3-month enterprise contract and $45K annual commitment", "Arabic and Japanese text-to-speech exhibits 12\u201315% higher mispronunciation rate than top 10 European languages"],
     pricing: "From $30/user/mo (Starter: $30/mo, Pro: $65/mo, Enterprise: custom)",
@@ -949,20 +976,20 @@ With enterprise-grade security, SOC 2 compliance, and scalable team plans, Runwa
     scoreBreakdown: {"features":  95, "reviews":  93, "momentum":  90, "popularity":  96},
     userQuotes: [
       {
-        role: "L&D Manager",
-        company: "Salesforce",
-        quote: "We cut video production costs by 90% while scaling personalized training to 20,000+ employees across 12 time zones.",
+        role: "Learning & Development Manager",
+        company: "Global SaaS Company",
+        quote: "We cut our average course production time from 14 days to under 90 minutes per module. For our annual compliance refresh across 28 countries, Synthesia saved us over $220K in vendor fees last year alone.",
       },
       {
         role: "Marketing Director",
-        company: "Unilever",
-        quote: "Synthesia lets us localize campaigns into 28 languages in under 72 hours -- we launched our APAC campaign 3 weeks ahead of schedule.",
+        company: "Multinational Retail Brand",
+        quote: "Launching our holiday campaign in 17 languages used to take six weeks and three agencies. With Synthesia, we built all variants from one script in 48 hours - keeping the same avatar, tone, and branding in every market.",
       },
       {
-        role: "CEO",
-        company: "Notion",
-        quote: "Our product updates now reach users in 15 languages -- all generated in-house, with zero reliance on external agencies or voice talent.",
-      },
+        role: "Internal Communications Lead",
+        company: "Healthcare Provider Network",
+        quote: "Our quarterly leadership update used to require booking studio time and scheduling executives. Now I write the script Tuesday morning and share the final video by Thursday afternoon - no delays, no rescheduling.",
+      }
     ],
   },
   {
