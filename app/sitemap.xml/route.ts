@@ -48,6 +48,7 @@ const BLOG_SLUGS = [
   "best-video-lighting-tools-2026-led-panels-ring-lights",
   "best-microphones-video-creators-2026-comparison",
   "state-of-ai-video-production-2026-creator-data-report",
+  "stock-footage-vs-motion-graphics-2026-creative-workflow-guide",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
