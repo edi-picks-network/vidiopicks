@@ -6173,4 +6173,35 @@ A: Very well. Import log-footage via Premiere, hand off selected shots to After 
     readTime: 8,
     tags: ["stock footage", "motion graphics", "After Effects", "Artgrid", "Storyblocks", "video workflow", "brand video", "creative production"],
   },
+  {
+    slug: "indie-filmmaker-toolkit-2026-editing-production-budget",
+    title: "Indie Filmmaker's Toolkit 2026: Editing and Production Tools on a Budget",
+    excerpt:
+      "A practical 2026 guide for solo and micro-crew filmmakers: which free and budget editing tools actually deliver (DaVinci Resolve, CapCut, Audacity), where to spend your first dollars on audio and lighting, and why pre-production planning beats gear shopping.",
+    content: `## The Gear Reality Check: Start Simple, Not Starving
+
+Let's be real: your first indie film won't need a $12,000 cinema camera. In 2026, smartphones with ProRes support and used mirrorless bodies like the Sony a6400 or Canon EOS M50 Mark II deliver stunning 4K footage for under $500. Prioritize audio: a $99 Rode VideoMic NTG captures clean dialogue far better than any built-in mic. Skip expensive lighting--bought a $35 LED panel and learn to bounce light off walls. Your biggest asset isn't gear--it's time, intention, and restraint.
+
+## Editing That Doesn't Break the Bank
+
+**DaVinci Resolve 19 is still king--and free.** Its color grading, Fusion VFX, and Fairlight audio suite rival paid software. Yes, it has a learning curve, but its node-based workflow teaches discipline. For faster cuts and social-first projects, **CapCut Desktop (2026 edition) shines**: intuitive drag-and-drop, AI-powered captioning, and solid multicam editing--all free. Need to upscale shaky phone footage? Topaz Video AI 5 runs locally on mid-tier laptops--but only use it after editing, not as a crutch for poor shooting.
+
+## Sound: Where Most First-Timers Fail
+
+Bad audio kills immersion faster than bad lighting. Resolve's Fairlight includes noise reduction, EQ, and loudness metering--but start with free tools like **Audacity (with the RNNoise plugin)** for quick cleanup. Record room tone on set, even for 30 seconds. Layer subtle foley using free libraries from BBC Sound Effects or Freesound.org. **Never rely solely on AI voice cloning**--it's improving, but still uncanny in dialogue-heavy scenes.
+
+## Pre-Production: Your Secret Budget Weapon
+
+Spend 70% of your prep time on shot planning--not gear shopping. Use free tools: **Shotlist Pro (web app)** for organizing sequences, **StudioBinder** for call sheets and script breakdowns, and **Canva** for storyboards. Block scenes by location and time of day to minimize setup. Shoot horizontal for festivals--then reframe for vertical social cuts. And always shoot B-roll before wrapping a scene. You'll thank yourself in the edit.
+
+## Final Verdict
+
+For solo or micro-crew filmmakers in 2026, **DaVinci Resolve remains the unbeatable core tool**--free, deep, and industry-respected. Pair it with CapCut for rapid drafts and Audacity for sound polish. Invest in audio gear first, then lighting, then camera. No tool replaces clarity of vision--your story, shot with care and edited with patience, will always outshine flashy specs.`,
+    author: "Marco Vane",
+    authorRole: "Indie Filmmaker and Editor",
+    date: "2026-08-09",
+    category: "Video Production",
+    readTime: 8,
+    tags: ["indie filmmaking", "budget video editing", "DaVinci Resolve", "CapCut", "Blender", "shot planning", "film production", "2026"],
+  },
 ];
