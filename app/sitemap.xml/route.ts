@@ -50,6 +50,7 @@ const BLOG_SLUGS = [
   "state-of-ai-video-production-2026-creator-data-report",
   "stock-footage-vs-motion-graphics-2026-creative-workflow-guide",
   "indie-filmmaker-toolkit-2026-editing-production-budget",
+  "premiere-pro-vs-camtasia-vs-blender-creators-2026",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",

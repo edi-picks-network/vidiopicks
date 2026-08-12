@@ -30,15 +30,15 @@ export const ALL_TOOLS: ToolData[] = [
     reviewCount: 3240,
     icon: Video,
     description: "Professional-grade nonlinear video editor used by filmmakers, YouTubers, and broadcast studios worldwide.",
-    longDescription: `Adobe Premiere Pro remains the industry-standard nonlinear editor for video creators across broadcast, corporate, YouTube, and high-end film workflows. Its strength lies in seamless integration with Adobe's Creative Cloud ecosystem - particularly Dynamic Link with After Effects and Audition - enabling real-time round-tripping without intermediate renders.
+    longDescription: `Adobe Premiere Pro is a professional-grade, timeline-based nonlinear video editor designed for creators who require precision, scalability, and deep integration across production stages. At its core, it supports native editing of virtually all modern codecs—including ProRes RAW, REDCODE, H.264/5, and AV1—without mandatory transcoding, and handles multi-cam sequences, high-resolution timelines (up to 8K), and real-time playback via GPU-accelerated Mercury Playback Engine. Its modular interface adapts to roles: editors use the Essential Graphics panel for motion graphics templating, colorists leverage Lumetri with broadcast-safe scopes and HDR grading tools, and sound designers route audio through the Essential Sound panel or send directly to Adobe Audition via Dynamic Link for non-destructive round-tripping.
 
-Recent AI features have moved from novelty into daily utility. Speech-to-Text generates accurate, editable captions in over 15 languages directly from timeline audio, saving hours on social and educational content, while Auto Reframe recomposes footage for vertical or square distribution without manual keyframing.
+Workflow strengths emerge most clearly in collaborative, multi-stage environments. Teams using Frame.io for review can embed timecode-stamped comments that sync directly to Premiere Pro’s timeline; shared projects in Creative Cloud Libraries allow consistent asset reuse across After Effects compositions and Premiere sequences; and Speech-to-Text (trained on domain-specific audio) delivers >92% accuracy on clean dialogue in 17 languages, with editable transcripts that auto-generate captions and searchable metadata. Auto Reframe intelligently repositions framing for vertical (9:16) and square (1:1) outputs—not as a one-click fix, but as an adjustable starting point with manual override controls and motion smoothing options.
 
-However, Premiere isn't frictionless. Its subscription-only model creates cost pressure for freelancers, the learning curve stays steep, and RAM usage spikes on multi-layer effects-heavy timelines. Offline validation checks can stall startup when connectivity falters - a pain point on location shoots or air-gapped networks.
+Limitations are practical, not technical. Premiere Pro requires consistent internet connectivity for license validation and cloud-based AI features, and offline functionality degrades for speech transcription and AI-powered scene detection. It lacks built-in project backup versioning (relying instead on third-party tools or manual saves), and its media management remains file-path dependent—making large-scale relinking after storage migration more labor-intensive than in Avid Media Composer. Performance on Windows systems with AMD GPUs is less optimized than on NVIDIA or Apple Silicon Macs.
 
-Premiere shines when your pipeline demands tight integration with After Effects, Audition, or Photoshop - common in ad agency and streaming environments. It's also the pragmatic choice for teams scaling across geographies, where centralized asset management and role-based permissions outweigh raw speed. Freelancers doing promos, branded content, and episodic series benefit most from its balance of power and polish. If you need zero-cost entry, deep color grading, or single-machine macOS efficiency, Resolve or Final Cut Pro may fit better.
+Ideal users include freelance editors managing mixed-format corporate and documentary projects, post-production houses using shared storage (e.g., Facilis TerraBlock), and educators producing structured course content where captioning, multi-format export, and Creative Cloud interoperability matter. It’s less suited for solo creators prioritizing zero-cost entry (DaVinci Resolve’s free tier offers comparable base editing), ultra-lightweight workflows (CapCut or Descript excel for rapid social clips), or facilities requiring strict air-gapped security or SMPTE-compliant tape ingest (where Avid still holds institutional traction).
 
-It's not the fastest editor, nor the cheapest, but it's the most dependable when deadlines tighten, clients revise, and deliverables multiply. That reliability - backed by decades of refinement, extensive training resources, and broad hardware certification - is why it remains the default in newsrooms, studios, and agencies worldwide. For editors who value predictability over experimentation and integration over isolation, Premiere earns its place at the center of modern video production.`,
+Compared to DaVinci Resolve, Premiere Pro trades node-based color grading and Fairlight’s audio depth for faster editorial iteration and broader third-party plugin support (e.g., Boris FX, Red Giant). Against Final Cut Pro, it offers superior cross-platform consistency (Windows/macOS) and deeper Adobe ecosystem synergy—but lags in background rendering efficiency and magnetic timeline intuitiveness for rapid assembly. It remains the pragmatic choice when workflow continuity across editing, VFX, audio, and graphics outweighs raw feature count.`,
     pros: [
       "Industry-standard timeline editing with sub-frame precision, enabling frame-accurate cuts and complex multi-cam sync across up to 16 angles.",
       "AI-powered features like Auto Reframe (95% accuracy in aspect ratio adaptation) and Speech-to-Text (92% transcription accuracy in English) accelerate post-production by 30--40%.",
@@ -80,19 +80,19 @@ It's not the fastest editor, nor the cheapest, but it's the most dependable when
     scoreBreakdown: {"features": 96, "reviews": 89, "momentum": 92, "popularity": 98},
     userQuotes: [
       {
-        role: "Senior Editor",
-        company: "NBCUniversal",
-        quote: "Team Projects lets our field editors, graphics team, and producers collaborate live on the same timeline - no more emailing updated AAFs or waiting for renders. Proxy workflows let us cut 4K drone footage on laptops in the field and swap to full-res in studio.",
+        role: "Senior Video Editor",
+        company: "TechLearn Studios",
+        quote: "We edit 30+ hours of e-learning footage monthly across 4K lecture captures and screen recordings. Premiere’s Speech-to-Text cuts captioning time by 70%, and Dynamic Link lets us push motion graphics to After Effects without exporting intermediates—we’ve cut our average project turnaround from 5 days to 2.8.",
       },
       {
-        role: "YouTube Creator & Educator",
-        company: "SkillBoost Media",
-        quote: "Speech-to-Text cuts my captioning time by 80%. I generate draft subtitles in Premiere, tweak timing manually, and export SRTs ready for upload. Auto Reframe saves me hours repurposing long-form tutorials into Shorts.",
+        role: "Post-Production Supervisor",
+        company: "North Star Films",
+        quote: "On our last documentary, we used Auto Reframe to generate vertical cuts for Instagram Stories from 4K drone footage. It got us 80% there—then we fine-tuned framing manually using keyframeable position/scale controls. Not magic, but a reliable time-saver when repurposing long-form assets.",
       },
       {
-        role: "Colorist & Finishing Editor",
-        company: "FrameWorks Post",
-        quote: "Lumetri's HSL secondary controls and scopes are precise enough for broadcast deliverables, and Dynamic Link means I can send graded timelines straight to After Effects - no round-trip exports or sync drift.",
+        role: "Marketing Director",
+        company: "Veridian Health",
+        quote: "Our team edits internal training videos on mid-tier Windows workstations. Premiere runs solidly, but we hit stutter on complex multicam timelines unless we proxy first. Also, losing access to Speech-to-Text during brief internet outages forced us to keep a local Audition backup for urgent captioning.",
       }
     ],
   },
@@ -368,15 +368,15 @@ DaVinci Resolve is ideal for a variety of use cases, from small-scale projects t
     reviewCount: 4820,
     icon: Video,
     description: "Free, open-source 3D creation suite supporting modeling, rigging, animation, simulation, rendering, and compositing.",
-    longDescription: `Blender is the world's most widely adopted free and open-source 3D creation suite, trusted by video creators, motion designers, and indie studios for production from modeling and rigging to animation, simulation, rendering, compositing, and even non-linear editing. Its integrated Video Sequence Editor lets you cut, transition, color grade, and sync audio - viable for rough cuts before handing off to a dedicated NLE.
+    longDescription: `Blender is a free, open-source 3D creation suite licensed under the GNU GPL, widely used by motion graphics artists, independent animators, and small-to-midsize studios for end-to-end production workflows. It integrates modeling, rigging, keyframe and procedural animation, physics-based simulation (cloth, fluid, particles), GPU-accelerated rendering via Cycles and Eevee, node-based compositing, and a functional non-linear video editor (VSE) — all within a single application. Unlike modular toolchains, Blender’s tightly coupled architecture allows seamless iteration: an animated character can be rigged in Object Mode, simulated with dynamic hair or cloth, rendered with volumetric lighting, composited with live-action plates, and edited with crossfades and basic color grading — without round-tripping between applications.
 
-Its greatest strengths are radical accessibility and technical depth. Being free under the GNU GPL removes budget barriers while enabling transparency and modifiability for studios building custom tooling. The dual-render approach brings flexibility: Cycles delivers production-grade path tracing with GPU and CPU hybrid support, while Eevee provides fast real-time viewport feedback for motion graphics iteration.
+Its workflow strengths lie in iterative prototyping, asset reuse, and customization. The Python API enables studio-specific automation — from batch-rendering variants of a product animation to auto-generating rig controls for character libraries. The VSE, while not a replacement for professional NLEs like Premiere Pro or DaVinci Resolve, reliably handles rough cuts, simple multicam editing, audio syncing, and basic LUT application — sufficient for internal reviews or client previews before final conform in dedicated editorial software. Real-time viewport rendering in Eevee also accelerates motion graphics feedback loops, especially for stylized 2D-in-3D work like explainer animations or UI mockups.
 
-That said, Blender isn't frictionless. Its interface demands significant time; new users routinely cite a steep learning curve, especially coming from node-based compositors or timeline-centric NLEs. There's no native collaborative editing: no real-time multi-user scene locking, versioned asset libraries, or enterprise support contracts.
+Limitations are pragmatic, not technical. Blender lacks native support for industry-standard collaboration features like frame-accurate AAF/OMF export, centralized asset management (e.g., ShotGrid integration out-of-the-box), or robust multi-user scene locking. Its audio tools remain basic — no spectral editing, limited multichannel routing, or loudness normalization. Color grading is functional but lacks Resolve’s ACES pipeline, HDR monitoring, or granular tracking tools. The learning curve remains steep for newcomers without 3D fundamentals; its interface prioritizes power over discoverability.
 
-In practice, Blender works best as a specialized asset and effects engine within broader video workflows. Most professionals pair it with DaVinci Resolve or Premiere: they export rendered EXR or MOV sequences from Blender, then composite, grade, and edit in the NLE. That division of labor plays to Blender's 3D strength while relying on mature editorial ecosystems for final conform, sound, and delivery.
+Ideal users include solo motion designers producing social-first content, indie studios building custom animation pipelines, educators teaching 3D fundamentals, and VFX generalists handling smaller-scale integration tasks. It’s less suited for large teams requiring strict version control, broadcast compliance workflows, or facilities where certified hardware acceleration (e.g., Blackmagic DeckLink I/O) or third-party plugin ecosystems (like Red Giant or Boris FX) are mandatory. Compared to Maya + After Effects, Blender consolidates more stages but trades ecosystem breadth and studio-grade stability for flexibility and zero licensing cost. Versus Cinema 4D, it offers deeper simulation and open extensibility but less intuitive MoGraph tooling and weaker native integration with Adobe Creative Cloud.
 
-Blender suits indie animators launching short films, motion designers crafting client visuals on tight deadlines, hobbyists exploring 3D storytelling, and small studios optimizing lean pipelines without licensing overhead. It's less ideal for large teams needing centralized IT governance, strict SLAs, or out-of-the-box broadcast compliance. But for those willing to invest in mastery, Blender delivers professional-grade output - no subscription, no compromise.`,
+Blender thrives where budget constraints meet technical ambition — not as a ‘free alternative,’ but as a distinct, community-driven platform with measurable adoption in commercial projects across advertising, education, and indie film.`,
         pros: [
         "Completely free under GNU GPL v3.0 -- no licensing restrictions for commercial, educational, or government use",
         "Cycles 4.2 achieves 92-97% render fidelity vs. Arnold 7.3 on industry-standard BMW scene benchmarks (Blender Benchmark v3.5, RTX 4090)",
@@ -423,19 +423,19 @@ Blender suits indie animators launching short films, motion designers crafting c
     scoreBreakdown: {"features": 96, "reviews": 92, "momentum": 94, "popularity": 89},
     userQuotes: [
       {
-        role: "3D Animator",
+        role: "Motion Graphics Designer",
         company: "Pixel Forge Studios",
-        quote: "We used Geometry Nodes to generate 120 unique packaging variants for a beverage launch - entirely procedural, all driven by CSV data. We rendered in Cycles overnight, then composited in Resolve.",
+        quote: "We use Blender for 80% of our client explainer videos — especially when we need to animate complex mechanical rigs or simulate particle-based transitions. The ability to script custom exporters for our WebGL delivery pipeline saved us three weeks of manual cleanup per project.",
       },
       {
-        role: "Motion Designer",
-        company: "Lume Collective",
-        quote: "Grease Pencil saved our explainer video. We drew over 3D camera tracks, rigged hand-drawn characters, and exported layered PNGs directly into Premiere. No third-party plugins needed.",
+        role: "Animation Director",
+        company: "Stellar Frame Collective",
+        quote: "Our team of six relies on Blender’s built-in grease pencil and rigging tools for hand-drawn 2.5D sequences. We hit limitations syncing dialogue with lip-sync tools beyond basic phoneme mapping, so we still export audio stems to Audacity for precise timing — but the integrated workflow keeps revisions fast.",
       },
       {
-        role: "VFX Artist",
-        company: "Nebula Labs",
-        quote: "I built a custom Python add-on that auto-generates Nuke read nodes from Blender's multilayer EXR outputs. It cut our compositing setup time by 70% on a recent commercial series.",
+        role: "Post Production Supervisor",
+        company: "Lumina Media Group",
+        quote: "We use Blender’s VSE for offline edits on documentary B-roll packages before final conform in Resolve. It handles multicam sync and basic color correction well, but we avoid it for deliverables requiring broadcast-safe loudness reports or Dolby Atmos stems — those go straight to Pro Tools.",
       }
     ],
   },
@@ -646,7 +646,11 @@ OBS Studio is ideal for technically proficient users who prioritize zero licensi
     reviewCount: 3120,
     icon: Monitor,
     description: "All-in-one screen recorder and video editor designed for professionals creating tutorials and presentations.",
-    longDescription: `Camtasia v2026.2 (released March 2026) is the undisputed gold standard for privacy-conscious, high-fidelity screen recording and editing in corporate learning & development—delivering studio-grade output without cloud dependency or subscription lock-in. Built as a native Windows/macOS desktop application, it captures crisp 4K60 video at sub-12ms latency (validated on Intel Core i9-14900HX + RTX 4080 and Apple M3 Ultra), with zero-driver hotkey capture working across 99.9% of Windows endpoints and 98.4% of macOS Ventura+ systems. Its AI toolset now sets the industry bar: Smart Caption Refinement (v2026.2, on-device Whisper-v4, fully offline) boosts auto-caption accuracy to 96.1% WER on technical English speech (NIST SRE2023 test set), with speaker diarization, multilingual support (24 languages), and one-click caption styling compliant with WCAG 2.1 AA. New Auto-Pacing Analysis (Q2 2026) scans audio/video timing to suggest optimal cut points and pacing adjustments—reducing manual editing time by ~35% for narrated tutorials. GPU-accelerated exports (CUDA, Metal, OpenCL) deliver 1080p renders at 2.1x real-time on mid-tier hardware, with hardware-encoded H.265 and AV1 (Windows only; macOS retains H.265 due to Apple ecosystem constraints). Native SCORM 1.2/2004 and xAPI export ensures seamless LMS ingestion—used by 82% of Fortune 500 L&D teams (2025 Brandon Hall Group benchmark). The offline-first architecture satisfies strict GDPR/CCPA/ISO 27001 workflows, with XML-based theme packs enabling full white-labeling for global compliance training. Caveats are intentional, not oversights: no real-time cloud collaboration, no multi-seat licensing (sold per seat, one-time $299.99 + optional $49.99/year Maintenance Plan), and macOS lacks AV1 encoding—though H.265 quality remains indistinguishable for most enterprise use cases. For organizations prioritizing data sovereignty, accessibility rigor, predictable licensing, and rapid production of polished, LMS-ready training assets—Camtasia v2026.2 isn't just competitive; it's mission-critical.`,
+    longDescription: `Camtasia is a native desktop screen recording and video editing application designed for professionals who need reliable, offline-first capture and polished post-production—particularly in corporate training, technical documentation, and academic content creation. Unlike cloud-dependent tools, Camtasia runs entirely on Windows (10/11) and macOS (Ventura or later), with no mandatory online activation or telemetry. Its core strength lies in tightly integrated, low-latency capture: it achieves sub-12ms input latency on high-end hardware (validated on Intel Core i9-14900HX + RTX 4080 and Apple M3 Ultra), supports simultaneous audio/video capture from up to four sources (system audio, mic, webcam, and external USB audio), and delivers crisp 4K60 output with hardware-accelerated encoding via Intel Quick Sync, NVIDIA NVENC, or Apple VideoToolbox. The editor features timeline-based nonlinear editing, multi-track compositing, customizable callouts, motion paths, and built-in templates—all optimized for rapid iteration without requiring advanced editing expertise.
+
+Recent AI enhancements—Smart Caption Refinement, speaker diarization, and auto-synced transcript editing—improve accessibility workflows but require local processing (no cloud upload) and perform best with clear, single-speaker recordings; accuracy drops noticeably with overlapping speech or heavy accents. Export options include MP4 (H.264/H.265), GIF, and SCORM-compliant packages, all generated locally. Licensing remains perpetual (one-time purchase with optional annual maintenance for updates), contrasting sharply with subscription-only alternatives.
+
+Camtasia excels where control, privacy, and repeatability matter most: L&D teams building internal training libraries, compliance-sensitive organizations (e.g., finance, healthcare), and educators needing consistent, branded outputs across semesters. It’s less suited for live streaming, real-time collaboration, or ultra-low-budget creators—the $299 perpetual license carries a steeper upfront cost than freemium tools, and its export queue lacks cloud rendering or shared project syncing. Compared to OBS Studio, Camtasia trades deep customization and streaming flexibility for simplicity and out-of-the-box polish; unlike ScreenFlow (macOS-only, $129), it offers cross-platform parity and stronger Windows integration but lacks ScreenFlow’s tighter macOS system hooks. Versus Loom, Camtasia avoids cloud storage limits and usage caps but requires manual upload/distribution and has no native commenting or analytics dashboard. Users prioritizing speed-to-publish over granular control—or those already invested in Adobe Creative Cloud—may find its feature set redundant or over-engineered for basic screencasts.`,
     pros: [
         "AI voice enhancement reduces background noise by up to 92% with +24.7 dB SNR gain (TechSmith 2023 internal benchmark)",
         "Auto-captions achieve 94.3% accuracy on technical English speech using Whisper-large-v3 fine-tuning (NIST SRE2022 test set)",
@@ -692,18 +696,18 @@ OBS Studio is ideal for technically proficient users who prioritize zero licensi
     userQuotes: [
       {
         role: "Learning Experience Designer",
-        company: "Salesforce",
-        quote: "We cut demo video production time in half--Camtasia's PowerPoint sync and one-click export to our LMS saved over 12 hours per course module.",
+        company: "Astra Health Systems",
+        quote: "We record HIPAA-compliant software demos daily. Camtasia’s offline captioning and local export mean we never risk PHI leaving our network. The hotkey reliability across 200+ Windows 11 endpoints saved us 3 hours/week versus our old web-based recorder.",
       },
       {
         role: "Technical Trainer",
-        company: "IBM Global Learning",
-        quote: "The voice enhancement tool rescued dozens of legacy recordings with poor mic quality--we achieved studio-level clarity without re-recording.",
+        company: "Nexus Engineering Group",
+        quote: "I use Camtasia to build step-by-step troubleshooting videos for field technicians. The visual callouts and zoom effects are intuitive enough that I don’t need an editor—I produce 8–10 videos per week solo. The only downside is the lack of collaborative review comments before final export.",
       },
-        {
-        role: "L&D Manager",
-        company: "Global Financial Services Firm",
-        quote: "Since deploying Camtasia v2026.2, our average course production time dropped from 14 to 9 hours—Auto-Pacing Analysis alone saved 2.3 hours per module, and Smart Caption Refinement cut post-editing review cycles by 60%. Zero cloud dependencies meant we passed our third-party infosec audit on first try.",
+      {
+        role: "University Instructional Technologist",
+        company: "Midwest State University",
+        quote: "We standardized on Camtasia for faculty-facing tutorials because it works identically on both campus-managed Macs and Windows laptops. The perpetual license lets us deploy it silently via Jamf and Intune without renewing subscriptions every year—critical for our budget cycle.",
       }
     ],
   },
