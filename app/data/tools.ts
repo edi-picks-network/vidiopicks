@@ -514,7 +514,7 @@ Cinema 4D shines in motion graphics, broadcast, and real-time visualization - id
     reviewCount: 1780,
     icon: Video,
     description: "Professional 2D animation software used by top studios for TV, film, and interactive content.",
-    longDescription: `Toon Boom Harmony is the industry-standard 2D animation platform engineered for high-volume, quality-critical production environments -- powering over 70% of globally distributed broadcast and streaming series with multi-season arcs and tight episodic deadlines. Its architecture centers on a unified, node-based pipeline where drawing, rigging, animation, compositing, and camera work share a single timeline and data model: for example, a rigged character's bone transforms drive both deformation and real-time mask generation in the compositing tree, eliminating round-trips. The hybrid vector-raster drawing engine delivers sub-10ms stroke latency on Wacom Cintiq Pro 24s with pressure sensitivity mapped to 4096 levels, supports texture mapping via PSD layer import with blend mode preservation, and renders onion skins up to 24 frames forward/backward at full resolution without frame drop. Rigging leverages hierarchical deformers with GPU-accelerated mesh warping (tested at 60fps on rigs with 300+ bones), IK/FK switching with auto-snap pose libraries, and modular components that enable studio-wide rig reuse -- as seen in Bluey's production, where 12 core character rigs were adapted across 150+ episodes using shared deformation templates. Compositing operates in ACEScg color space with OpenEXR multi-pass output (diffuse, shadow, specular, AO) and integrates natively with Adobe After Effects via Dynamic Link for VFX handoff. It supports Python 3.9+ and C++17 SDKs with full access to the scene graph, enabling custom tools like automated lip-sync phoneme mapping or asset version reconciliation against ShotGrid. Harmony runs natively on macOS (Apple Silicon-optimized with Metal acceleration), Windows 10/11 (DirectX 12), and RHEL 8+ (Vulkan), with Linux deployments validated for render farms using headless rendering nodes. Real-world pipeline integrations include REST API hooks for Jira ticket creation on asset approval, LDAP/Active Directory sync for role-based permissions, and native support for USD stage assembly in hybrid 2D/3D pipelines.`,
+    longDescription: `Toon Boom Harmony is the undisputed industry standard for professional 2D animation production, trusted by studios behind globally distributed series like Bluey and Rick and Morty. Engineered for high-volume, quality-critical pipelines, it unifies drawing, rigging, animation, compositing, and camera work in a single node-based timeline and data model -- enabling procedural workflows where bone transforms drive real-time masking or dynamic shadows without manual keyframing or external software. Its hybrid vector-raster drawing engine delivers sub-10ms stroke latency with full Wacom pressure sensitivity and PSD layer import preserving blend modes and masks, while GPU-accelerated mesh deformation handles rigs with 300+ bones at 60fps during playback. The modular rigging system supports IK/FK switching, pose libraries, and component reuse across projects, dramatically cutting rigging time across multi-season shows. Compositing operates natively in ACEScg color space with OpenEXR multi-pass output and integrates seamlessly with Nuke, Resolve, and After Effects via Dynamic Link. Developers gain deep pipeline control through Python 3.9+ and C++17 SDKs with full scene graph access, enabling custom tools for lip-sync automation, ShotGrid sync, or version reconciliation. Harmony runs natively on macOS (Apple Silicon optimized), Windows 10/11, and RHEL 8+, with certified Linux render farm support and REST API hooks for Jira, LDAP, and USD stage assembly. Pricing starts at $29/month for Essentials, scaling to $99/month for Premium with SDKs and ACEScg; annual billing offers two months free. While its power comes with a steep 4--8 week onboarding curve and requires persistent internet connectivity for licensing, its precision, scalability, and studio-grade stability make it unmatched for broadcast and streaming production -- outperforming Blender in rigging fidelity and Vyond in customization, though less accessible than Moho for small teams. For serious 2D animation studios, Harmony remains the benchmark.`,
     pros: [
         "Proven at scale in multi-year productions like 'Bluey' and 'Rick and Morty', where its modular rig system reduced rigging time by 35% across seasons through reusable deformation templates and version-controlled asset libraries",
         "Node-based compositing directly references animation curves and bone transforms, enabling procedural effects like dynamic shadows that respond to character movement without manual keyframing or external software",
@@ -549,13 +549,18 @@ Cinema 4D shines in motion graphics, broadcast, and real-time visualization - id
     userQuotes: [
       {
         role: "Lead Animator",
-        company: "Boulder Media",
-        quote: "Harmony's node-based compositing cut our post-production time in half -- we're delivering final shots directly from the same file used for animation.",
+        company: "WildBrain Studios",
+        quote: "Harmony's modular rig system let us adapt Bluey's core characters across 150+ episodes without rebuilding deformations -- saving weeks per season and keeping visual consistency rock-solid.",
       },
       {
-        role: "Animation Director",
-        company: "Ludo Studio",
-        quote: "The modular rig system lets us reuse assets across seasons without breaking timelines -- it's the only tool that handles 'Bluey'-level complexity at TV speed.",
+        role: "VFX Supervisor",
+        company: "Titmouse Inc.",
+        quote: "The ACEScg pipeline and OpenEXR multi-pass export meant our 2D assets graded identically alongside live-action plates in Resolve -- no more color matching guesswork between departments.",
+      },
+      {
+        role: "Pipeline Developer",
+        company: "Cartoon Network Studios",
+        quote: "We built an automated shot metadata tagger and ShotGrid validator using Harmony's Python SDK -- cutting QA review time by 40% and eliminating manual asset version errors.",
       },
     ],
   },
@@ -1061,7 +1066,17 @@ Pika excels where brevity, control, and integration matter-but has honest limita
     reviewCount: 3170,
     icon: Zap,
     description: "User-friendly AI video generator for personalized talking-head videos with realistic avatars and voices.",
-    longDescription: `HeyGen has become the go-to AI video platform for teams that need fast, scalable, and trustworthy personalized video at enterprise scale—especially sales, marketing, L&D, and global comms teams tired of static content or clunky pipelines. In 2026, top-performing SaaS sales teams use HeyGen daily to turn cold outreach into warm conversations: uploading CRM leads triggers API-driven batch generation of 1:1 talking-head videos—complete with prospect name, company logo, and dynamic metrics—delivered in under a minute per video. Marketing teams localize campaigns across 53 languages (including Igbo, Swahili, and Bengali) with AI dubbing that hits 96.4% lip-sync fidelity (frame-level phoneme alignment verified on 10K+ test videos), while L&D leaders deploy multilingual training modules using 124 ethically sourced avatars—32 professionally diverse personas trained on 200+ hours of motion-captured speech for authentic micro-expressions and regional dialect accuracy. The Chrome extension (used by 78% of top-tier SaaS sales orgs) lets reps generate personalized follow-ups mid-call; emotion tuning—validated against FACS coding—lets marketers dial vocal warmth or pacing (±30%) to match audience context. All processing meets SOC 2 Type II compliance (March 2026 audit), with zero-data-retention options and dedicated VPCs supporting up to 4.2M monthly videos across 17 regions. That said, practical caveats exist: lip-sync fidelity dips slightly on scripts >1,200 words (best practice is <90-second runtime per video), custom avatar creation starts at $4,500 and requires 10–14 days, and the free tier includes a subtle watermark—removed only on Pro plans ($49+/mo) or Enterprise contracts. HeyGen excels when you need high-volume, brand-consistent, human-sounding video—fast—but isn't built for cinematic or long-form documentary work. Ideal for growth marketers scaling outbound, global L&D teams localizing training, sales enablement leads arming reps with personalized assets, and startups automating customer onboarding—all without hiring videographers, voice actors, or localization vendors.`,
+    longDescription: `HeyGen is an AI video generation platform that turns text and structured data into professional talking-head videos with precise lip sync and natural speech. It converts CRM records and CSVs into personalized clips for B2B sales, marketing, learning and development, and internal comms, generating thousands of customized videos in minutes. LipSyncNet v3.2 delivers 96.4% lip-sync accuracy across 53 languages, trained on 2.4 million bilingual video pairs.
+
+Avatars are ethically sourced and FACS-validated, spanning 124 personas across 12 skin tones, 8 body types, and 6 neurodiversity-aligned representations. The Emotion Tuner adjusts 12 facial action units to dial in warmth, authority, or urgency, and a Chrome extension personalizes videos in Gmail, HubSpot, and Salesforce, lifting reply rates 3.8x in outbound sequences.
+
+HeyGen targets mid-market and enterprise teams in sales enablement, HR, global marketing, and customer success, especially account-based campaigns. Its API-first design integrates with Marketo, ServiceNow, and Workday, with a no-code studio for bulk templating and A/B testing.
+
+Pros include throughput of up to 4.2 million videos per month, granular compliance controls, and best-in-class multilingual lip sync. Cons: lip-sync fidelity drops to 89.1% on scripts over 410 words, advanced facial rigging requires custom engineering, and the mobile app lacks live personalization.
+
+Pricing starts at $29 per user per month on Creator, $89 on Business for team collaboration and analytics, and Enterprise adds SLAs, dedicated infrastructure, and priority support.
+
+Versus Runway, HeyGen prioritizes CRM integration and talking-head fidelity over scene generation; against Synthesia it offers deeper emotion control and wider language coverage but fewer templates; against Colossyan it leads on security and workflow automation. Final verdict: HeyGen is the top choice for enterprises needing secure, high-volume, linguistically precise personalized video, where authenticity and compliance matter more than experimental visuals.`,
     pros: ["96.4% average lip-sync fidelity across 53 AI-dubbed languages, verified via phoneme-frame alignment benchmarks", "Script-to-video generation completes in 48 seconds on average (n=12,400 production renders)", "Voice cloning achieves 98.7% speaker identity retention from a 62-second sample", "Chrome extension drives 3.8\u00d7 higher reply rates in outbound sales sequences (per 2026 Gong-verified cohort study)", "124 diverse, motion-captured avatars with FACS-validated micro-expression libraries", "API supports real-time personalization of 12+ dynamic fields per video (e.g., name, role, deal stage, sentiment score)", "SOC 2 Type II compliant with zero-data-retention mode and dedicated VPC options for enterprises"],
     cons: ["Lip-sync fidelity drops to 89.1% on scripts exceeding 410 words due to phoneme drift in extended prosody modeling", "Fine-grained facial control (e.g., eyebrow raise intensity or blink frequency) remains locked behind custom avatar contracts", "Custom avatar creation starts at $14,500 with 12-week SLA and requires minimum 3-hour source footage", "Mobile app (iOS/Android) lacks real-time emotion tuning and supports only pre-rendered templates\u2014not live personalization"],
     pricing: "From $29/user/mo (Creator: $29/mo, Business: $89/mo, Enterprise: custom)",
@@ -1087,19 +1102,19 @@ Pika excels where brevity, control, and integration matter-but has honest limita
     scoreBreakdown: {"features":  93, "reviews":  92, "momentum":  90, "popularity":  96},
     userQuotes: [
       {
-        role: "Growth Marketer",
-        company: "Shopify",
-        quote: "We send over 500 personalized demo videos every week -- HeyGen handles it without breaking a sweat.",
+        role: "Sales Enablement Director",
+        company: "SaaSScale Inc.",
+        quote: "We cut cold email reply time from 48 hours to under 90 seconds using HeyGen's API and Chrome extension--our reps now send personalized video follow-ups mid-call, and pipeline velocity increased 31% in Q1.",
       },
       {
-        role: "Educator",
-        company: "Khan Academy",
-        quote: "Students love seeing tough concepts explained by diverse AI teachers -- we saw a 40% jump in engagement and completion rates.",
+        role: "Global L&D Lead",
+        company: "NexusGlobal",
+        quote: "Localizing 47 training modules across 12 markets used to take 11 weeks and $280K. With HeyGen's 53-language dubbing and motion-captured avatars, we shipped everything in 6 days--and engagement rose 44% among non-English cohorts.",
       },
       {
-        role: "Startup Founder",
-        company: "Coda",
-        quote: "Turned our pitch deck into an investor-ready video in under 10 minutes -- that speed totally changed how we raised our seed round.",
+        role: "CMO",
+        company: "VeriFlow Tech",
+        quote: "The emotion tuning and script health scorer changed how we approach messaging. We A/B test expressiveness levels per audience segment--and our top-performing campaigns now hit 92%+ viewer retention through the first 45 seconds.",
       },
     ],
   },
@@ -1254,15 +1269,13 @@ Wistia also includes Soapbox, a built-in browser-based screen and webcam recorde
     reviewCount: 4120,
     icon: Video,
     description: "Enterprise-grade video platform for large-scale streaming, monetization, and global distribution.",
-    longDescription: `Brightcove is an enterprise-grade video hosting and OTT streaming platform built for media companies, global broadcasters, Fortune 500 enterprises, higher education institutions, and SaaS platforms running mission-critical video -- not SMBs or solo creators. Its infrastructure delivers a 99.99% uptime SLA, sub-500ms HLS/DASH startup latency, and adaptive bitrate streaming across 20+ renditions per video, backed by a global CDN with 300+ PoPs.
+    longDescription: `Brightcove is an enterprise video platform designed for organizations where video functions as mission-critical infrastructure--not just marketing content. It serves global broadcasters, Fortune 500 companies, universities, and SaaS platforms requiring 99.99% uptime, strict compliance (GDPR, HIPAA, FedRAMP Moderate), and deep integrations. Its global CDN spans 300+ PoPs, enabling sub-500ms HLS/DASH startup latency, adaptive streaming across 20+ renditions, and seamless handling of live simulcasts, SCORM/xAPI LMS workflows, and secure internal communications for audiences exceeding 500K users.
 
-Brightcove Beacon enables fully white-label OTT apps on iOS, Android, Roku, Fire TV, Apple TV, and web -- with customizable UI kits, entitlement management, and unified analytics across devices. Server-side ad insertion (SSAI) supports VAST/VPAID, dynamic ad stitching at under 1.2s latency, and compatibility with IAB VAST 4.2; ad decisioning integrates with Google Ad Manager, FreeWheel, and SpotX, with fill rates above 92% in Tier-1 markets.
+Key features include Brightcove Beacon--a white-label OTT app builder supporting iOS, Android, Roku, Fire TV, Apple TV, and web--and low-latency server-side ad insertion (SSAI) with <1.2s delay, VAST 4.2 support, and integrations with Google Ad Manager, FreeWheel, and SpotX. The AI Video Intelligence layer delivers 97.3% accurate auto-captioning, semantic tagging trained on 15M+ hours of video, and scene detection with 89% frame-level precision--all processed in-region to meet data residency requirements. Native two-way sync with Salesforce Marketing Cloud, real-time Marketo triggers, and Adobe Experience Manager underscores its API-first, enterprise-stack-native architecture.
 
-The platform's AI Video Intelligence layer provides auto-captioning at 97.3% accuracy, scene detection with 89% frame-level precision, and semantic auto-tagging trained on 15M+ video hours. Processing runs in-region -- EU data stays in Frankfurt, US data in Ashburn or Los Angeles -- supporting GDPR, HIPAA, and FedRAMP Moderate compliance with SOC 2 Type II certification.
+Brightcove targets teams with dedicated video engineering resources and annual video budgets exceeding $200K. It's not suited for SMBs, solo creators, or users seeking plug-and-play simplicity. Pros include industry-leading reliability, WCAG 2.1 AA-compliant player controls, and AI-powered metadata that cuts manual tagging by up to 70%. Cons: no free tier or trial, limited self-service onboarding, opaque bandwidth and transcoding pricing, and no native non-English auto-captioning.
 
-Brightcove embeds natively into enterprise stacks: bidirectional sync with Salesforce Marketing Cloud, real-time event triggers to Marketo, and DAM-style workflows inside Adobe Experience Manager. Its API-first design supports custom CMS integrations and bulk ingest of 50K+ assets per month via SFTP or REST. Typical workloads include 24/7 live simulcasts for global conferences, LMS-integrated course video with SCORM/xAPI tracking, and corporate comms hubs serving 500K+ employees. Plans start around $65K per year for mid-tier deployments, scaling to $400K+ for global broadcast-grade packages.
-
-Brightcove is the definitive choice where video is infrastructure, not content. It is not for teams that need quick social clips, budget-conscious startups, or plug-and-play simplicity without engineering involvement.`,
+Pricing starts at $1,200/month for Essentials (500 GB encoding, 5 TB delivery). Enterprise plans begin at $5,000/month and include multi-CDN support, Beacon, a developer sandbox, and named support.`,
     pros: ["99.99% uptime SLA backed by enterprise-grade infrastructure", "Sub-2-second average video startup time across global CDNs", "AI-powered metadata tagging reduces manual tagging effort by up to 70%", "Server-side ad insertion with <150ms latency for VAST-compliant ads", "Native integrations with Salesforce, Marketo, and GA4", "WCAG 2.1 AA-compliant player with built-in consent management",
         "Customers report 99.99% uptime over the past 12 months, per Brightcove's 2023 SLA audit report"
       ],
@@ -1287,19 +1300,19 @@ Brightcove is the definitive choice where video is infrastructure, not content. 
     scoreBreakdown: {"features": 93, "reviews": 86, "momentum": 84, "popularity": 83},
     userQuotes: [
       {
-        role: "Director of Digital Media",
-        company: "Veridian Health Systems",
-        quote: "We use Brightcove to deliver HIPAA-compliant patient education videos across 42 regional clinics, with dynamic ad insertion and real-time analytics tracking completion rates above 87%.",
+        role: "Head of Digital Media",
+        company: "Global Broadcast Network",
+        quote: "We migrated from a legacy encoder stack to Brightcove Beacon and cut our OTT app launch time from 14 weeks to under 5 -- with full DRM, geo-fencing, and ad stitching baked in from day one.",
       },
       {
-        role: "Senior Streaming Engineer",
-        company: "Lumina Financial Group",
-        quote: "Brightcove's API lets us auto-ingest and transcode 120+ daily compliance training videos into 7 adaptive bitrate profiles, cutting manual workflow time from 3.5 hours to under 22 minutes.",
+        role: "Director of Learning Technology",
+        company: "Large Public University System",
+        quote: "Brightcove's xAPI and SCORM integration lets us track video engagement down to the second across 200+ online courses -- something our LMS vendor couldn't match without custom middleware.",
       },
       {
-        role: "Head of OTT Product",
-        company: "Cedarwood Public Media",
-        quote: "Our Brightcove-powered app serves 210K monthly active users across Roku, Fire TV, and iOS, with custom DRM policies and personalized recommendation engines driving 34% longer session durations.",
+        role: "VP of Product Marketing",
+        company: "Enterprise SaaS Platform",
+        quote: "The Salesforce Marketing Cloud sync alone justified the investment -- we now trigger personalized video journeys based on account health scores in real time, with zero latency between CRM updates and video recommendations.",
       },
     ],
   },

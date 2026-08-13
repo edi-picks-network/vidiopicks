@@ -51,6 +51,16 @@ const BLOG_SLUGS = [
   "stock-footage-vs-motion-graphics-2026-creative-workflow-guide",
   "indie-filmmaker-toolkit-2026-editing-production-budget",
   "premiere-pro-vs-camtasia-vs-blender-creators-2026",
+  "best-4k-cameras-for-youtube-2026",
+  "freelance-video-pricing-guide-2026-how-to-charge",
+  "ai-video-production-in-2026-building-a-camera-free-workflow-stack--from-script-t",
+  "ai-voiceover-dubbing-tools-2026-comparison",
+  "best-ai-video-generators-2026-comparison",
+  "color-grading-basics-beginners-guide-2026",
+  "ai-avatars-digital-humans-2026-corporate-video-guide",
+  "ai-video-generation-tools-2026-creators-guide",
+  "video-editing-workflow-tips-creators-2026",
+  "ai-video-generation-2026-heygen-vs-runway-vs-synthesia",
 ] as const;
 const TOOL_SLUGS = [
   "adobe-premiere-pro",
